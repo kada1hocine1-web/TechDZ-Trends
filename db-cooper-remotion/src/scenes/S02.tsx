@@ -1,6 +1,9 @@
 import React from 'react';
-import {AbsoluteFill} from 'remotion';
-import {C} from '../components/TornPaper';
+import {AbsoluteFill, interpolate, spring, useVideoConfig} from 'remotion';
+import {C, TITLE, TornPaper, TYPE, useStep} from '../components/TornPaper';
+import {Tape} from '../components/Tape';
+import {Counter} from '../components/Counter';
+import {cue} from '../data/script';
 
 // Man in a dark suit, black clip-on tie, dark glasses. "bust" for portraits, "figure" for the full silhouette.
 export const Man: React.FC<{variant?: 'bust' | 'figure'; width: number; pose?: number}> = ({variant = 'bust', width, pose = 0}) => {
@@ -47,4 +50,64 @@ export const Man: React.FC<{variant?: 'bust' | 'figure'; width: number; pose?: n
   );
 };
 
-export const S02: React.FC = () => <AbsoluteFill style={{background: C.cream}} />;
+const Label: React.FC<{x: number; y: number; at: number; text: string; line: string; rotate: number; seed: number}> = ({x, y, at, text, line, rotate, seed}) => {
+  const f = useStep();
+  if (f < at) return null;
+  const p = interpolate(f, [at, at + 10], [0, 1], {extrapolateRight: 'clamp'});
+  return (
+    <>
+      <svg width={1080} height={1920} style={{position: 'absolute', inset: 0}}>
+        <path d={line} stroke={C.red} strokeWidth={5} fill="none" pathLength={1} strokeDasharray={`${p} 1`} />
+      </svg>
+      <TornPaper x={x} y={y} w={text.length * 24 + 40} h={70} seed={seed} rotate={rotate} style={{opacity: p}}>
+        <div style={{fontFamily: TYPE, fontSize: 38, lineHeight: '70px', textAlign: 'center', color: C.ink}}>{text}</div>
+      </TornPaper>
+    </>
+  );
+};
+
+export const S02: React.FC = () => {
+  const f = useStep();
+  const {fps} = useVideoConfig();
+  const card = spring({frame: f, fps, config: {damping: 15}});
+  const ticketAt = cue('s02', 'achète', 0.3);
+  const ticket = spring({frame: f - ticketAt, fps, config: {damping: 14}});
+  const tear = spring({frame: f - cue('s02', 'Portland', 0.7), fps, config: {damping: 12}});
+  const nameAt = cue('s02', 'Dan', 0.9);
+  const name = 'DAN COOPER';
+  const typed = name.slice(0, Math.max(0, Math.floor((f - nameAt) / 2)));
+  return (
+    <AbsoluteFill style={{background: C.kraft}}>
+      <div style={{position: 'absolute', inset: 0, transform: `translateX(${(1 - card) * -900}px)`}}>
+        <TornPaper x={400} y={640} w={560} h={700} seed={201} rotate={-3}>
+          <div style={{position: 'absolute', left: 40, top: 40}}>
+            <Man width={480} />
+          </div>
+        </TornPaper>
+        <Tape x={150} y={300} rotate={-40} seed={5} />
+        <Tape x={650} y={300} rotate={35} seed={6} />
+      </div>
+      <Label x={820} y={420} at={cue('s02', 'Costume', 0.02)} text="COSTUME SOMBRE" rotate={4} seed={202} line="M700 450 L520 860" />
+      <Label x={740} y={960} at={cue('s02', 'cravate', 0.12)} text="CRAVATE NOIRE À CLIP" rotate={-3} seed={203} line="M680 960 L420 900" />
+
+      {/* plane ticket, torn in two */}
+      <div style={{position: 'absolute', inset: 0, transform: `translateY(${(1 - ticket) * 700}px)`}}>
+        <div style={{position: 'absolute', inset: 0, transform: `translate(${-tear * 30}px, ${tear * 8}px) rotate(${-tear * 3}deg)`}}>
+          <TornPaper x={390} y={1450} w={600} h={230} seed={204} rotate={2}>
+            <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 44, background: C.red}} />
+            <div style={{position: 'absolute', top: 6, left: 24, fontFamily: TITLE, fontSize: 36, color: C.cream, letterSpacing: 3}}>ALLER SIMPLE · VOL 305</div>
+            <div style={{position: 'absolute', top: 64, left: 24, fontFamily: TITLE, fontSize: 70, color: C.ink}}>PORTLAND → SEATTLE</div>
+            <div style={{position: 'absolute', top: 150, left: 24, fontFamily: TYPE, fontSize: 36, color: C.ink}}>NOM : {typed}</div>
+          </TornPaper>
+        </div>
+        <div style={{position: 'absolute', inset: 0, transform: `translate(${tear * 40}px, ${-tear * 10}px) rotate(${tear * 4}deg)`}}>
+          <TornPaper x={860} y={1455} w={240} h={230} seed={205} rotate={2}>
+            <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 44, background: C.red}} />
+            <div style={{fontFamily: TITLE, fontSize: 110, color: C.ink, textAlign: 'center', marginTop: 70}}>20 $</div>
+          </TornPaper>
+        </div>
+      </div>
+      <Counter x={860} y={700} value={20} suffix=" $" start={cue('s02', 'vingt', 0.35)} size={90} />
+    </AbsoluteFill>
+  );
+};

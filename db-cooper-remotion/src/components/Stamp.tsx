@@ -16,7 +16,8 @@ export const Stamp: React.FC<{
   size?: number;
   color?: string;
   font?: string;
-}> = ({x, y, start, children, rotate = -8, size = 90, color = C.red, font = TITLE}) => {
+  blend?: React.CSSProperties['mixBlendMode'];
+}> = ({x, y, start, children, rotate = -8, size = 90, color = C.red, font = TITLE, blend = 'multiply'}) => {
   const frame = useStep();
   const {fps} = useVideoConfig();
   if (frame < start) return null;
@@ -42,7 +43,7 @@ export const Stamp: React.FC<{
         outlineOffset: size * 0.06,
         borderRadius: size * 0.08,
         whiteSpace: 'nowrap',
-        mixBlendMode: 'multiply',
+        mixBlendMode: blend,
         WebkitMaskImage: grunge,
         maskImage: grunge,
         zIndex: 10,

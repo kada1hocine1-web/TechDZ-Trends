@@ -40,7 +40,7 @@ export const Subtitles: React.FC<{words: Word[]}> = ({words}) => {
   const idx = chunks.findLastIndex((c) => c.s <= t);
   const chunk = chunks[Math.max(0, idx)];
   if (!chunk) return null;
-  const h = chunk.lines.length * 74 + 40;
+  const h = chunk.lines.length * 66 + 40;
   return (
     <TornPaper x={540} y={1270 - h / 2} w={1000} h={h} seed={idx * 13 + 5} rotate={idx % 2 ? 0.8 : -0.8} rough={9}>
       <div
@@ -52,8 +52,9 @@ export const Subtitles: React.FC<{words: Word[]}> = ({words}) => {
           justifyContent: 'center',
           alignItems: 'center',
           fontFamily: TITLE,
-          fontSize: 68,
-          lineHeight: '74px',
+          fontSize: 58,
+          lineHeight: '66px',
+          whiteSpace: 'nowrap',
           color: C.ink,
           letterSpacing: 1,
         }}
