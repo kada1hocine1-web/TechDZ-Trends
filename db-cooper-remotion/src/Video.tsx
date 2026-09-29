@@ -1,8 +1,11 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Freeze, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, Freeze, interpolate, Sequence, Series, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {springTiming, TransitionSeries} from '@remotion/transitions';
 import type {TransitionPresentation, TransitionPresentationComponentProps} from '@remotion/transitions';
-import {C, seeded} from './components/TornPaper';
+import {C, seeded, TITLE, TornPaper, TYPE} from './components/TornPaper';
+import {Tape} from './components/Tape';
+import {Intro, INTRO_FRAMES, LOGO} from './channel/Intro';
+import {Outro, OUTRO_FRAMES} from './channel/Outro';
 import {PaperTexture} from './components/PaperTexture';
 import {Subtitles} from './components/Subtitles';
 import {FREEZE_FRAMES, TIMINGS} from './data/script';
@@ -23,6 +26,7 @@ const SCENES = [S01, S02, S03, S04, S05, S06, S07, S08, S09, S10, S11, S12];
 export const TEAR_FRAMES = 15;
 
 export const totalFrames = () => TIMINGS.reduce((a, s) => a + s.frames, 0) + FREEZE_FRAMES;
+export const wideFrames = () => INTRO_FRAMES + totalFrames() + OUTRO_FRAMES;
 
 // Vertical torn edge x-positions for a given sweep position.
 const tearEdge = (x: number, h: number) => {
@@ -35,7 +39,8 @@ const tearEdge = (x: number, h: number) => {
 const Tear: React.FC<TransitionPresentationComponentProps<Record<string, never>>> = ({
   children, presentationDirection, presentationProgress,
 }) => {
-  const {width, height} = useVideoConfig();
+  const width = 1080;
+  const height = 1920;
   if (presentationDirection === 'exiting') return <AbsoluteFill>{children}</AbsoluteFill>;
   const x = interpolate(presentationProgress, [0, 1], [width + 60, -80]);
   const edge = tearEdge(x, height);
@@ -113,3 +118,80 @@ export const Video: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
+// 16:9 copy: the vertical story (drawn for 1080x1920) sits in the centre at full height, framed by
+// kraft paper panels, between the Cultura Generalis intro and the subscribe outro.
+const SCALE = 1080 / 1920;
+const Framed: React.FC = () => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const inL = spring({frame, fps, config: {damping: 15}});
+  const inR = spring({frame: frame - 8, fps, config: {damping: 15}});
+  const M = 1080 * 0.2;
+  return (
+    <AbsoluteFill style={{background: C.kraft}}>
+      <PaperTexture />
+      <div style={{position: 'absolute', inset: 0, transform: `translateX(${(1 - inL) * -700}px)`}}>
+        <TornPaper x={330} y={360} w={440} h={300} seed={901} rotate={-3}>
+          <div style={{fontFamily: TITLE, fontSize: 110, color: C.ink, textAlign: 'center', lineHeight: 1, paddingTop: 36}}>L'ÉNIGME</div>
+        </TornPaper>
+        <TornPaper x={345} y={540} w={480} h={140} seed={902} color={C.red} rotate={2}>
+          <div style={{fontFamily: TITLE, fontSize: 120, color: C.cream, textAlign: 'center', lineHeight: '150px'}}>D.B. COOPER</div>
+        </TornPaper>
+        <TornPaper x={320} y={720} w={400} h={80} seed={903} rotate={-1.5}>
+          <div style={{fontFamily: TYPE, fontSize: 40, color: C.ink, textAlign: 'center', lineHeight: '80px'}}>24 NOVEMBRE 1971</div>
+        </TornPaper>
+        <Tape x={130} y={230} rotate={-35} seed={9} />
+      </div>
+      <div style={{position: 'absolute', inset: 0, transform: `translateX(${(1 - inR) * 700}px)`}}>
+        <div
+          style={{
+            position: 'absolute',
+            left: 1590 - M,
+            top: 540 - M,
+            width: M * 2,
+            height: M * 2,
+            borderRadius: '50%',
+            backgroundImage: `url(${LOGO})`,
+            backgroundSize: `${2000 * (M / 470)}px auto`,
+            backgroundPosition: `${-(1000 * (M / 470) - M)}px ${-(530 * (M / 470) - M)}px`,
+            boxShadow: '0 16px 40px rgba(0,0,0,0.55)',
+          }}
+        />
+        <TornPaper x={1590} y={820} w={420} h={80} seed={904} rotate={2}>
+          <div style={{fontFamily: TYPE, fontSize: 34, color: C.ink, textAlign: 'center', lineHeight: '80px'}}>AFFAIRE NORJAK</div>
+        </TornPaper>
+      </div>
+      <div
+        style={{
+          position: 'absolute',
+          left: (1920 - 1080 * SCALE) / 2,
+          top: 0,
+          width: 1080,
+          height: 1920,
+          transform: `scale(${SCALE})`,
+          transformOrigin: '0 0',
+          overflow: 'hidden',
+          outline: `14px solid ${C.ink}`,
+          boxShadow: '0 0 60px rgba(0,0,0,0.6)',
+        }}
+      >
+        <Video />
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+export const Wide: React.FC = () => (
+  <Series>
+    <Series.Sequence durationInFrames={INTRO_FRAMES}>
+      <Intro />
+    </Series.Sequence>
+    <Series.Sequence durationInFrames={totalFrames()}>
+      <Framed />
+    </Series.Sequence>
+    <Series.Sequence durationInFrames={OUTRO_FRAMES}>
+      <Outro />
+    </Series.Sequence>
+  </Series>
+);
