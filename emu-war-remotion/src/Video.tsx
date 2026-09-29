@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Freeze, Sequence, staticFile} from 'remotion';
+import {AbsoluteFill, Audio, Freeze, Sequence, Series, staticFile} from 'remotion';
 import {linearTiming, TransitionSeries} from '@remotion/transitions';
 import {slide} from '@remotion/transitions/slide';
 import {wipe} from '@remotion/transitions/wipe';
@@ -15,14 +15,17 @@ import {S07} from './scenes/S07';
 import {S08} from './scenes/S08';
 import {S09} from './scenes/S09';
 import {S10} from './scenes/S10';
+import {Intro, INTRO_FRAMES} from './channel/Intro';
+import {Outro, OUTRO_FRAMES} from './channel/Outro';
 
 const SCENES = [S01, S02, S03, S04, S05, S06, S07, S08, S09, S10];
 const CUT_FRAMES = 8;
 
 export const totalFrames = () => TIMINGS.reduce((a, s) => a + s.frames, 0) + FREEZE_FRAMES;
+export const bookendFrames = () => INTRO_FRAMES + totalFrames() + OUTRO_FRAMES;
 
 
-export const Video: React.FC = () => {
+const Story: React.FC = () => {
   const total = totalFrames();
   const starts = TIMINGS.map((_, i) => TIMINGS.slice(0, i).reduce((a, s) => a + s.frames, 0));
   return (
@@ -64,3 +67,21 @@ export const Video: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
+// `bookends` adds the Cultura Generalis channel intro and subscribe outro (16:9 version).
+export const Video: React.FC<{bookends: boolean}> = ({bookends}) =>
+  bookends ? (
+    <Series>
+      <Series.Sequence durationInFrames={INTRO_FRAMES}>
+        <Intro />
+      </Series.Sequence>
+      <Series.Sequence durationInFrames={totalFrames()}>
+        <Story />
+      </Series.Sequence>
+      <Series.Sequence durationInFrames={OUTRO_FRAMES}>
+        <Outro />
+      </Series.Sequence>
+    </Series>
+  ) : (
+    <Story />
+  );
