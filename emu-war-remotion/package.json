@@ -1,0 +1,22 @@
+{
+  "name": "emu-war-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render:vertical": "remotion render EmuWarVertical out/emu-war-9x16.mp4 --codec=h264",
+    "render:horizontal": "remotion render EmuWarHorizontal out/emu-war-16x9.mp4 --codec=h264"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.529",
+    "@remotion/google-fonts": "^4.0.529",
+    "@remotion/transitions": "^4.0.529",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
