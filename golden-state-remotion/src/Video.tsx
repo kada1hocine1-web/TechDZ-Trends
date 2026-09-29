@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Freeze, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, Freeze, interpolate, Sequence, Series, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {springTiming, TransitionSeries} from '@remotion/transitions';
 import type {TransitionPresentation, TransitionPresentationComponentProps} from '@remotion/transitions';
 import {C, seeded} from './components/TornPaper';
@@ -18,11 +18,14 @@ import {S09} from './scenes/S09';
 import {S10} from './scenes/S10';
 import {S11} from './scenes/S11';
 import {S12} from './scenes/S12';
+import {Intro, INTRO_FRAMES} from './scenes/Intro';
+import {Outro, OUTRO_FRAMES} from './scenes/Outro';
 
 const SCENES = [S01, S02, S03, S04, S05, S06, S07, S08, S09, S10, S11, S12];
 export const TEAR_FRAMES = 15;
 
 export const totalFrames = () => TIMINGS.reduce((a, s) => a + s.frames, 0) + FREEZE_FRAMES;
+export const bookendFrames = () => INTRO_FRAMES + totalFrames() + OUTRO_FRAMES;
 
 // Vertical torn edge x-positions for a given sweep position.
 const tearEdge = (x: number, h: number) => {
@@ -61,7 +64,7 @@ const KenBurns: React.FC<{children: React.ReactNode}> = ({children}) => {
   return <AbsoluteFill style={{transform: `scale(${s})`}}>{children}</AbsoluteFill>;
 };
 
-export const Video: React.FC = () => {
+const Story: React.FC = () => {
   const total = totalFrames();
   const starts = TIMINGS.map((_, i) => TIMINGS.slice(0, i).reduce((a, s) => a + s.frames, 0));
   return (
@@ -113,3 +116,21 @@ export const Video: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
+// `bookends` adds the channel intro and subscribe outro around the story (used for the 16:9 version).
+export const Video: React.FC<{bookends: boolean}> = ({bookends}) =>
+  bookends ? (
+    <Series>
+      <Series.Sequence durationInFrames={INTRO_FRAMES}>
+        <Intro />
+      </Series.Sequence>
+      <Series.Sequence durationInFrames={totalFrames()}>
+        <Story />
+      </Series.Sequence>
+      <Series.Sequence durationInFrames={OUTRO_FRAMES}>
+        <Outro />
+      </Series.Sequence>
+    </Series>
+  ) : (
+    <Story />
+  );

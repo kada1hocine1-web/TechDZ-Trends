@@ -124,6 +124,10 @@ def split_recording(src, cuts=None):
         memo[(k, j)] = res
         return res
 
+    # Finer pause detection (short breaths between phrases) used to time words inside each line.
+    flog = ffmpeg("-i", str(src), "-af", "silencedetect=noise=-32dB:d=0.12", "-f", "null", "-").stderr
+    fv = [float(v) for v in re.findall(r"silence_(?:start|end): ([0-9.]+)", flog)]
+    fine = [(fv[i], fv[i + 1] if i + 1 < len(fv) else total) for i in range(0, len(fv), 2)]
     if cuts:
         assert len(cuts) == len(SCRIPT) - 1, "--cuts needs one end:start pair per boundary"
         bounds = [0.0] + [b for _, b in cuts]
@@ -138,28 +142,85 @@ def split_recording(src, cuts=None):
         a0, b0 = max(0.0, a - 0.08), min(total, b + 0.15)
         ffmpeg("-y", "-loglevel", "error", "-i", str(src), "-ss", f"{a0:.3f}", "-t", f"{b0 - a0:.3f}",
                "-ac", "2", "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "192k", str(AUDIO / f"{sid}.mp3"))
-        inner = [x for x in sil if a < x[0] and x[1] < b]
+        inner = [x for x in fine if a < x[0] and x[1] < b]
         edges = [a] + [v for x in inner for v in x] + [b]
         chunks.append([(edges[i] - a0, edges[i + 1] - a0) for i in range(0, len(edges), 2)])
     return chunks
 
 
+def syllables(tok):
+    """Rough French syllable count (vowel groups; digits read as numbers)."""
+    digits = sum(c.isdigit() for c in tok)
+    groups = len(re.findall(r"[aeiouyàâäéèêëîïôöùûüœæ]+", tok.lower()))
+    return max(1, groups + digits)
+
+
 def words_over_chunks(text, chunks):
-    """Spread words over the speech chunks (pauses excluded) in proportion to their length."""
-    speech = sum(e - s for s, e in chunks)
-    tokens, out, acc = text.split(), [], 0.0
-
-    def at(t):
-        for s, e in chunks:
-            if t <= e - s:
-                return s + t
-            t -= e - s
-        return chunks[-1][1]
-
+    """Time the words of one line on its speech chunks (pauses excluded).
+    The line is cut into phrases at punctuation; phrases are matched to the recording's pauses
+    (a DP picks which pauses separate which phrase groups), then words are spread by syllables."""
+    tokens = text.split()
+    phrases, cur = [], []
     for tok in tokens:
-        d = speech * (len(tok) + 1) / (len(text) + 1)
-        out.append({"w": tok, "s": at(acc + 0.001), "e": at(acc + d)})
-        acc += d
+        if cur and tok in {":", ";", "…", "»", "?", "!"}:
+            cur.append(tok)
+            continue
+        cur.append(tok)
+        if re.search(r"[,.:;…!?»]$", tok) and not re.fullmatch(r"([A-Z]\.)+", tok):
+            phrases.append(cur)
+            cur = []
+    if cur:
+        phrases.append(cur)
+    weight = [sum(syllables(t) for t in ph) for ph in phrases]
+    speech_total = sum(e - s for s, e in chunks)
+    pauses = [(chunks[i][1], chunks[i + 1][0]) for i in range(len(chunks) - 1)]
+
+    def speech(a, b):
+        return sum(max(0.0, min(e, b) - max(s, a)) for s, e in chunks)
+
+    start, end = chunks[0][0], chunks[-1][1]
+    memo = {}
+
+    def best(i, j):  # phrases from i on, previous boundary = pause j (-1 = line start)
+        if (i, j) in memo:
+            return memo[(i, j)]
+        s0 = start if j < 0 else pauses[j][1]
+        rest = sum(weight[i:])
+        exp = rest / sum(weight) * speech_total
+        res = ((speech(s0, end) - exp) ** 2 / max(exp, 0.1), ())  # all remaining phrases in one group
+        for g in range(1, len(phrases) - i):
+            exp_g = sum(weight[i:i + g]) / sum(weight) * speech_total
+            for k in range(j + 1, len(pauses)):
+                cost = (speech(s0, pauses[k][0]) - exp_g) ** 2 / max(exp_g, 0.1) - 1.5 * (pauses[k][1] - pauses[k][0])
+                sub_cost, sub_path = best(i + g, k)
+                if cost + sub_cost < res[0]:
+                    res = (cost + sub_cost, ((i + g, k),) + sub_path)
+        memo[(i, j)] = res
+        return res
+
+    path = best(0, -1)[1]
+    cuts = [(0, start)] + [(pi, pauses[k][1]) for pi, k in path]
+    ends = [pauses[k][0] for _, k in path] + [end]
+    out = []
+    for n, ((pi, gs), ge) in enumerate(zip(cuts, ends)):
+        pj = cuts[n + 1][0] if n + 1 < len(cuts) else len(phrases)
+        group = [t for ph in phrases[pi:pj] for t in ph]
+        segs = [(max(s, gs), min(e, ge)) for s, e in chunks if e > gs and s < ge]
+        dur = sum(e - s for s, e in segs)
+        w = [syllables(t) for t in group]
+
+        def at(t):
+            for s, e in segs:
+                if t <= e - s:
+                    return s + t
+                t -= e - s
+            return segs[-1][1]
+
+        acc = 0.0
+        for tok, wt in zip(group, w):
+            d = dur * wt / sum(w)
+            out.append({"w": tok, "s": at(acc + 0.001), "e": at(acc + d)})
+            acc += d
     return out
 
 

@@ -56,4 +56,28 @@ out.extend(int(x * g * 32767) for x in buf)
 sys.stdout.buffer.write(out.tobytes())
 PY
 
-echo "SFX OK: public/audio/drone.mp3, public/audio/tear.mp3"
+# Channel outro: mouse click and notification bell.
+python3 - <<'PY' | encode public/audio/click.mp3
+import array, math, random, sys
+sr = 48000
+random.seed(7)
+n = int(sr * 0.08)
+out = array.array('h', (int(9000 * math.exp(-i / sr / 0.006) * random.uniform(-1, 1)) for i in range(n)))
+sys.stdout.buffer.write(out.tobytes())
+PY
+
+python3 - <<'PY' | encode public/audio/bell.mp3
+import array, math, sys
+sr = 48000
+n = int(sr * 1.6)
+buf = []
+for i in range(n):
+    t = i / sr
+    s = sum(a * math.sin(2 * math.pi * f * t) for f, a in ((1318, 1.0), (2637, 0.5), (3951, 0.25)))
+    buf.append(s * math.exp(-t / 0.45) * min(1, t / 0.003))
+peak = max(abs(x) for x in buf)
+out = array.array('h', (int(x / peak * 0.8 * 32767) for x in buf))
+sys.stdout.buffer.write(out.tobytes())
+PY
+
+echo "SFX OK: drone, tear, click, bell (public/audio)"
