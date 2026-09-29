@@ -5,6 +5,7 @@
 - otherwise               -> edge-tts, voice fr-FR-HenriNeural, rate -8%, pitch -4Hz (word boundaries)
 - --no-voice              -> no audio: durations derived from the text at a subtitle reading speed
 - --from-file narration.wav -> one recording of the whole script, split into one file per line on its pauses
+  (add --cuts end:start,... to force the boundaries when the recording has no clear pause between two lines)
 """
 import asyncio, base64, json, math, os, re, subprocess, sys, urllib.request
 from pathlib import Path
@@ -90,7 +91,7 @@ def ffmpeg(*args):
     return subprocess.run(["npx", "--no-install", "remotion", "ffmpeg", "-hide_banner", *args], cwd=ROOT, capture_output=True, text=True)
 
 
-def split_recording(src):
+def split_recording(src, cuts=None):
     """Split one full-script recording into one file per line at the pauses that best match each line's length.
     Returns, per line, the speech chunks (start, end) relative to the cut file."""
     log = ffmpeg("-i", str(src), "-af", "silencedetect=noise=-38dB:d=0.35", "-f", "null", "-").stderr
@@ -123,10 +124,15 @@ def split_recording(src):
         memo[(k, j)] = res
         return res
 
-    idx = best(0, -1)[1]
-    assert len(idx) == len(SCRIPT) - 1, "not enough pauses to split the recording into one file per line"
-    bounds = [0.0] + [cands[i][1] for i in idx]
-    ends = [cands[i][0] for i in idx] + [end]
+    if cuts:
+        assert len(cuts) == len(SCRIPT) - 1, "--cuts needs one end:start pair per boundary"
+        bounds = [0.0] + [b for _, b in cuts]
+        ends = [a for a, _ in cuts] + [end]
+    else:
+        idx = best(0, -1)[1]
+        assert len(idx) == len(SCRIPT) - 1, "not enough pauses to split the recording into one file per line"
+        bounds = [0.0] + [cands[i][1] for i in idx]
+        ends = [cands[i][0] for i in idx] + [end]
     chunks = []
     for (sid, _), a, b in zip(SCRIPT, bounds, ends):
         a0, b0 = max(0.0, a - 0.08), min(total, b + 0.15)
@@ -171,7 +177,10 @@ def main():
     recording = sys.argv[sys.argv.index("--from-file") + 1] if "--from-file" in sys.argv else None
     use_el = bool(os.environ.get("ELEVENLABS_API_KEY"))
     print("Moteur :", "aucun (sans voix off)" if no_voice else f"fichier {recording}" if recording else "ElevenLabs" if use_el else "edge-tts fr-FR-HenriNeural")
-    chunks = split_recording(Path(recording)) if recording else None
+    cuts = None
+    if "--cuts" in sys.argv:
+        cuts = [tuple(float(v) for v in pair.split(":")) for pair in sys.argv[sys.argv.index("--cuts") + 1].split(",")]
+    chunks = split_recording(Path(recording), cuts) if recording else None
     scenes = []
     for i, (sid, text) in enumerate(SCRIPT):
         if chunks:
