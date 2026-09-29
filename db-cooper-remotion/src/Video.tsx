@@ -93,11 +93,13 @@ export const Video: React.FC = () => {
         </TransitionSeries>
         <PaperTexture />
       </Freeze>
-      {TIMINGS.map((t, i) => (
-        <Sequence key={t.id} from={starts[i]} durationInFrames={t.frames} layout="none">
-          <Audio src={staticFile(`audio/${t.file}`)} />
-        </Sequence>
-      ))}
+      {TIMINGS.map((t, i) =>
+        t.file ? (
+          <Sequence key={t.id} from={starts[i]} durationInFrames={t.frames} layout="none">
+            <Audio src={staticFile(`audio/${t.file}`)} />
+          </Sequence>
+        ) : null,
+      )}
       {TIMINGS.slice(1).map((t, i) => (
         <Sequence key={t.id} from={starts[i + 1]} durationInFrames={15} layout="none">
           <Audio src={staticFile('audio/tear.mp3')} volume={0.5} />

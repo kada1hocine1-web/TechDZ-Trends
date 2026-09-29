@@ -3,6 +3,7 @@
 
 - ELEVENLABS_API_KEY set  -> ElevenLabs (multilingual model, character-level timestamps)
 - otherwise               -> edge-tts, voice fr-FR-HenriNeural, rate -8%, pitch -4Hz (word boundaries)
+- --no-voice              -> no audio: durations derived from the text at a subtitle reading speed
 """
 import asyncio, base64, json, math, os, re, subprocess, sys, urllib.request
 from pathlib import Path
@@ -10,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 AUDIO = ROOT / "public" / "audio"
 FPS, BREATH = 30, 12
+READING_CPS = 16  # characters per second, used only with --no-voice
 
 src = (ROOT / "src" / "data" / "script.ts").read_text(encoding="utf-8")
 SCRIPT = [(m[0], m[1].replace("\\'", "'")) for m in re.findall(r"\{id: '(s\d\d)', text: '((?:[^'\\]|\\.)*)'\}", src)]
@@ -93,19 +95,24 @@ def duration(path):
 
 def main():
     AUDIO.mkdir(parents=True, exist_ok=True)
+    no_voice = "--no-voice" in sys.argv
     use_el = bool(os.environ.get("ELEVENLABS_API_KEY"))
-    print("Moteur :", "ElevenLabs" if use_el else "edge-tts fr-FR-HenriNeural")
+    print("Moteur :", "aucun (sans voix off)" if no_voice else "ElevenLabs" if use_el else "edge-tts fr-FR-HenriNeural")
     scenes = []
     for sid, text in SCRIPT:
-        out = AUDIO / f"{sid}.mp3"
-        raw = elevenlabs(text, out) if use_el else asyncio.run(edge(text, out))
-        secs = duration(out)
-        words = attach_punctuation(text, raw) or proportional(text, secs)
+        if no_voice:
+            out, secs = None, round(len(text) / READING_CPS, 3)
+            words = proportional(text, secs)
+        else:
+            out = AUDIO / f"{sid}.mp3"
+            raw = elevenlabs(text, out) if use_el else asyncio.run(edge(text, out))
+            secs = duration(out)
+            words = attach_punctuation(text, raw) or proportional(text, secs)
         words = [{"w": w["w"], "s": round(w["s"], 3), "e": round(w["e"], 3)} for w in words]
         frames = math.ceil(secs * FPS) + BREATH
-        scenes.append({"id": sid, "file": out.name, "seconds": round(secs, 3), "frames": frames, "words": words})
+        scenes.append({"id": sid, "file": out.name if out else None, "seconds": round(secs, 3), "frames": frames, "words": words})
     (ROOT / "src" / "data" / "durations.json").write_text(
-        json.dumps({"fps": FPS, "breathFrames": BREATH, "scenes": scenes}, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps({"voice": not no_voice, "fps": FPS, "breathFrames": BREATH, "scenes": scenes}, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     total = sum(s["frames"] for s in scenes)
     print(f"{'Scène':<6} {'Durée (s)':>10} {'Frames':>7}")

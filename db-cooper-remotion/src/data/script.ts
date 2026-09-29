@@ -18,7 +18,7 @@ export const SCRIPT = [
 ] as const;
 
 export type Word = {w: string; s: number; e: number};
-export type SceneTiming = {id: string; file: string; seconds: number; frames: number; words: Word[]};
+export type SceneTiming = {id: string; file: string | null; seconds: number; frames: number; words: Word[]};
 
 export const TIMINGS = durations.scenes as SceneTiming[];
 export const FREEZE_FRAMES = 2 * FPS;
