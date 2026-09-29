@@ -100,7 +100,10 @@ def split_recording(src):
     end = sil[-1][0] if sil and sil[-1][1] >= total - 0.05 else total
     cands = [x for x in sil if x[1] < total - 0.05]
     weights = [len(t) for _, t in SCRIPT]
-    exp = [w / sum(weights) * end for w in weights]
+    # Compare speaking time (inner pauses excluded) so dramatic pauses don't skew the split.
+    def speech(a, b):
+        return (b - a) - sum(max(0.0, min(e, b) - max(s, a)) for s, e in sil)
+    exp = [w / sum(weights) * speech(0.0, end) for w in weights]
     n, memo = len(cands), {}
 
     def best(k, j):  # lines placed so far, index of last boundary pause (-1 = start)
@@ -108,11 +111,11 @@ def split_recording(src):
             return memo[(k, j)]
         s0 = 0.0 if j < 0 else cands[j][1]
         if k == len(SCRIPT) - 1:
-            res = ((end - s0 - exp[k]) ** 2 / exp[k], ())
+            res = ((speech(s0, end) - exp[k]) ** 2 / exp[k], ())
         else:
             res = (float("inf"), ())
             for nj in range(j + 1, n):
-                d = cands[nj][0] - s0
+                d = speech(s0, cands[nj][0])
                 cost = (d - exp[k]) ** 2 / exp[k] - 2.0 * (cands[nj][1] - cands[nj][0])  # favour long pauses
                 sub = best(k + 1, nj)
                 if cost + sub[0] < res[0]:
