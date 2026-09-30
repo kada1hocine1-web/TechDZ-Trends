@@ -47,12 +47,16 @@ export const Scene: React.FC<{ scene: SceneData; episode: number; narrationFrame
   const split = big >= 0 && n > 1;
 
   const ref = useRef<HTMLDivElement>(null);
+  const sideRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
+  const [sideScale, setSideScale] = useState(1);
   const [handle] = useState(() => delayRender("fit scene content"));
   useLayoutEffect(() => {
     let cancelled = false;
     document.fonts.ready.then(() => {
       if (cancelled) return;
+      const side = sideRef.current;
+      if (side) setSideScale(Math.min(1, side.clientWidth / side.scrollWidth));
       const el = ref.current;
       if (el) {
         const s = Math.min(1, HEIGHT_AREA / el.scrollHeight, (WIDTH - 2 * MARGIN) / el.scrollWidth);
@@ -66,10 +70,24 @@ export const Scene: React.FC<{ scene: SceneData; episode: number; narrationFrame
   }, [handle]);
 
   const item = (i: number) => (
-    <React.Fragment key={i}>{renderVisual(scene.visuals[i], starts[i], split && i === big ? window * 1.6 : window, split)}</React.Fragment>
+    <React.Fragment key={i}>
+      {renderVisual(scene.visuals[i], starts[i], Math.min(split && i === big ? window * 1.6 : window, narrationFrames * 0.95 - starts[i]), split)}
+    </React.Fragment>
   );
-  const column = (indices: number[]) => (
-    <div style={{ display: "flex", flexDirection: "column", gap: 26, alignItems: "flex-start", flex: 1, minWidth: 0 }}>{indices.map(item)}</div>
+  const column = (indices: number[], side = false) => (
+    <div ref={side ? sideRef : undefined} style={{ flex: 1, minWidth: 0 }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: 26,
+          alignItems: "flex-start",
+          ...(side ? { width: `${100 / sideScale}%`, transform: `scale(${sideScale})`, transformOrigin: "top right" } : {}),
+        }}
+      >
+        {indices.map(item)}
+      </div>
+    </div>
   );
   const others = scene.visuals.map((_, i) => i).filter((i) => i !== big);
 
@@ -80,7 +98,7 @@ export const Scene: React.FC<{ scene: SceneData; episode: number; narrationFrame
         <div ref={ref} style={{ transform: `scale(${scale})`, transformOrigin: "top right", width: `${100 / scale}%` }}>
           {split ? (
             <div style={{ display: "flex", flexDirection: "row", gap: 48, alignItems: "flex-start" }}>
-              {column(others)}
+              {column(others, true)}
               <div style={{ flexShrink: 0, display: "flex", flexDirection: "column" }}>{item(big)}</div>
             </div>
           ) : (

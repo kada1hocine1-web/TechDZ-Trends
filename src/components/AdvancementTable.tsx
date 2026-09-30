@@ -26,7 +26,7 @@ export const AdvancementTable: React.FC<{ species: string[]; rows: TableRow[]; s
             {row.map((cell, c) => {
               const p = progress(frame, start + duration * 0.12 + slot * k++, slot);
               if (r === 0 && c === 1) return null;
-              const isTex = c >= 2 || (c === 1 && r > 0);
+              const isTex = !/[\u0600-\u06FF]/.test(cell); // Arabic words (states, "بوفرة") stay plain text
               return (
                 <td
                   key={c}

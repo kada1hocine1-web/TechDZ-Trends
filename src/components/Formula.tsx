@@ -29,6 +29,7 @@ export const Formula: React.FC<{ tex: string; tone?: Tone; start: number; durati
       style={{
         unicodeBidi: "isolate",
         alignSelf: "flex-start",
+        whiteSpace: "nowrap",
         color: COLORS[tone],
         fontSize: size,
         clipPath: `inset(-20% ${(1 - p) * 100}% -20% 0)`,

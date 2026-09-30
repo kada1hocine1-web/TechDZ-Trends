@@ -9,7 +9,7 @@ export const ResultBox: React.FC<{ tex: string; start: number; duration: number;
   const write = progress(frame, start, duration * 0.6);
   const box = progress(frame, start + duration * 0.6, duration * 0.4);
   return (
-    <div dir="ltr" style={{ unicodeBidi: "isolate", alignSelf: "flex-start", position: "relative", padding: "10px 30px", color: COLORS.result, fontSize: size }}>
+    <div dir="ltr" style={{ unicodeBidi: "isolate", alignSelf: "flex-start", position: "relative", whiteSpace: "nowrap", padding: "10px 30px", color: COLORS.result, fontSize: size }}>
       <div style={{ clipPath: `inset(-20% ${(1 - write) * 100}% -20% 0)` }}>
         <Tex tex={tex} display />
       </div>
