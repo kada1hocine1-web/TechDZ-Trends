@@ -91,7 +91,7 @@ export const GraphWithTangent: React.FC<{ graph: GraphSpec; start: number; durat
       {g.halfLife ? (
         <g opacity={half > 0 ? 1 : 0}>
           <path d={`M${X(0)} ${Y(g.halfLife.y)} L${X(g.halfLife.t)} ${Y(g.halfLife.y)} L${X(g.halfLife.t)} ${Y(0)}`} stroke={COLORS.result} strokeWidth={3} strokeDasharray="10 8" fill="none" opacity={half} />
-          <text x={X(g.halfLife.t)} y={Y(0) - 14} textAnchor="middle" fontSize={28} fontWeight={700} fill={COLORS.result} opacity={half}>
+          <text x={X(g.halfLife.t) + 10} y={Y(0) - 14} textAnchor="start" fontSize={28} fontWeight={700} fill={COLORS.result} opacity={half}>
             {g.halfLife.label}
           </text>
         </g>
