@@ -5,7 +5,8 @@ export type Tone = "ink" | "law" | "result";
 
 export type TableRow = { state: string; x: string; cells: string[] };
 
-export type GraphCurve = { points: Point[]; label?: string; dashed?: boolean; tone?: Tone };
+// label is written next to the curve point closest to t = labelAt (default: last point).
+export type GraphCurve = { points: Point[]; label?: string; labelAt?: number; labelBelow?: boolean; dashed?: boolean; tone?: Tone };
 
 export type GraphSpec = {
   xMax: number;
@@ -15,7 +16,7 @@ export type GraphSpec = {
   xLabel: string;
   yLabel: string;
   curves: GraphCurve[];
-  tangent?: { at: Point; from: Point; to: Point };
+  tangents?: { at: Point; from: Point; to: Point }[];
   halfLife?: { t: number; y: number; label: string };
 };
 

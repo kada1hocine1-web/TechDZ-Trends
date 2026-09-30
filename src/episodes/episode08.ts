@@ -107,7 +107,7 @@ export const episode08: Episode = {
       [
         {
           kind: "graph",
-          graph: { ...base, tangent: { at: [40, 11.6], from: [0, 24.8], to: [75, 0] } },
+          graph: { ...base, tangents: [{ at: [40, 11.6], from: [0, 24.8], to: [75, 0] }] },
         },
         { kind: "text", text: "عند $t=40\\ \\text{min}$: $[\\ce{S2O8^{2-}}]\\approx11{,}6\\ \\text{mmol/L}$" },
         { kind: "text", text: "المماس يمر بـ$(0\\,;\\,24{,}8)$ و$(75\\,;\\,0)$" },

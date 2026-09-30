@@ -7,5 +7,7 @@ import { episode05 } from "./episode05.ts";
 import { episode06 } from "./episode06.ts";
 import { episode07 } from "./episode07.ts";
 import { episode08 } from "./episode08.ts";
+import { episode09 } from "./episode09.ts";
+import { episode10 } from "./episode10.ts";
 
-export const EPISODES: Episode[] = [episode01, episode02, episode03, episode04, episode05, episode06, episode07, episode08];
+export const EPISODES: Episode[] = [episode01, episode02, episode03, episode04, episode05, episode06, episode07, episode08, episode09, episode10];
