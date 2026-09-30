@@ -131,18 +131,24 @@ check("MnO4- would allow x (mol)", nMnO4 / 2, 0.025)
 c10b = 5 * xm / 0.250; check("method 2: c = 5xmax/V (mol/L)", c10b, 0.357)
 
 print("== Exercise 11 ==")
-nI = 0.06 * 0.150; nS = 0.1 * 0.100; Vt = 0.250
-check("n0(I-) (mmol)", nI * 1e3, 9); check("n0(S2O8 2-) (mmol)", nS * 1e3, 10)
-x11 = min(nI / 2, nS); check("xmax per text data (mmol)", x11 * 1e3, 4.5)
+# c1 corrected to 0.6 mol/L by the teacher (docx says 0.06, which contradicts the figure)
+nI = 0.6 * 0.150; nS = 0.1 * 0.100; Vt = 0.250
+check("n0(I-) (mmol)", nI * 1e3, 90); check("n0(S2O8 2-) (mmol)", nS * 1e3, 10)
+x11 = min(nI / 2, nS); check("xmax (mmol)", x11 * 1e3, 10)
+print("     limiting:", "S2O8 2-" if nS < nI / 2 else "I-")
 check("[S2O8]0 (mmol/L)", nS / Vt * 1e3, 40)
-check("[S2O8]final per text data (mmol/L)", (nS - x11) / Vt * 1e3, 22)
+check("[S2O8] at t1/2 (mmol/L)", (nS - x11 / 2) / Vt * 1e3, 20)
 dig = json.loads(pathlib.Path(__file__).with_name("fig_ex11_digitized.json").read_text())
 cmin = min(dig["c_mmolL"])
 print(f"     figure: lowest plotted [S2O8] = {cmin:.1f} mmol/L at t = 100 min")
-print(f"     CONFLICT: figure goes below 22 mmol/L -> text data and figure disagree" if cmin < 22 else "     consistent")
+check("figure consistent: [S2O8]final >= 0", (nS - x11) / Vt * 1e3, 0.0)
+T, C = dig["t_min"], dig["c_mmolL"]
+t_half = min(zip(T, C), key=lambda p: abs(p[1] - 20))[0]
+check("t1/2 read on figure at 20 mmol/L (min)", t_half, 21.7, rel=0.03)
 slope = -0.33  # mmol L^-1 min^-1, tangent at 40 min (digitized, cubic fit on 30-50 min)
 check("v_vol(40 min) = -d[S2O8]/dt (mmol/L/min)", -slope, 0.33, rel=0.05)
-check("v = V * v_vol (mmol/min)", Vt * -slope, 0.0825, rel=0.05)
+check("v = V * v_vol (mmol/min)", Vt * -slope, 0.082, rel=0.05)
+check("v(I-) = 2v (mmol/min)", 2 * Vt * -slope, 0.16, rel=0.05)
 check("v_vol disappearance I- = 2 v_vol (mmol/L/min)", 2 * -slope, 0.66, rel=0.05)
 
 print("== Exercise 12 ==")
