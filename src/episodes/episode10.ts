@@ -11,7 +11,7 @@ const base: GraphSpec = {
   yStep: 2,
   xLabel: "t (min)",
   yLabel: "[I₂] (mmol/L)",
-  curves: [{ points: EX13_I2, label: "(1)", labelAt: 0.45 }],
+  curves: [{ points: EX13_I2, label: "(1)", labelAt: 0.25 }],
 };
 
 // Qualitative sketches asked by the exercise ("كيفياً"): same end state, different speeds.
