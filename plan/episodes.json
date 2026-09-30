@@ -1,0 +1,1525 @@
+{
+  "rules": {
+    "wordsPerSecond": 2.2,
+    "gapBetweenScenesSeconds": 1.0,
+    "targetSeconds": 600,
+    "toleranceSeconds": 30
+  },
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "كمية المادة: الكتلة، الحجم المولي، عدد الجزيئات، وقانون الغاز المثالي",
+      "exercises": [
+        1,
+        2
+      ],
+      "questions": [
+        "1.I.1",
+        "1.I.2",
+        "1.I.3",
+        "1.I.4",
+        "1.I.5",
+        "1.II.1",
+        "1.II.2",
+        "2.1",
+        "2.2"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح السلسلة والحلقة",
+          "covers": [],
+          "visuals": [
+            "عنوان السلسلة",
+            "خريطة الحلقات"
+          ],
+          "words": 70,
+          "estimatedSeconds": 31.8
+        },
+        {
+          "id": "reminders",
+          "title": "تذكير بالعلاقات والثوابت (V_M، N_A، 1 atm)",
+          "covers": [],
+          "visuals": [
+            "n=m/M",
+            "n=V/V_M",
+            "n=N/N_A",
+            "نذكّر بأن…"
+          ],
+          "words": 110,
+          "estimatedSeconds": 50.0
+        },
+        {
+          "id": "ex1-statement",
+          "title": "نص التمرين 1 والمعطيات",
+          "covers": [],
+          "visuals": [
+            "بطاقة المعطيات"
+          ],
+          "words": 70,
+          "estimatedSeconds": 31.8
+        },
+        {
+          "id": "ex1-q1",
+          "title": "الكتلة المولية لـ NH₃",
+          "covers": [
+            "1.I.1"
+          ],
+          "visuals": [
+            "M = 14 + 3×1 = 17 g/mol"
+          ],
+          "words": 75,
+          "estimatedSeconds": 34.1
+        },
+        {
+          "id": "ex1-q2",
+          "title": "كمية المادة في 0,68 g",
+          "covers": [
+            "1.I.2"
+          ],
+          "visuals": [
+            "n = m/M"
+          ],
+          "words": 70,
+          "estimatedSeconds": 31.8
+        },
+        {
+          "id": "ex1-q3",
+          "title": "كمية المادة في 15,68 L",
+          "covers": [
+            "1.I.3"
+          ],
+          "visuals": [
+            "n = V/V_M"
+          ],
+          "words": 80,
+          "estimatedSeconds": 36.4
+        },
+        {
+          "id": "ex1-q4",
+          "title": "كتلة 8,96 L",
+          "covers": [
+            "1.I.4"
+          ],
+          "visuals": [
+            "n ثم m = n·M"
+          ],
+          "words": 90,
+          "estimatedSeconds": 40.9
+        },
+        {
+          "id": "ex1-q5",
+          "title": "كتلة 3,01×10²² جزيء",
+          "covers": [
+            "1.I.5"
+          ],
+          "visuals": [
+            "n = N/N_A",
+            "m = n·M"
+          ],
+          "words": 95,
+          "estimatedSeconds": 43.2
+        },
+        {
+          "id": "ex1-p2-q1",
+          "title": "الكتلة المولية لحمض الخل",
+          "covers": [
+            "1.II.1"
+          ],
+          "visuals": [
+            "M(C₂H₄O₂) = 60 g/mol"
+          ],
+          "words": 75,
+          "estimatedSeconds": 34.1
+        },
+        {
+          "id": "ex1-p2-q2",
+          "title": "كمية المادة في 200 mL (الكتلة الحجمية)",
+          "covers": [
+            "1.II.2"
+          ],
+          "visuals": [
+            "m = ρ·V",
+            "n = m/M"
+          ],
+          "words": 115,
+          "estimatedSeconds": 52.3
+        },
+        {
+          "id": "ex2-statement",
+          "title": "نص التمرين 2 والمعطيات",
+          "covers": [],
+          "visuals": [
+            "CₙH₂ₙ₊₂",
+            "P، V، θ، m"
+          ],
+          "words": 60,
+          "estimatedSeconds": 27.3
+        },
+        {
+          "id": "ex2-q1",
+          "title": "قانون الغاز المثالي والتحويل إلى الوحدات الدولية",
+          "covers": [
+            "2.1"
+          ],
+          "visuals": [
+            "PV = nRT",
+            "جدول التحويلات",
+            "n ≈ 0,5 mol"
+          ],
+          "words": 185,
+          "estimatedSeconds": 84.1
+        },
+        {
+          "id": "ex2-q2",
+          "title": "استنتاج الصيغة الجزيئية",
+          "covers": [
+            "2.2"
+          ],
+          "visuals": [
+            "M = m/n",
+            "14n + 2 = 16",
+            "CH₄"
+          ],
+          "words": 125,
+          "estimatedSeconds": 56.8
+        },
+        {
+          "id": "outro",
+          "title": "خلاصة الحلقة وما يلي",
+          "covers": [],
+          "visuals": [
+            "ملخص العلاقات"
+          ],
+          "words": 60,
+          "estimatedSeconds": 27.3
+        }
+      ],
+      "totalWords": 1280,
+      "sceneCount": 14,
+      "estimatedSeconds": 594.8
+    },
+    {
+      "episode": 2,
+      "title": "المحاليل: التركيز المولي والكتلي، التمديد، والتحضير بالإذابة",
+      "exercises": [
+        3,
+        4
+      ],
+      "questions": [
+        "3.1a",
+        "3.1b",
+        "3.1c",
+        "3.2a",
+        "3.2b",
+        "3.2c",
+        "3.3",
+        "4.1",
+        "4.2"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 45,
+          "estimatedSeconds": 20.5
+        },
+        {
+          "id": "ex3-statement",
+          "title": "نص التمرين 3 والمعطيات",
+          "covers": [],
+          "visuals": [
+            "m₀ = 4 g",
+            "V = 200 mL"
+          ],
+          "words": 70,
+          "estimatedSeconds": 31.8
+        },
+        {
+          "id": "ex3-q1a",
+          "title": "التركيز المولي c₀",
+          "covers": [
+            "3.1a"
+          ],
+          "visuals": [
+            "M(NaOH) = 40",
+            "n₀",
+            "c₀ = n₀/V"
+          ],
+          "words": 100,
+          "estimatedSeconds": 45.5
+        },
+        {
+          "id": "ex3-q1b",
+          "title": "التركيز الكتلي بطريقتين",
+          "covers": [
+            "3.1b"
+          ],
+          "visuals": [
+            "c_m = m/V",
+            "c_m = c·M"
+          ],
+          "words": 110,
+          "estimatedSeconds": 50.0
+        },
+        {
+          "id": "ex3-q1c",
+          "title": "كمية المادة في 50 mL",
+          "covers": [
+            "3.1c"
+          ],
+          "visuals": [
+            "n' = c₀V'"
+          ],
+          "words": 65,
+          "estimatedSeconds": 29.5
+        },
+        {
+          "id": "ex3-q2a",
+          "title": "تسمية العملية: التمديد",
+          "covers": [
+            "3.2a"
+          ],
+          "visuals": [
+            "رسم: ماصة + بيشر + ماء"
+          ],
+          "words": 60,
+          "estimatedSeconds": 27.3
+        },
+        {
+          "id": "ex3-q2b",
+          "title": "الحجم الجديد ومعامل التمديد",
+          "covers": [
+            "3.2b"
+          ],
+          "visuals": [
+            "V₂ = V₁ + V₀",
+            "f = V₂/V₁"
+          ],
+          "words": 80,
+          "estimatedSeconds": 36.4
+        },
+        {
+          "id": "ex3-q2c",
+          "title": "c₂ بطريقتين",
+          "covers": [
+            "3.2c"
+          ],
+          "visuals": [
+            "c₂ = c₀/f",
+            "c₀V₁ = c₂V₂"
+          ],
+          "words": 115,
+          "estimatedSeconds": 52.3
+        },
+        {
+          "id": "ex3-q3",
+          "title": "إضافة 0,4 g من NaOH",
+          "covers": [
+            "3.3"
+          ],
+          "visuals": [
+            "n_tot",
+            "c = n_tot/V₁",
+            "فرضية الحجم ثابت"
+          ],
+          "words": 130,
+          "estimatedSeconds": 59.1
+        },
+        {
+          "id": "ex4-statement",
+          "title": "نص التمرين 4 ومعلومات القارورة",
+          "covers": [],
+          "visuals": [
+            "NaI، P = 90%، M = 149,9"
+          ],
+          "words": 70,
+          "estimatedSeconds": 31.8
+        },
+        {
+          "id": "ex4-q1",
+          "title": "كتلة المسحوق التجاري اللازمة",
+          "covers": [
+            "4.1"
+          ],
+          "visuals": [
+            "m = c₀VM",
+            "m₀ = m/P"
+          ],
+          "words": 140,
+          "estimatedSeconds": 63.6
+        },
+        {
+          "id": "ex4-q2-safety",
+          "title": "البروتوكول: الاحتياطات والوسائل",
+          "covers": [
+            "4.2"
+          ],
+          "visuals": [
+            "رسم الأدوات"
+          ],
+          "words": 110,
+          "estimatedSeconds": 50.0
+        },
+        {
+          "id": "ex4-q2-steps",
+          "title": "البروتوكول: خطوات الإذابة",
+          "covers": [],
+          "visuals": [
+            "رسم الخطوات 1→5"
+          ],
+          "words": 150,
+          "estimatedSeconds": 68.2
+        },
+        {
+          "id": "outro",
+          "title": "خلاصة الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 50,
+          "estimatedSeconds": 22.7
+        }
+      ],
+      "totalWords": 1295,
+      "sceneCount": 14,
+      "estimatedSeconds": 601.6
+    },
+    {
+      "episode": 3,
+      "title": "التخفيف انطلاقاً من محلول تجاري + تفاعل الحديد مع الكلور (1)",
+      "exercises": [
+        5,
+        6
+      ],
+      "questions": [
+        "5.1",
+        "5.2a",
+        "5.2b",
+        "5.2c",
+        "6.1",
+        "6.2a",
+        "6.2b"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 45,
+          "estimatedSeconds": 20.5
+        },
+        {
+          "id": "ex5-statement",
+          "title": "نص التمرين 5",
+          "covers": [],
+          "visuals": [
+            "S₀ → S₁",
+            "c₁ = 0,482 mol/L",
+            "V = 500 mL"
+          ],
+          "words": 75,
+          "estimatedSeconds": 34.1
+        },
+        {
+          "id": "ex5-q1",
+          "title": "دلالات معلومات اللصيقة",
+          "covers": [
+            "5.1"
+          ],
+          "visuals": [
+            "صورة اللصيقة ex05_label_HCl.png",
+            "رمز أكّال"
+          ],
+          "words": 175,
+          "estimatedSeconds": 79.5
+        },
+        {
+          "id": "ex5-q2a",
+          "title": "التحقق من c₀ = 12,06 mol/L",
+          "covers": [
+            "5.2a"
+          ],
+          "visuals": [
+            "V = 1 L",
+            "m = ρV",
+            "m(HCl) = P·m",
+            "n = m/M"
+          ],
+          "words": 185,
+          "estimatedSeconds": 84.1
+        },
+        {
+          "id": "ex5-q2b",
+          "title": "الحجم V₀ الواجب أخذه",
+          "covers": [
+            "5.2b"
+          ],
+          "visuals": [
+            "c₀V₀ = c₁V"
+          ],
+          "words": 100,
+          "estimatedSeconds": 45.5
+        },
+        {
+          "id": "ex5-q2c-safety",
+          "title": "بروتوكول التخفيف: الاحتياطات والوسائل",
+          "covers": [
+            "5.2c"
+          ],
+          "visuals": [
+            "ساحبة الغازات",
+            "الحمض في الماء"
+          ],
+          "words": 120,
+          "estimatedSeconds": 54.5
+        },
+        {
+          "id": "ex5-q2c-steps",
+          "title": "بروتوكول التخفيف: الخطوات",
+          "covers": [],
+          "visuals": [
+            "رسم الخطوات"
+          ],
+          "words": 125,
+          "estimatedSeconds": 56.8
+        },
+        {
+          "id": "ex6-statement",
+          "title": "نص التمرين 6",
+          "covers": [],
+          "visuals": [
+            "سلك حديد محمّر في قارورة Cl₂"
+          ],
+          "words": 75,
+          "estimatedSeconds": 34.1
+        },
+        {
+          "id": "ex6-q1",
+          "title": "معادلة التفاعل وموازنتها",
+          "covers": [
+            "6.1"
+          ],
+          "visuals": [
+            "2Fe + 3Cl₂ → 2FeCl₃"
+          ],
+          "words": 120,
+          "estimatedSeconds": 54.5
+        },
+        {
+          "id": "ex6-q2a",
+          "title": "كميات المادة الابتدائية",
+          "covers": [
+            "6.2a"
+          ],
+          "visuals": [
+            "n(Fe) = m/M",
+            "n(Cl₂) = V/V_M"
+          ],
+          "words": 120,
+          "estimatedSeconds": 54.5
+        },
+        {
+          "id": "ex6-q2b",
+          "title": "هل المزيج ستوكيومتري؟",
+          "covers": [
+            "6.2b"
+          ],
+          "visuals": [
+            "n(Fe)/2 مقابل n(Cl₂)/3"
+          ],
+          "words": 110,
+          "estimatedSeconds": 50.0
+        },
+        {
+          "id": "outro",
+          "title": "خلاصة الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 50,
+          "estimatedSeconds": 22.7
+        }
+      ],
+      "totalWords": 1300,
+      "sceneCount": 12,
+      "estimatedSeconds": 601.9
+    },
+    {
+      "episode": 4,
+      "title": "جدول التقدم والمتفاعل المحد: الحديد والكلور، الزنك والحمض (1)",
+      "exercises": [
+        6,
+        7
+      ],
+      "questions": [
+        "6.2c",
+        "6.3",
+        "6.4a",
+        "6.4b",
+        "6.4c",
+        "7.1",
+        "7.2"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح الحلقة وتذكير بنتائج الحلقة السابقة",
+          "covers": [],
+          "visuals": [],
+          "words": 70,
+          "estimatedSeconds": 31.8
+        },
+        {
+          "id": "ex6-q2c-table",
+          "title": "إنشاء جدول التقدم",
+          "covers": [
+            "6.2c"
+          ],
+          "visuals": [
+            "جدول التقدم يُبنى سطراً سطراً"
+          ],
+          "words": 170,
+          "estimatedSeconds": 77.3
+        },
+        {
+          "id": "ex6-q2c-xmax",
+          "title": "التقدم الأعظمي والمتفاعل المحد",
+          "covers": [],
+          "visuals": [
+            "فرضيتان",
+            "x_max = 0,3 mol"
+          ],
+          "words": 135,
+          "estimatedSeconds": 61.4
+        },
+        {
+          "id": "ex6-q3",
+          "title": "الأنواع الكيميائية في الحالة النهائية",
+          "covers": [
+            "6.3"
+          ],
+          "visuals": [
+            "السطر النهائي"
+          ],
+          "words": 90,
+          "estimatedSeconds": 40.9
+        },
+        {
+          "id": "ex6-q4a",
+          "title": "كتلة الحديد المتبقي",
+          "covers": [
+            "6.4a"
+          ],
+          "visuals": [
+            "m = 11,2 g"
+          ],
+          "words": 95,
+          "estimatedSeconds": 43.2
+        },
+        {
+          "id": "ex6-q4b",
+          "title": "كتلة FeCl₃ الناتج",
+          "covers": [
+            "6.4b"
+          ],
+          "visuals": [
+            "M(FeCl₃) = 162,5",
+            "m = 97,5 g"
+          ],
+          "words": 100,
+          "estimatedSeconds": 45.5
+        },
+        {
+          "id": "ex6-q4c",
+          "title": "حجم Cl₂ المتفاعل",
+          "covers": [
+            "6.4c"
+          ],
+          "visuals": [
+            "V = 3x_max·V_M"
+          ],
+          "words": 80,
+          "estimatedSeconds": 36.4
+        },
+        {
+          "id": "ex7-statement",
+          "title": "نص التمرين 7 والمعادلة",
+          "covers": [],
+          "visuals": [
+            "Zn في محلول HCl",
+            "انطلاق H₂"
+          ],
+          "words": 125,
+          "estimatedSeconds": 56.8
+        },
+        {
+          "id": "ex7-q1",
+          "title": "جدول التقدم",
+          "covers": [
+            "7.1"
+          ],
+          "visuals": [
+            "جدول مع n₀(Zn) مجهول"
+          ],
+          "words": 180,
+          "estimatedSeconds": 81.8
+        },
+        {
+          "id": "ex7-q2",
+          "title": "التقدم الأعظمي من حجم H₂",
+          "covers": [
+            "7.2"
+          ],
+          "visuals": [
+            "x_max = n(H₂)",
+            "Zn هو المحد"
+          ],
+          "words": 195,
+          "estimatedSeconds": 88.6
+        },
+        {
+          "id": "outro",
+          "title": "خلاصة الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 55,
+          "estimatedSeconds": 25.0
+        }
+      ],
+      "totalWords": 1295,
+      "sceneCount": 11,
+      "estimatedSeconds": 598.6
+    },
+    {
+      "episode": 5,
+      "title": "الزنك والحمض (2) + قياس الناقلية",
+      "exercises": [
+        7,
+        8
+      ],
+      "questions": [
+        "7.3a",
+        "7.3b",
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.4"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح الحلقة وتذكير بالتمرين 7",
+          "covers": [],
+          "visuals": [],
+          "words": 75,
+          "estimatedSeconds": 34.1
+        },
+        {
+          "id": "ex7-q3a",
+          "title": "الكتلة الابتدائية للزنك",
+          "covers": [
+            "7.3a"
+          ],
+          "visuals": [
+            "n₀(Zn) = x_max",
+            "m₀ = 0,65 g"
+          ],
+          "words": 125,
+          "estimatedSeconds": 56.8
+        },
+        {
+          "id": "ex7-q3b",
+          "title": "تراكيز الشوارد في النهاية",
+          "covers": [
+            "7.3b"
+          ],
+          "visuals": [
+            "[Zn²⁺]",
+            "[H₃O⁺]",
+            "[Cl⁻] شاردة غير فعالة"
+          ],
+          "words": 210,
+          "estimatedSeconds": 95.5
+        },
+        {
+          "id": "ex8-statement",
+          "title": "نص التمرين 8 والمعطيات",
+          "covers": [],
+          "visuals": [
+            "NaCl",
+            "I، U، S، L، λ"
+          ],
+          "words": 90,
+          "estimatedSeconds": 40.9
+        },
+        {
+          "id": "ex8-setup",
+          "title": "شرح التركيبة التجريبية",
+          "covers": [],
+          "visuals": [
+            "صورة ex08_conductimetry_setup.png",
+            "رسم الدارة: GBF + A تسلسل + V تفرع",
+            "لماذا التوتر المتناوب"
+          ],
+          "words": 170,
+          "estimatedSeconds": 77.3
+        },
+        {
+          "id": "ex8-q1",
+          "title": "الناقلية G",
+          "covers": [
+            "8.1"
+          ],
+          "visuals": [
+            "G = I/U"
+          ],
+          "words": 100,
+          "estimatedSeconds": 45.5
+        },
+        {
+          "id": "ex8-q2",
+          "title": "ثابت الخلية K",
+          "covers": [
+            "8.2"
+          ],
+          "visuals": [
+            "K = S/L",
+            "تحويل cm → m"
+          ],
+          "words": 110,
+          "estimatedSeconds": 50.0
+        },
+        {
+          "id": "ex8-q3",
+          "title": "الناقلية النوعية σ",
+          "covers": [
+            "8.3"
+          ],
+          "visuals": [
+            "σ = G/K"
+          ],
+          "words": 105,
+          "estimatedSeconds": 47.7
+        },
+        {
+          "id": "ex8-q4",
+          "title": "التركيز المولي من σ",
+          "covers": [
+            "8.4"
+          ],
+          "visuals": [
+            "σ = Σλ·c",
+            "تحويل mol/m³ → mol/L"
+          ],
+          "words": 190,
+          "estimatedSeconds": 86.4
+        },
+        {
+          "id": "recap",
+          "title": "مقارنة مع التركيز المعطى + خلاصة",
+          "covers": [],
+          "visuals": [],
+          "words": 80,
+          "estimatedSeconds": 36.4
+        },
+        {
+          "id": "outro",
+          "title": "ختام الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 45,
+          "estimatedSeconds": 20.5
+        }
+      ],
+      "totalWords": 1300,
+      "sceneCount": 11,
+      "estimatedSeconds": 600.9
+    },
+    {
+      "episode": 6,
+      "title": "الأكسدة والإرجاع: كتابة المعادلات النصفية والإجمالية (10 حالات)",
+      "exercises": [
+        9
+      ],
+      "questions": [
+        "9.1",
+        "9.2",
+        "9.3",
+        "9.4",
+        "9.5",
+        "9.6",
+        "9.7",
+        "9.8",
+        "9.9",
+        "9.10"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 45,
+          "estimatedSeconds": 20.5
+        },
+        {
+          "id": "method",
+          "title": "الطريقة: موازنة الذرات، O بـ H₂O، H بـ H⁺، الشحنة بـ e⁻",
+          "covers": [],
+          "visuals": [
+            "خطوات الموازنة الأربع"
+          ],
+          "words": 145,
+          "estimatedSeconds": 65.9
+        },
+        {
+          "id": "ex9-c1",
+          "title": "الحالة 1: Cu²⁺ و Pb",
+          "covers": [
+            "9.1"
+          ],
+          "visuals": [],
+          "words": 75,
+          "estimatedSeconds": 34.1
+        },
+        {
+          "id": "ex9-c2",
+          "title": "الحالة 2: Fe و Cl₂",
+          "covers": [
+            "9.2"
+          ],
+          "visuals": [],
+          "words": 95,
+          "estimatedSeconds": 43.2
+        },
+        {
+          "id": "ex9-c3",
+          "title": "الحالة 3: I⁻ و S₂O₈²⁻",
+          "covers": [
+            "9.3"
+          ],
+          "visuals": [],
+          "words": 80,
+          "estimatedSeconds": 36.4
+        },
+        {
+          "id": "ex9-c4",
+          "title": "الحالة 4: Fe²⁺ و Cr₂O₇²⁻",
+          "covers": [
+            "9.4"
+          ],
+          "visuals": [],
+          "words": 130,
+          "estimatedSeconds": 59.1
+        },
+        {
+          "id": "ex9-c5",
+          "title": "الحالة 5: Fe²⁺ و MnO₄⁻",
+          "covers": [
+            "9.5"
+          ],
+          "visuals": [],
+          "words": 110,
+          "estimatedSeconds": 50.0
+        },
+        {
+          "id": "ex9-c6",
+          "title": "الحالة 6: Al و H₃O⁺",
+          "covers": [
+            "9.6"
+          ],
+          "visuals": [],
+          "words": 100,
+          "estimatedSeconds": 45.5
+        },
+        {
+          "id": "ex9-c7",
+          "title": "الحالة 7: H₂O₂ و MnO₄⁻",
+          "covers": [
+            "9.7"
+          ],
+          "visuals": [],
+          "words": 120,
+          "estimatedSeconds": 54.5
+        },
+        {
+          "id": "ex9-c8",
+          "title": "الحالة 8: CuO و H₂",
+          "covers": [
+            "9.8"
+          ],
+          "visuals": [],
+          "words": 90,
+          "estimatedSeconds": 40.9
+        },
+        {
+          "id": "ex9-c9",
+          "title": "الحالة 9: BrO₃⁻ و Br⁻",
+          "covers": [
+            "9.9"
+          ],
+          "visuals": [],
+          "words": 110,
+          "estimatedSeconds": 50.0
+        },
+        {
+          "id": "ex9-c10",
+          "title": "الحالة 10: الإيثانول و Cr₂O₇²⁻",
+          "covers": [
+            "9.10"
+          ],
+          "visuals": [],
+          "words": 145,
+          "estimatedSeconds": 65.9
+        },
+        {
+          "id": "outro",
+          "title": "خلاصة الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 50,
+          "estimatedSeconds": 22.7
+        }
+      ],
+      "totalWords": 1295,
+      "sceneCount": 13,
+      "estimatedSeconds": 600.6
+    },
+    {
+      "episode": 7,
+      "title": "تركيز الماء الأكسجيني بطريقتين: المعايرة وحجم الغاز",
+      "exercises": [
+        10
+      ],
+      "questions": [
+        "10.M1.1",
+        "10.M1.2",
+        "10.M1.3",
+        "10.M2.1",
+        "10.M2.2",
+        "10.M2.3",
+        "10.M2.4"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 45,
+          "estimatedSeconds": 20.5
+        },
+        {
+          "id": "ex10-statement",
+          "title": "نص التمرين 10 وتركيبة المعايرة",
+          "covers": [],
+          "visuals": [
+            "رسم: سحاحة + بيشر + مخلاط"
+          ],
+          "words": 120,
+          "estimatedSeconds": 54.5
+        },
+        {
+          "id": "ex10-m1-q1",
+          "title": "معادلة الأكسدة الإرجاعية",
+          "covers": [
+            "10.M1.1"
+          ],
+          "visuals": [
+            "المعادلتان النصفيتان",
+            "2MnO₄⁻ + 5H₂O₂ + 6H⁺"
+          ],
+          "words": 165,
+          "estimatedSeconds": 75.0
+        },
+        {
+          "id": "ex10-m1-q2",
+          "title": "لماذا الوسط الحمضي؟",
+          "covers": [
+            "10.M1.2"
+          ],
+          "visuals": [],
+          "words": 85,
+          "estimatedSeconds": 38.6
+        },
+        {
+          "id": "ex10-m1-q3",
+          "title": "علاقة التكافؤ وحساب c",
+          "covers": [
+            "10.M1.3"
+          ],
+          "visuals": [
+            "n(H₂O₂)/5 = n(MnO₄⁻)/2",
+            "c ≈ 0,357 mol/L"
+          ],
+          "words": 195,
+          "estimatedSeconds": 88.6
+        },
+        {
+          "id": "ex10-m2-statement",
+          "title": "الطريقة الثانية: المعطيات",
+          "covers": [],
+          "visuals": [],
+          "words": 75,
+          "estimatedSeconds": 34.1
+        },
+        {
+          "id": "ex10-m2-q1",
+          "title": "n₀(MnO₄⁻)",
+          "covers": [
+            "10.M2.1"
+          ],
+          "visuals": [],
+          "words": 65,
+          "estimatedSeconds": 29.5
+        },
+        {
+          "id": "ex10-m2-q2",
+          "title": "جدول التقدم",
+          "covers": [
+            "10.M2.2"
+          ],
+          "visuals": [
+            "جدول التقدم"
+          ],
+          "words": 165,
+          "estimatedSeconds": 75.0
+        },
+        {
+          "id": "ex10-m2-q3",
+          "title": "x_max من حجم O₂ والمتفاعل المحد",
+          "covers": [
+            "10.M2.3"
+          ],
+          "visuals": [
+            "n(O₂) = 5x_max",
+            "H₂O₂ هو المحد"
+          ],
+          "words": 180,
+          "estimatedSeconds": 81.8
+        },
+        {
+          "id": "ex10-m2-q4",
+          "title": "التركيز c والمقارنة",
+          "covers": [
+            "10.M2.4"
+          ],
+          "visuals": [
+            "c = 5x_max/V",
+            "نفس النتيجة"
+          ],
+          "words": 145,
+          "estimatedSeconds": 65.9
+        },
+        {
+          "id": "outro",
+          "title": "خلاصة الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 55,
+          "estimatedSeconds": 25.0
+        }
+      ],
+      "totalWords": 1295,
+      "sceneCount": 11,
+      "estimatedSeconds": 598.6
+    },
+    {
+      "episode": 8,
+      "title": "المتابعة الزمنية: سرعة التفاعل وزمن نصف التفاعل من البيان",
+      "exercises": [
+        11
+      ],
+      "questions": [
+        "11.1",
+        "11.2a",
+        "11.2b"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح الحلقة: من الحالة النهائية إلى التطور الزمني",
+          "covers": [],
+          "visuals": [],
+          "words": 70,
+          "estimatedSeconds": 31.8
+        },
+        {
+          "id": "ex11-statement",
+          "title": "نص التمرين 11 (بالمعطى المصحح c₁ = 0,6 mol/L)",
+          "covers": [],
+          "visuals": [
+            "خلط S₁ و S₂",
+            "المعادلة"
+          ],
+          "words": 120,
+          "estimatedSeconds": 54.5
+        },
+        {
+          "id": "ex11-q1-n0",
+          "title": "كميات المادة الابتدائية",
+          "covers": [
+            "11.1"
+          ],
+          "visuals": [
+            "n₀(I⁻) = 90 mmol",
+            "n₀(S₂O₈²⁻) = 10 mmol"
+          ],
+          "words": 95,
+          "estimatedSeconds": 43.2
+        },
+        {
+          "id": "ex11-q1-table",
+          "title": "جدول التقدم",
+          "covers": [],
+          "visuals": [
+            "جدول التقدم"
+          ],
+          "words": 140,
+          "estimatedSeconds": 63.6
+        },
+        {
+          "id": "ex11-q1-xmax",
+          "title": "x_max والمتفاعل المحد + تحقق من البيان",
+          "covers": [],
+          "visuals": [
+            "x_max = 10 mmol",
+            "[S₂O₈²⁻]₀ = 40 mmol/L"
+          ],
+          "words": 130,
+          "estimatedSeconds": 59.1
+        },
+        {
+          "id": "ex11-graph",
+          "title": "قراءة البيان: المحاور والسلالم",
+          "covers": [],
+          "visuals": [
+            "ex11_S2O8_vs_t.png",
+            "10 min / 4 mmol/L"
+          ],
+          "words": 105,
+          "estimatedSeconds": 47.7
+        },
+        {
+          "id": "ex11-q2a-def",
+          "title": "تعريف سرعة التفاعل وعلاقتها بالتركيز",
+          "covers": [
+            "11.2a"
+          ],
+          "visuals": [
+            "v = dx/dt = −V·d[S₂O₈²⁻]/dt"
+          ],
+          "words": 145,
+          "estimatedSeconds": 65.9
+        },
+        {
+          "id": "ex11-q2a-tangent",
+          "title": "رسم المماس عند t = 40 min وحساب الميل",
+          "covers": [],
+          "visuals": [
+            "مماس متحرك",
+            "(0 ; 24,8) و (75 ; 0)"
+          ],
+          "words": 160,
+          "estimatedSeconds": 72.7
+        },
+        {
+          "id": "ex11-q2a-result",
+          "title": "السرعة وسرعة اختفاء I⁻",
+          "covers": [],
+          "visuals": [
+            "v ≈ 8,2×10⁻² mmol/min",
+            "v(I⁻) = 2v"
+          ],
+          "words": 115,
+          "estimatedSeconds": 52.3
+        },
+        {
+          "id": "ex11-q2b",
+          "title": "زمن نصف التفاعل",
+          "covers": [
+            "11.2b"
+          ],
+          "visuals": [
+            "x = x_max/2",
+            "[S₂O₈²⁻] = 20 mmol/L",
+            "t₁/₂ ≈ 22 min"
+          ],
+          "words": 160,
+          "estimatedSeconds": 72.7
+        },
+        {
+          "id": "outro",
+          "title": "خلاصة الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 55,
+          "estimatedSeconds": 25.0
+        }
+      ],
+      "totalWords": 1295,
+      "sceneCount": 11,
+      "estimatedSeconds": 598.6
+    },
+    {
+      "episode": 9,
+      "title": "العوامل الحركية (1): التركيز ودرجة الحرارة + متابعة بالمعايرة",
+      "exercises": [
+        12,
+        13
+      ],
+      "questions": [
+        "12.1",
+        "12.2",
+        "13.1",
+        "13.2a"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 45,
+          "estimatedSeconds": 20.5
+        },
+        {
+          "id": "ex12-statement",
+          "title": "نص التمرين 12 وجدول التجارب",
+          "covers": [],
+          "visuals": [
+            "جدول التجارب الثلاث"
+          ],
+          "words": 130,
+          "estimatedSeconds": 59.1
+        },
+        {
+          "id": "ex12-graph",
+          "title": "قراءة البيانات a و b و c",
+          "covers": [],
+          "visuals": [
+            "ex12_nI2_curves_abc.png",
+            "نفس القيمة النهائية 16 mmol"
+          ],
+          "words": 110,
+          "estimatedSeconds": 50.0
+        },
+        {
+          "id": "ex12-q1",
+          "title": "دور H₃O⁺: متفاعل أم وسيط؟",
+          "covers": [
+            "12.1"
+          ],
+          "visuals": [
+            "وسيط مقابل متفاعل"
+          ],
+          "words": 140,
+          "estimatedSeconds": 63.6
+        },
+        {
+          "id": "ex12-q2",
+          "title": "نسبة كل تجربة إلى منحناها",
+          "covers": [
+            "12.2"
+          ],
+          "visuals": [
+            "2 ↔ c",
+            "3 ↔ b",
+            "1 ↔ a"
+          ],
+          "words": 235,
+          "estimatedSeconds": 106.8
+        },
+        {
+          "id": "ex12-final",
+          "title": "لماذا نفس الحالة النهائية؟ (H₂O₂ محد)",
+          "covers": [],
+          "visuals": [
+            "n₀ = 16 mmol"
+          ],
+          "words": 95,
+          "estimatedSeconds": 43.2
+        },
+        {
+          "id": "ex13-statement",
+          "title": "نص التمرين 13 (بكالوريا 2010)",
+          "covers": [],
+          "visuals": [
+            "منظف طبي + زنك"
+          ],
+          "words": 95,
+          "estimatedSeconds": 43.2
+        },
+        {
+          "id": "ex13-q1",
+          "title": "معادلة التفاعل",
+          "covers": [
+            "13.1"
+          ],
+          "visuals": [
+            "Zn + I₂ → Zn²⁺ + 2I⁻"
+          ],
+          "words": 110,
+          "estimatedSeconds": 50.0
+        },
+        {
+          "id": "ex13-q2a-principle",
+          "title": "بروتوكول المعايرة: المبدأ والسقي",
+          "covers": [
+            "13.2a"
+          ],
+          "visuals": [
+            "I₂ + 2S₂O₃²⁻",
+            "ماء بارد + جليد"
+          ],
+          "words": 145,
+          "estimatedSeconds": 65.9
+        },
+        {
+          "id": "ex13-q2a-drawing",
+          "title": "بروتوكول المعايرة: الخطوات والرسم التخطيطي",
+          "covers": [],
+          "visuals": [
+            "رسم التركيبة",
+            "تغير اللون"
+          ],
+          "words": 140,
+          "estimatedSeconds": 63.6
+        },
+        {
+          "id": "outro",
+          "title": "خلاصة الحلقة",
+          "covers": [],
+          "visuals": [],
+          "words": 50,
+          "estimatedSeconds": 22.7
+        }
+      ],
+      "totalWords": 1295,
+      "sceneCount": 11,
+      "estimatedSeconds": 598.6
+    },
+    {
+      "episode": 10,
+      "title": "العوامل الحركية (2): السرعة الحجمية، التمديد والتسخين + خلاصة الوحدة",
+      "exercises": [
+        13
+      ],
+      "questions": [
+        "13.2b",
+        "13.2c",
+        "13.3",
+        "13.4",
+        "13.5"
+      ],
+      "scenes": [
+        {
+          "id": "intro",
+          "title": "افتتاح الحلقة وتذكير بالتمرين 13",
+          "covers": [],
+          "visuals": [],
+          "words": 80,
+          "estimatedSeconds": 36.4
+        },
+        {
+          "id": "ex13-graph",
+          "title": "قراءة البيان (1)",
+          "covers": [],
+          "visuals": [
+            "ex13_I2_vs_t.jpg",
+            "[I₂]₀ = 20 mmol/L"
+          ],
+          "words": 105,
+          "estimatedSeconds": 47.7
+        },
+        {
+          "id": "ex13-q2b",
+          "title": "تعريف السرعة الحجمية لاختفاء I₂ وحسابها بيانياً",
+          "covers": [
+            "13.2b"
+          ],
+          "visuals": [
+            "v_vol = −d[I₂]/dt",
+            "مماس"
+          ],
+          "words": 175,
+          "estimatedSeconds": 79.5
+        },
+        {
+          "id": "ex13-q2c",
+          "title": "تطور السرعة وتفسيرها المجهري",
+          "covers": [
+            "13.2c"
+          ],
+          "visuals": [
+            "مماسات عند 0 و0,4 و1 min",
+            "التصادمات الفعالة"
+          ],
+          "words": 185,
+          "estimatedSeconds": 84.1
+        },
+        {
+          "id": "ex13-q3",
+          "title": "التجربة الثانية: التمديد",
+          "covers": [
+            "13.3"
+          ],
+          "visuals": [
+            "[I₂]₀ = 10 mmol/L",
+            "البيان (2) كيفياً"
+          ],
+          "words": 195,
+          "estimatedSeconds": 88.6
+        },
+        {
+          "id": "ex13-q4",
+          "title": "التجربة الثالثة: 80°C",
+          "covers": [
+            "13.4"
+          ],
+          "visuals": [
+            "البيان (3) كيفياً"
+          ],
+          "words": 165,
+          "estimatedSeconds": 75.0
+        },
+        {
+          "id": "ex13-q5",
+          "title": "العوامل الحركية",
+          "covers": [
+            "13.5"
+          ],
+          "visuals": [
+            "التركيز",
+            "درجة الحرارة"
+          ],
+          "words": 105,
+          "estimatedSeconds": 47.7
+        },
+        {
+          "id": "unit-recap",
+          "title": "خلاصة الوحدة الأولى",
+          "covers": [],
+          "visuals": [
+            "خريطة ذهنية: كمية المادة ← جدول التقدم ← السرعة ← العوامل الحركية"
+          ],
+          "words": 230,
+          "estimatedSeconds": 104.5
+        },
+        {
+          "id": "outro",
+          "title": "ختام السلسلة",
+          "covers": [],
+          "visuals": [],
+          "words": 60,
+          "estimatedSeconds": 27.3
+        }
+      ],
+      "totalWords": 1300,
+      "sceneCount": 9,
+      "estimatedSeconds": 598.9
+    }
+  ]
+}
