@@ -1,6 +1,8 @@
 // Generates voiceover/episode_NN_voiceover.txt (UTF-8) from src/episodes/*.ts, the single source of truth.
 // Scene timings use the same rules as the video (src/timing.ts): the audio length when
 // public/audio/episode_NN/scene_XX.mp3 exists (read with `npx remotion ffprobe`), otherwise the estimate.
+// Also writes voiceover/tts/episode_NN/scene_XX.txt: the narration of each scene alone, ready for a TTS
+// engine; the generated audio goes to public/audio/episode_NN/scene_XX.mp3 (same NN/XX).
 // Run: node scripts/export-voiceover.ts
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
@@ -42,6 +44,8 @@ for (const ep of EPISODES) {
   });
   const nn = String(ep.number).padStart(2, "0");
   writeFileSync(`voiceover/episode_${nn}_voiceover.txt`, blocks.join("\n"), "utf8");
+  mkdirSync(`voiceover/tts/episode_${nn}`, { recursive: true });
+  ep.scenes.forEach((s, i) => writeFileSync(`voiceover/tts/episode_${nn}/scene_${String(i + 1).padStart(2, "0")}.txt`, `${s.narration}\n`, "utf8"));
   const total = totalFrames(durations) / FPS;
   const ok = total >= 570 && total <= 630;
   if (!ok) failed = true;
