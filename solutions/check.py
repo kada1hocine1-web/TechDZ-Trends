@@ -57,6 +57,10 @@ m_pure = 0.1 * 0.100 * 149.9; check("m pure NaI (g)", m_pure, 1.499)
 check("m0 commercial = m/P (g)", m_pure / 0.90, 1.666)
 
 print("== Exercise 5 ==")
+# label supplied by the teacher (not in the docx): d = 1.19, M = 36.5 g/mol, P = 37 %
+rho = 1.19 * 1000; check("m of 1 L commercial solution (g)", rho, 1190)
+check("m(HCl) in 1 L (g)", 0.37 * rho, 440.3)
+check("c0 = 10 P d / M (mol/L)", 10 * 37 * 1.19 / 36.5, 12.06)
 check("V0 = c1 V / c0 (mL)", 0.482 * 500 / 12.06, 19.98)
 
 print("== Exercise 6 ==")
