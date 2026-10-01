@@ -6,3 +6,5 @@
 - `python3 scripts/export-cases.py` — writes `src/cases/*.json`, `src/registry.ts`, `voiceover/*.txt` (texts to record) and `DESCRIPTIONS.md` (captions).
 - `python3 scripts/generate-voice.py --case <slug> --from-file recording.wav [--cuts end:start,...]` — splits a full recording into lines and measures timings (`--no-voice` = provisional timings from reading speed).
 - `npx remotion render <slug> out/<slug>.mp4 --codec=h264` — renders one case (composition id = slug).
+- `scripts/process.sh <slug> <recording.wav>` — all of the above for one case, plus a <30 MB preview.
+- `node scripts/stills.mjs <slug> [scenes...]` — QA stills, one per scene.
