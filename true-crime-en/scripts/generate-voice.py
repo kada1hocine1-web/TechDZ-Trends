@@ -15,7 +15,7 @@ CASE = sys.argv[sys.argv.index("--case") + 1] if "--case" in sys.argv else None
 assert CASE, "usage: generate-voice.py --case <slug> [--no-voice | --from-file rec.wav [--cuts ...]]"
 AUDIO = ROOT / "public" / CASE
 FPS, BREATH = 30, 12
-READING_CPS = 16  # characters per second, used only with --no-voice
+READING_CPS = 15  # characters per second (typical TTS pace, pauses included), used only with --no-voice
 
 _case = json.loads((ROOT / "src" / "cases" / f"{CASE}.json").read_text(encoding="utf-8"))
 SCRIPT = [(l["id"], l["text"]) for l in _case["lines"]]

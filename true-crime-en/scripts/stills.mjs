@@ -8,7 +8,8 @@ const [slug, ...only] = process.argv.slice(2);
 const root = path.resolve(import.meta.dirname, '..');
 const timings = JSON.parse(fs.readFileSync(path.join(root, 'src/timings', `${slug}.json`), 'utf8'));
 const serveUrl = await bundle({entryPoint: path.join(root, 'src/index.ts')});
-const browserExecutable = '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell';
+const SANDBOX_CHROME = '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell';
+const browserExecutable = fs.existsSync(SANDBOX_CHROME) ? SANDBOX_CHROME : null;
 const composition = await selectComposition({serveUrl, id: slug, browserExecutable});
 let start = 0;
 for (const [i, s] of timings.scenes.entries()) {
