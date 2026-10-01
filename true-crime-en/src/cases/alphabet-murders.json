@@ -1,0 +1,109 @@
+{
+ "slug": "alphabet-murders",
+ "title": "THE ALPHABET MURDERS",
+ "place": "NEW YORK, USA",
+ "year": "1971",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Rochester, New York. Between 1971 and 1973.",
+   "v": {
+    "t": "place",
+    "place": "ROCHESTER",
+    "region": "NEW YORK, USA",
+    "date": "1971 — 1973",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Three young girls, aged ten and eleven, are abducted and murdered.",
+   "v": {
+    "t": "counter",
+    "value": 3,
+    "suffix": " VICTIMS",
+    "label": "AGED 10 AND 11",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Their names: Carmen Colón. Wanda Walkowicz. Michelle Maenza.",
+   "v": {
+    "t": "names",
+    "label": "IN MEMORY",
+    "names": [
+     "CARMEN COLÓN",
+     "WANDA WALKOWICZ",
+     "MICHELLE MAENZA"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "Each girl's first and last names begin with the same letter.",
+   "v": {
+    "t": "letters",
+    "pairs": [
+     "C · C",
+     "W · W",
+     "M · M"
+    ],
+    "label": "DOUBLE INITIALS",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "And each was found in a town starting with that same letter: Churchville, Webster, and Macedon.",
+   "v": {
+    "t": "letters",
+    "pairs": [
+     "C → CHURCHVILLE",
+     "W → WEBSTER",
+     "M → MACEDON"
+    ],
+    "label": "THE TOWNS",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "The press calls them the Alphabet Murders, or the Double Initial Murders.",
+   "v": {
+    "t": "newspaper",
+    "headline": "THE ALPHABET MURDERS",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Hundreds of people are questioned. Several suspects are investigated and later ruled out.",
+   "v": {
+    "t": "suspects",
+    "label": "SUSPECTS RULED OUT",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "No one has ever been charged.",
+   "v": {
+    "t": "silhouette",
+    "label": "NO ONE CHARGED",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "Half a century later, the families are still waiting for answers.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "ROCHESTER · 1971 — 1973",
+    "bg": "night"
+   }
+  }
+ ]
+}

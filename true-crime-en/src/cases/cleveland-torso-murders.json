@@ -1,0 +1,103 @@
+{
+ "slug": "cleveland-torso-murders",
+ "title": "THE CLEVELAND TORSO MURDERS",
+ "place": "OHIO, USA",
+ "year": "1934",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Cleveland, Ohio. In the 1930s, the Great Depression fills the city's ravines with shantytowns.",
+   "v": {
+    "t": "place",
+    "place": "CLEVELAND",
+    "region": "OHIO, USA",
+    "date": "1930s",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "In 1934, the remains of a woman wash up on the shore of Lake Erie. Locals call her the Lady of the Lake.",
+   "v": {
+    "t": "icon",
+    "icon": "river",
+    "label": "THE LADY OF THE LAKE",
+    "sub": "LAKE ERIE · 1934",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Over the next four years, more bodies are found, many around a ravine called Kingsbury Run.",
+   "v": {
+    "t": "place",
+    "place": "KINGSBURY RUN",
+    "region": "CLEVELAND, OHIO",
+    "date": "1935 — 1938",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "Officially, there are at least twelve victims. All dismembered. Most never identified.",
+   "v": {
+    "t": "counter",
+    "value": 12,
+    "prefix": "AT LEAST ",
+    "suffix": "",
+    "label": "MOST NEVER IDENTIFIED",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "The city's Safety Director is a famous lawman: Eliot Ness, the man who took on Al Capone.",
+   "v": {
+    "t": "icon",
+    "icon": "badge",
+    "label": "ELIOT NESS",
+    "sub": "SAFETY DIRECTOR",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "Ness launches a massive manhunt for the man the press calls the Mad Butcher of Kingsbury Run.",
+   "v": {
+    "t": "newspaper",
+    "headline": "THE MAD BUTCHER STRIKES AGAIN",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "In 1938, he orders the shantytowns raided and burned. The killings appear to stop.",
+   "v": {
+    "t": "icon",
+    "icon": "flame",
+    "label": "SHANTYTOWNS BURNED",
+    "sub": "1938",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "Suspects are arrested and questioned, but no one is ever convicted.",
+   "v": {
+    "t": "suspects",
+    "label": "NO CONVICTION",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "The Cleveland Torso Murders remain officially unsolved.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "CLEVELAND · 1934 — 1938",
+    "bg": "ink"
+   }
+  }
+ ]
+}

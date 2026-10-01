@@ -1,0 +1,111 @@
+{
+ "slug": "madeleine-mccann",
+ "title": "MADELEINE McCANN",
+ "place": "PRAIA DA LUZ, PORTUGAL",
+ "year": "2007",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Praia da Luz, Portugal. May 3rd, 2007.",
+   "v": {
+    "t": "place",
+    "place": "PRAIA DA LUZ",
+    "region": "ALGARVE, PORTUGAL",
+    "date": "MAY 3, 2007",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "A British family is on holiday at a resort on the Algarve coast.",
+   "v": {
+    "t": "icon",
+    "icon": "beach",
+    "label": "A FAMILY HOLIDAY",
+    "sub": "ALGARVE COAST",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Three-year-old Madeleine McCann and her younger twin siblings sleep in the apartment, while their parents dine with friends at a restaurant nearby.",
+   "v": {
+    "t": "icon",
+    "icon": "house",
+    "label": "THE APARTMENT",
+    "sub": "PARENTS DINING NEARBY",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "The parents take turns checking on the children.",
+   "v": {
+    "t": "icon",
+    "icon": "clock",
+    "label": "REGULAR CHECKS",
+    "sub": "",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "At around 10 p.m., Madeleine's mother discovers she is gone.",
+   "v": {
+    "t": "date",
+    "date": "10:00 P.M.",
+    "label": "MADELEINE IS GONE",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "The disappearance becomes one of the most heavily reported missing person cases in modern history.",
+   "v": {
+    "t": "newspaper",
+    "headline": "HAVE YOU SEEN MADELEINE?",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Police in Portugal, Britain and Germany have investigated for years. Scotland Yard opened its own investigation in 2011.",
+   "v": {
+    "t": "icon",
+    "icon": "badge",
+    "label": "PORTUGAL · UK · GERMANY",
+    "sub": "SCOTLAND YARD · 2011",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "In 2020, German prosecutors named a suspect, who has not been charged in her case.",
+   "v": {
+    "t": "silhouette",
+    "label": "NOT CHARGED IN HER CASE",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "Madeleine has never been found.",
+   "v": {
+    "t": "stamp",
+    "text": "MISSING",
+    "sub": "SINCE MAY 3, 2007",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "Her family continues to search, and the case remains open.",
+   "v": {
+    "t": "stamp",
+    "text": "CASE OPEN",
+    "sub": "MADELEINE McCANN",
+    "bg": "night"
+   }
+  }
+ ]
+}

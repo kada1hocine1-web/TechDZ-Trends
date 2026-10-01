@@ -1,0 +1,145 @@
+{
+ "slug": "db-cooper",
+ "title": "D.B. COOPER",
+ "place": "WASHINGTON, USA",
+ "year": "1971",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "November 24th, 1971. A man boards a plane… and vanishes forever. This is the mystery of D.B. Cooper.",
+   "v": {
+    "t": "title",
+    "title": "D.B. COOPER",
+    "sub": "NOVEMBER 24, 1971",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Dark suit, black clip-on tie. He buys a one-way ticket for twenty dollars on Northwest Orient Flight 305, from Portland to Seattle, under the name Dan Cooper.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "tie",
+      "label": "CLIP-ON TIE"
+     },
+     {
+      "icon": "ticket",
+      "label": "FLIGHT 305 · $20"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Shortly after takeoff, he hands a note to a flight attendant. She ignores it. So he leans in and whispers: 'Miss, you'd better look at that note. I have a bomb.'",
+   "v": {
+    "t": "quote",
+    "text": "I HAVE A BOMB.",
+    "by": "\"MISS, YOU'D BETTER LOOK AT THAT NOTE.\"",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "He opens his briefcase: red cylinders, wires.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "briefcase",
+      "label": "RED CYLINDERS · WIRES"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "His demands: two hundred thousand dollars in twenty-dollar bills, four parachutes, and a fuel truck waiting in Seattle.",
+   "v": {
+    "t": "counter",
+    "value": 200000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "+ 4 PARACHUTES",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "The FBI delivers the ransom and the parachutes on the tarmac. Cooper releases the passengers… but keeps the crew.",
+   "v": {
+    "t": "icon",
+    "icon": "plane",
+    "label": "PASSENGERS RELEASED",
+    "sub": "CREW KEPT ON BOARD",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "He orders the plane to fly toward Mexico City, at ten thousand feet, landing gear down.",
+   "v": {
+    "t": "counter",
+    "value": 10000,
+    "suffix": " FEET",
+    "label": "HEADING: MEXICO CITY",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "Somewhere over the dark, freezing, forested mountains of the Pacific Northwest, he lowers the rear stairs of the Boeing 727… and jumps into the night.",
+   "v": {
+    "t": "icon",
+    "icon": "parachute",
+    "label": "HE JUMPS",
+    "sub": "INTO THE NIGHT",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "A massive manhunt follows. More than eight hundred suspects are questioned. Cooper is never found.",
+   "v": {
+    "t": "suspects",
+    "label": "800+ SUSPECTS",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "In 1980, a young boy digging on the bank of the Columbia River finds bundles of decaying bills: five thousand eight hundred dollars of the ransom.",
+   "v": {
+    "t": "counter",
+    "value": 5800,
+    "prefix": "$",
+    "suffix": "",
+    "label": "FOUND IN 1980 · COLUMBIA RIVER",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s11",
+   "text": "But no trace of the hijacker, the rest of the money, or his parachute.",
+   "v": {
+    "t": "silhouette",
+    "label": "NO TRACE",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s12",
+   "text": "To this day, it remains the only unsolved case of air piracy in American aviation history.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "D.B. COOPER · 1971",
+    "bg": "ink"
+   }
+  }
+ ]
+}

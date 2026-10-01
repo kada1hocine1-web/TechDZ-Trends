@@ -1,0 +1,121 @@
+{
+ "slug": "dyatlov-pass",
+ "title": "THE DYATLOV PASS INCIDENT",
+ "place": "URAL MOUNTAINS, USSR",
+ "year": "1959",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "The Ural Mountains, Soviet Union. January 1959.",
+   "v": {
+    "t": "place",
+    "place": "URAL MOUNTAINS",
+    "region": "SOVIET UNION",
+    "date": "1959",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Nine experienced hikers, led by 23-year-old Igor Dyatlov, set out on a winter trek.",
+   "v": {
+    "t": "counter",
+    "value": 9,
+    "suffix": " HIKERS",
+    "label": "LED BY IGOR DYATLOV",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "On the night of February 1st, they make camp on the slope of a mountain called Kholat Syakhl.",
+   "v": {
+    "t": "icon",
+    "icon": "mountain",
+    "label": "KHOLAT SYAKHL",
+    "sub": "FEBRUARY 1, 1959",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "Weeks later, searchers find the tent. It has been cut open from the inside.",
+   "v": {
+    "t": "icon",
+    "icon": "tent",
+    "label": "CUT FROM THE INSIDE",
+    "sub": "",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "Footprints show the group fled into the freezing night, many without shoes or proper clothing.",
+   "v": {
+    "t": "icon",
+    "icon": "footprints",
+    "label": "FLED INTO THE NIGHT",
+    "sub": "MANY WITHOUT SHOES",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "The bodies are found over the following months. Some died of hypothermia. Others had severe internal injuries.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "snow",
+      "label": "HYPOTHERMIA"
+     },
+     {
+      "icon": "magnifier",
+      "label": "SEVERE INJURIES"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Soviet investigators conclude only that they died because of a 'compelling natural force'.",
+   "v": {
+    "t": "quote",
+    "text": "A COMPELLING NATURAL FORCE",
+    "by": "SOVIET INVESTIGATION · 1959",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "Theories multiply: avalanches, secret military tests, even the supernatural.",
+   "v": {
+    "t": "suspects",
+    "label": "THEORIES",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "In 2020, Russian prosecutors concluded that a slab avalanche had driven them from the tent.",
+   "v": {
+    "t": "icon",
+    "icon": "mountain",
+    "label": "SLAB AVALANCHE?",
+    "sub": "RUSSIAN PROSECUTORS · 2020",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "But for many, the Dyatlov Pass incident is still not fully explained.",
+   "v": {
+    "t": "stamp",
+    "text": "UNEXPLAINED",
+    "sub": "DYATLOV PASS · 1959",
+    "bg": "ink"
+   }
+  }
+ ]
+}

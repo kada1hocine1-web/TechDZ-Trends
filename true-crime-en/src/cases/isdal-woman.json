@@ -1,0 +1,136 @@
+{
+ "slug": "isdal-woman",
+ "title": "THE ISDAL WOMAN",
+ "place": "BERGEN, NORWAY",
+ "year": "1970",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Bergen, Norway. November 29th, 1970.",
+   "v": {
+    "t": "date",
+    "date": "NOVEMBER 29, 1970",
+    "label": "BERGEN, NORWAY",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Hikers in a remote valley find the body of a woman, badly burned, surrounded by strange objects.",
+   "v": {
+    "t": "place",
+    "place": "ISDALEN",
+    "region": "THE 'ICE VALLEY', BERGEN",
+    "date": "1970",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "All the labels have been removed from her clothes and belongings.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "scissors",
+      "label": "LABELS REMOVED"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "Days later, police find two suitcases she left at Bergen railway station.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "suitcase",
+      "label": "SUITCASE 1"
+     },
+     {
+      "icon": "suitcase",
+      "label": "SUITCASE 2"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "Inside: wigs, glasses without corrective lenses, and a notebook filled with coded entries.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "wig",
+      "label": "WIGS"
+     },
+     {
+      "icon": "glasses",
+      "label": "PLAIN GLASSES"
+     },
+     {
+      "icon": "book",
+      "label": "CODED NOTES"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "Investigators discover she had traveled across Europe using at least nine different false identities.",
+   "v": {
+    "t": "counter",
+    "value": 9,
+    "suffix": " IDENTITIES",
+    "label": "AT LEAST",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Police officially conclude it was suicide. Many have never accepted that answer.",
+   "v": {
+    "t": "court",
+    "lines": [
+     "OFFICIAL RULING:",
+     "SUICIDE",
+     "DISPUTED"
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "In 2017, isotope analysis of her teeth suggested she was born around 1930, near Nuremberg, Germany.",
+   "v": {
+    "t": "dna",
+    "label": "BORN c. 1930?",
+    "sub": "NEAR NUREMBERG · 2017 ANALYSIS",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "But her name, and her true story, remain unknown.",
+   "v": {
+    "t": "silhouette",
+    "label": "NAME UNKNOWN",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "The Isdal Woman remains one of Norway's greatest mysteries.",
+   "v": {
+    "t": "stamp",
+    "text": "UNIDENTIFIED",
+    "sub": "ISDAL WOMAN · 1970",
+    "bg": "night"
+   }
+  }
+ ]
+}

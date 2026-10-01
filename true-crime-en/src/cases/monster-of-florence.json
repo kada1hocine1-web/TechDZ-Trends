@@ -1,0 +1,119 @@
+{
+ "slug": "monster-of-florence",
+ "title": "THE MONSTER OF FLORENCE",
+ "place": "FLORENCE, ITALY",
+ "year": "1968",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Florence, Italy. Between 1968 and 1985, the hills around the city become a hunting ground.",
+   "v": {
+    "t": "place",
+    "place": "FLORENCE",
+    "region": "TUSCANY, ITALY",
+    "date": "1968 — 1985",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Eight couples are murdered, sixteen victims in all, attacked at night in parked cars in secluded spots.",
+   "v": {
+    "t": "counter",
+    "value": 16,
+    "suffix": " VICTIMS",
+    "label": "8 COUPLES",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Ballistics link the killings to the same .22 caliber Beretta pistol.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "magnifier",
+      "label": "SAME .22 BERETTA"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "The press names the killer 'Il Mostro di Firenze', the Monster of Florence.",
+   "v": {
+    "t": "title",
+    "title": "IL MOSTRO DI FIRENZE",
+    "sub": "THE MONSTER OF FLORENCE",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "The investigation becomes one of the longest and most controversial in Italian history.",
+   "v": {
+    "t": "suspects",
+    "label": "DECADES OF INVESTIGATION",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "In 1994, a farmer named Pietro Pacciani is convicted. His conviction is overturned on appeal. He dies in 1998 before a retrial.",
+   "v": {
+    "t": "court",
+    "lines": [
+     "1994: CONVICTED",
+     "1996: OVERTURNED",
+     "1998: DIES BEFORE RETRIAL"
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Two of his acquaintances are later convicted for some of the murders.",
+   "v": {
+    "t": "court",
+    "lines": [
+     "2 ACQUAINTANCES",
+     "CONVICTED",
+     "FOR SOME OF THE MURDERS"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "But many investigators and journalists doubt that the whole truth was ever uncovered.",
+   "v": {
+    "t": "newspaper",
+    "headline": "THE WHOLE TRUTH?",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "The gun was never found.",
+   "v": {
+    "t": "icon",
+    "icon": "magnifier",
+    "label": "THE GUN",
+    "sub": "NEVER FOUND",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "Decades later, the true identity of the Monster of Florence is still debated.",
+   "v": {
+    "t": "stamp",
+    "text": "STILL DEBATED",
+    "sub": "FLORENCE · 1968 — 1985",
+    "bg": "ink"
+   }
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "slug": "setagaya-family-murder",
+ "title": "THE SETAGAYA FAMILY MURDER",
+ "place": "TOKYO, JAPAN",
+ "year": "2000",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Setagaya, Tokyo. The night of December 30th, 2000.",
+   "v": {
+    "t": "place",
+    "place": "SETAGAYA",
+    "region": "TOKYO, JAPAN",
+    "date": "DEC 30, 2000",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "The Miyazawa family, a father, a mother, and their two young children, are at home.",
+   "v": {
+    "t": "icon",
+    "icon": "house",
+    "label": "THE MIYAZAWA FAMILY",
+    "sub": "A FAMILY OF FOUR",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "An intruder enters through a bathroom window and kills all four.",
+   "v": {
+    "t": "icon",
+    "icon": "window",
+    "label": "THROUGH A WINDOW",
+    "sub": "",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "Then, instead of fleeing, the killer stays in the house for hours.",
+   "v": {
+    "t": "icon",
+    "icon": "clock",
+    "label": "HE STAYS FOR HOURS",
+    "sub": "",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "He uses the family computer, eats food from the fridge, and even treats his own wounds.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "computer",
+      "label": "USES THE COMPUTER"
+     },
+     {
+      "icon": "burger",
+      "label": "EATS"
+     },
+     {
+      "icon": "bandage",
+      "label": "TREATS HIS WOUND"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "He leaves behind fingerprints, his blood, and clothes. Evidence that should solve any case.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "fingerprint",
+      "label": "FINGERPRINTS"
+     },
+     {
+      "icon": "dna",
+      "label": "HIS DNA"
+     },
+     {
+      "icon": "tie",
+      "label": "CLOTHES"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "DNA suggests that his mother's family line may trace back to southern Europe.",
+   "v": {
+    "t": "dna",
+    "label": "MATERNAL LINE",
+    "sub": "SOUTHERN EUROPE?",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "Yet his fingerprints and DNA match no one in Japan's databases.",
+   "v": {
+    "t": "icon",
+    "icon": "fingerprint",
+    "label": "NO MATCH",
+    "sub": "",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "More than two decades later, Tokyo police are still asking the public for help.",
+   "v": {
+    "t": "icon",
+    "icon": "badge",
+    "label": "STILL ASKING FOR HELP",
+    "sub": "TOKYO POLICE",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "The killer has never been identified.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "SETAGAYA · 2000",
+    "bg": "ink"
+   }
+  }
+ ]
+}

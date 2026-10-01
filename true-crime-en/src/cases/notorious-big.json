@@ -1,0 +1,112 @@
+{
+ "slug": "notorious-big",
+ "title": "THE NOTORIOUS B.I.G.",
+ "place": "CALIFORNIA, USA",
+ "year": "1997",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Los Angeles. March 9th, 1997.",
+   "v": {
+    "t": "date",
+    "date": "MARCH 9, 1997",
+    "label": "LOS ANGELES",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Christopher Wallace, the Notorious B.I.G., is one of the biggest stars in hip-hop.",
+   "v": {
+    "t": "icon",
+    "icon": "mic",
+    "label": "THE NOTORIOUS B.I.G.",
+    "sub": "CHRISTOPHER WALLACE",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "That night, he leaves a music industry party at the Petersen Automotive Museum.",
+   "v": {
+    "t": "place",
+    "place": "PETERSEN AUTOMOTIVE MUSEUM",
+    "region": "LOS ANGELES",
+    "date": "MARCH 9, 1997",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "His SUV stops at a red light. A dark car pulls up alongside.",
+   "v": {
+    "t": "icon",
+    "icon": "car",
+    "label": "A RED LIGHT",
+    "sub": "A DARK CAR PULLS UP",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "A gunman opens fire. Biggie is rushed to the hospital, but dies. He was 24 years old.",
+   "v": {
+    "t": "names",
+    "label": "1972 — 1997",
+    "names": [
+     "CHRISTOPHER WALLACE",
+     "AGE 24"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "His death comes six months after the killing of Tupac Shakur in Las Vegas.",
+   "v": {
+    "t": "counter",
+    "value": 6,
+    "suffix": " MONTHS",
+    "label": "AFTER TUPAC SHAKUR",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Theories point to the bitter East Coast–West Coast rivalry, and even to allegations involving police officers.",
+   "v": {
+    "t": "suspects",
+    "label": "THEORIES",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "Investigations, lawsuits, books and documentaries follow.",
+   "v": {
+    "t": "newspaper",
+    "headline": "WHO KILLED BIGGIE?",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "But no one has ever been charged with his murder.",
+   "v": {
+    "t": "silhouette",
+    "label": "NO ONE CHARGED",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "His second album, released just over two weeks later, was titled Life After Death.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "LOS ANGELES · 1997",
+    "bg": "ink"
+   }
+  }
+ ]
+}

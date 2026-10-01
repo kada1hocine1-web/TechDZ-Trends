@@ -1,0 +1,110 @@
+{
+ "slug": "chicago-tylenol-murders",
+ "title": "THE CHICAGO TYLENOL MURDERS",
+ "place": "ILLINOIS, USA",
+ "year": "1982",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Chicago, Illinois. September 1982.",
+   "v": {
+    "t": "place",
+    "place": "CHICAGO",
+    "region": "ILLINOIS, USA",
+    "date": "SEPT 1982",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "A twelve-year-old girl takes a capsule of Extra-Strength Tylenol for a cold. She dies hours later.",
+   "v": {
+    "t": "icon",
+    "icon": "bottle",
+    "label": "EXTRA-STRENGTH CAPSULES",
+    "sub": "",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Within days, six more people in the Chicago area die the same way.",
+   "v": {
+    "t": "counter",
+    "value": 7,
+    "suffix": " DEATHS",
+    "label": "CHICAGO AREA · 1982",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "The capsules have been laced with potassium cyanide.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "bottle",
+      "label": "POTASSIUM CYANIDE"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "Investigators believe someone took bottles from stores, poisoned them, and put them back on the shelves.",
+   "v": {
+    "t": "icon",
+    "icon": "shelf",
+    "label": "BACK ON THE SHELVES",
+    "sub": "",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "Johnson & Johnson recalls around 31 million bottles across the United States.",
+   "v": {
+    "t": "counter",
+    "value": 31,
+    "suffix": " MILLION",
+    "label": "BOTTLES RECALLED",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "A man who sent an extortion letter demanding one million dollars is convicted of extortion, but never charged with the murders.",
+   "v": {
+    "t": "court",
+    "lines": [
+     "EXTORTION: CONVICTED",
+     "MURDERS: NEVER CHARGED"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "The tragedy leads to tamper-resistant packaging, still used on medicines today.",
+   "v": {
+    "t": "icon",
+    "icon": "seal",
+    "label": "TAMPER-RESISTANT",
+    "sub": "PACKAGING",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "But the poisoner was never caught.",
+   "v": {
+    "t": "stamp",
+    "text": "NEVER CAUGHT",
+    "sub": "CHICAGO · 1982",
+    "bg": "ink"
+   }
+  }
+ ]
+}

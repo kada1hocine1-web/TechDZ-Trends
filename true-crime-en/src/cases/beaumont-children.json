@@ -1,0 +1,106 @@
+{
+ "slug": "beaumont-children",
+ "title": "THE BEAUMONT CHILDREN",
+ "place": "ADELAIDE, AUSTRALIA",
+ "year": "1966",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Adelaide, Australia. January 26th, 1966. Australia Day.",
+   "v": {
+    "t": "date",
+    "date": "JANUARY 26, 1966",
+    "label": "AUSTRALIA DAY",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Three siblings, Jane, Arnna and Grant Beaumont, aged nine, seven and four, take the bus to Glenelg Beach.",
+   "v": {
+    "t": "names",
+    "label": "THE BEAUMONT CHILDREN",
+    "names": [
+     "JANE · 9",
+     "ARNNA · 7",
+     "GRANT · 4"
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "They are expected home by midday. They never return.",
+   "v": {
+    "t": "icon",
+    "icon": "clock",
+    "label": "EXPECTED HOME AT NOON",
+    "sub": "THEY NEVER RETURN",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "Witnesses later report seeing the children playing with a tall, thin man with fair hair.",
+   "v": {
+    "t": "silhouette",
+    "label": "TALL · THIN · FAIR HAIR",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "At a local shop, the children pay for their food with a one-pound note, more money than their mother had given them.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "money",
+      "label": "A ONE-POUND NOTE"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "The disappearance triggers one of the largest searches in Australian history.",
+   "v": {
+    "t": "icon",
+    "icon": "magnifier",
+    "label": "A NATIONWIDE SEARCH",
+    "sub": "",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Over the decades, sites are excavated, and new leads emerge. None bring them home.",
+   "v": {
+    "t": "suspects",
+    "label": "LEADS FOLLOWED",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "The Beaumont children have never been found.",
+   "v": {
+    "t": "stamp",
+    "text": "MISSING",
+    "sub": "SINCE JANUARY 26, 1966",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "Their disappearance changed Australia forever, and the case remains open to this day.",
+   "v": {
+    "t": "stamp",
+    "text": "CASE OPEN",
+    "sub": "BEAUMONT CHILDREN · 1966",
+    "bg": "night"
+   }
+  }
+ ]
+}

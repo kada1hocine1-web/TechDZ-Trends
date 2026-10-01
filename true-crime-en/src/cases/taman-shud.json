@@ -1,0 +1,130 @@
+{
+ "slug": "taman-shud",
+ "title": "THE TAMAN SHUD CASE",
+ "place": "ADELAIDE, AUSTRALIA",
+ "year": "1948",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Adelaide, Australia. December 1st, 1948. A man is found dead on Somerton Beach.",
+   "v": {
+    "t": "place",
+    "place": "SOMERTON BEACH",
+    "region": "ADELAIDE, AUSTRALIA",
+    "date": "DEC 1, 1948",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "He is well dressed, but carries no identification. The labels have been cut from his clothes.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "tie",
+      "label": "WELL DRESSED"
+     },
+     {
+      "icon": "magnifier",
+      "label": "NO ID"
+     },
+     {
+      "icon": "scissors",
+      "label": "LABELS CUT"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "The autopsy suggests poison, but no poison is ever found.",
+   "v": {
+    "t": "icon",
+    "icon": "bottle",
+    "label": "POISON?",
+    "sub": "NEVER FOUND",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "Months later, investigators find a tiny rolled-up scrap of paper hidden in his trouser pocket.",
+   "v": {
+    "t": "icon",
+    "icon": "scroll",
+    "label": "A HIDDEN SCRAP",
+    "sub": "IN A TROUSER POCKET",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "It reads 'Tamám Shud', meaning 'ended' or 'finished'. The words were torn from a book of Persian poetry: the Rubaiyat of Omar Khayyam.",
+   "v": {
+    "t": "quote",
+    "text": "TAMÁM SHUD",
+    "by": "\"ENDED\" — RUBAIYAT OF OMAR KHAYYAM",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "A man later hands police the copy of the book it came from. It had been left in his car.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "book",
+      "label": "THE BOOK"
+     },
+     {
+      "icon": "car",
+      "label": "LEFT IN A CAR"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Inside the back cover: a phone number, and a mysterious code that has never been cracked.",
+   "v": {
+    "t": "cipher",
+    "label": "THE CODE",
+    "sub": "NEVER CRACKED",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "For more than seventy years, no one knows who he is.",
+   "v": {
+    "t": "silhouette",
+    "label": "THE SOMERTON MAN",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "In 2022, researchers announced that DNA genealogy had identified him as Carl Webb, an electrical engineer from Melbourne.",
+   "v": {
+    "t": "dna",
+    "label": "CARL WEBB?",
+    "sub": "DNA GENEALOGY · 2022",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "But how he died, and why, remains a mystery.",
+   "v": {
+    "t": "stamp",
+    "text": "UNEXPLAINED",
+    "sub": "TAMAM SHUD · 1948",
+    "bg": "ink"
+   }
+  }
+ ]
+}
