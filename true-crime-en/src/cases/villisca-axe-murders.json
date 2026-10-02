@@ -1,0 +1,128 @@
+{
+ "slug": "villisca-axe-murders",
+ "title": "THE VILLISCA AXE MURDERS",
+ "place": "IOWA, USA",
+ "year": "1912",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Villisca, Iowa. June 1912. A quiet small town in the American Midwest.",
+   "v": {
+    "t": "place",
+    "place": "VILLISCA",
+    "region": "IOWA, USA",
+    "date": "JUNE 1912",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "On the night of June 9th, the Moore family returns home from a church program, with two young guests: the Stillinger sisters.",
+   "v": {
+    "t": "icon",
+    "icon": "house",
+    "label": "THE MOORE HOUSE",
+    "sub": "JUNE 9, 1912",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "The next morning, the house is silent. Neighbors find all eight people inside murdered in their beds.",
+   "v": {
+    "t": "counter",
+    "value": 8,
+    "suffix": " VICTIMS",
+    "label": "6 MOORES · 2 STILLINGERS",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "The weapon is an axe belonging to the father, Josiah Moore.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "axe",
+      "label": "THE FAMILY AXE"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "Strange details haunt investigators: every mirror and window had been covered with cloth.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "mirror",
+      "label": "MIRRORS COVERED"
+     },
+     {
+      "icon": "window",
+      "label": "WINDOWS COVERED"
+     }
+    ],
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "Crowds trample through the house before the scene is secured, destroying evidence.",
+   "v": {
+    "t": "icon",
+    "icon": "footprints",
+    "label": "CRIME SCENE",
+    "sub": "CONTAMINATED",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Several suspects emerge. A traveling preacher, Reverend George Kelly, is tried twice.",
+   "v": {
+    "t": "court",
+    "lines": [
+     "STATE OF IOWA",
+     "v.",
+     "REV. GEORGE KELLY"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "The first jury deadlocks. The second acquits him.",
+   "v": {
+    "t": "court",
+    "lines": [
+     "TRIAL 1: HUNG JURY",
+     "TRIAL 2: ACQUITTED"
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "The case is never solved.",
+   "v": {
+    "t": "silhouette",
+    "label": "KILLER NEVER IDENTIFIED",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "Today, the Villisca Axe Murder House still stands, and the killer's identity remains unknown.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "VILLISCA · 1912",
+    "bg": "night"
+   }
+  }
+ ]
+}

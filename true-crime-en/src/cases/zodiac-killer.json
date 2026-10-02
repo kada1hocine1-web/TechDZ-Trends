@@ -1,0 +1,115 @@
+{
+ "slug": "zodiac-killer",
+ "title": "THE ZODIAC KILLER",
+ "place": "CALIFORNIA, USA",
+ "year": "1968",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Northern California. December 1968.",
+   "v": {
+    "t": "place",
+    "place": "NORTHERN CALIFORNIA",
+    "region": "USA",
+    "date": "DEC 1968",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "A killer begins a series of attacks. Over the next ten months, five people are killed and two survive.",
+   "v": {
+    "t": "counter",
+    "value": 5,
+    "suffix": " KILLED",
+    "label": "2 SURVIVORS",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Then he starts writing to the newspapers.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "envelope",
+      "label": "TO THE EDITOR"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "He calls himself the Zodiac, and signs his letters with a crosshair symbol.",
+   "v": {
+    "t": "title",
+    "title": "THE ZODIAC",
+    "sub": "⊕ HIS SIGNATURE",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "He sends coded messages, ciphers, and demands they be printed on front pages.",
+   "v": {
+    "t": "cipher",
+    "label": "CIPHERS",
+    "sub": "PRINT THIS ON THE FRONT PAGE",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "One cipher is cracked within days by a schoolteacher and his wife.",
+   "v": {
+    "t": "cipher",
+    "label": "408 CIPHER",
+    "sub": "SOLVED · 1969",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Another, the 340 cipher, resists for 51 years. Amateur codebreakers finally solve it in 2020.",
+   "v": {
+    "t": "cipher",
+    "label": "340 CIPHER",
+    "sub": "SOLVED · 2020",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "In his letters, the Zodiac claims as many as 37 victims.",
+   "v": {
+    "t": "counter",
+    "value": 37,
+    "prefix": "CLAIMED: ",
+    "suffix": "",
+    "label": "UNVERIFIED",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "Thousands of suspects are investigated. No one is ever charged.",
+   "v": {
+    "t": "suspects",
+    "label": "THOUSANDS OF SUSPECTS",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "The Zodiac Killer was never caught.",
+   "v": {
+    "t": "stamp",
+    "text": "NEVER CAUGHT",
+    "sub": "THE ZODIAC · 1968",
+    "bg": "ink"
+   }
+  }
+ ]
+}

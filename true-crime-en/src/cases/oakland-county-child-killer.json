@@ -1,0 +1,107 @@
+{
+ "slug": "oakland-county-child-killer",
+ "title": "THE OAKLAND COUNTY CHILD KILLER",
+ "place": "MICHIGAN, USA",
+ "year": "1976",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Oakland County, Michigan. 1976.",
+   "v": {
+    "t": "place",
+    "place": "OAKLAND COUNTY",
+    "region": "MICHIGAN, USA",
+    "date": "1976 — 1977",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Over thirteen months, four children are abducted and killed.",
+   "v": {
+    "t": "counter",
+    "value": 4,
+    "suffix": " CHILDREN",
+    "label": "IN 13 MONTHS",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Mark Stebbins. Jill Robinson. Kristine Mihelich. Timothy King.",
+   "v": {
+    "t": "names",
+    "label": "IN MEMORY",
+    "names": [
+     "MARK STEBBINS",
+     "JILL ROBINSON",
+     "KRISTINE MIHELICH",
+     "TIMOTHY KING"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "Their bodies are found days later, left in public places, carefully laid out.",
+   "v": {
+    "t": "icon",
+    "icon": "magnifier",
+    "label": "LEFT IN PUBLIC PLACES",
+    "sub": "",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "Fear grips the suburbs of Detroit. Parents stop letting their children go out alone.",
+   "v": {
+    "t": "icon",
+    "icon": "house",
+    "label": "FEAR IN THE SUBURBS",
+    "sub": "",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "A task force launches what was then one of the largest murder investigations in American history.",
+   "v": {
+    "t": "icon",
+    "icon": "badge",
+    "label": "TASK FORCE",
+    "sub": "ONE OF THE LARGEST IN U.S. HISTORY",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Thousands of tips are examined. Over the years, DNA testing rules out several suspects.",
+   "v": {
+    "t": "dna",
+    "label": "SUSPECTS RULED OUT",
+    "sub": "DNA TESTING",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "No one is ever charged.",
+   "v": {
+    "t": "silhouette",
+    "label": "NO ONE CHARGED",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "The case remains open, and investigators still hope for a breakthrough.",
+   "v": {
+    "t": "stamp",
+    "text": "CASE OPEN",
+    "sub": "OAKLAND COUNTY · 1976 — 1977",
+    "bg": "night"
+   }
+  }
+ ]
+}

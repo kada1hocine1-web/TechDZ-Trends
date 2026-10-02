@@ -1,0 +1,120 @@
+{
+ "slug": "black-dahlia",
+ "title": "THE BLACK DAHLIA",
+ "place": "CALIFORNIA, USA",
+ "year": "1947",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Los Angeles, January 15th, 1947.",
+   "v": {
+    "t": "date",
+    "date": "JANUARY 15, 1947",
+    "label": "LOS ANGELES",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "In a vacant lot in the Leimert Park neighborhood, a woman walking with her child discovers a body.",
+   "v": {
+    "t": "place",
+    "place": "LEIMERT PARK",
+    "region": "LOS ANGELES, CALIFORNIA",
+    "date": "1947",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "The victim is Elizabeth Short, a 22-year-old aspiring actress.",
+   "v": {
+    "t": "names",
+    "label": "THE VICTIM",
+    "names": [
+     "ELIZABETH SHORT",
+     "AGE 22"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "The newspapers give her a name that will make her famous: the Black Dahlia.",
+   "v": {
+    "t": "title",
+    "title": "THE BLACK DAHLIA",
+    "sub": "AS NAMED BY THE PRESS",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "The crime is brutal, and the press coverage is relentless.",
+   "v": {
+    "t": "newspaper",
+    "headline": "WHO KILLED THE BLACK DAHLIA?",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "Days later, a package arrives at the Los Angeles Examiner, containing her birth certificate, photos, and address book.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "envelope",
+      "label": "PACKAGE"
+     },
+     {
+      "icon": "book",
+      "label": "ADDRESS BOOK"
+     },
+     {
+      "icon": "photo",
+      "label": "PHOTOS"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Dozens of people come forward to confess. None of the confessions hold up.",
+   "v": {
+    "t": "suspects",
+    "label": "FALSE CONFESSIONS",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "Detectives investigate hundreds of suspects.",
+   "v": {
+    "t": "suspects",
+    "label": "HUNDREDS OF SUSPECTS",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "But no one is ever charged.",
+   "v": {
+    "t": "silhouette",
+    "label": "NO ONE CHARGED",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "More than 75 years later, the Black Dahlia murder remains one of Los Angeles's most famous unsolved cases.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "LOS ANGELES · 1947",
+    "bg": "night"
+   }
+  }
+ ]
+}

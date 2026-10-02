@@ -1,0 +1,126 @@
+{
+ "slug": "jack-the-ripper",
+ "title": "JACK THE RIPPER",
+ "place": "LONDON, ENGLAND",
+ "year": "1888",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "London, 1888. In the crowded streets of Whitechapel, a killer strikes in the dark.",
+   "v": {
+    "t": "place",
+    "place": "WHITECHAPEL",
+    "region": "LONDON, ENGLAND",
+    "date": "1888",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Between August and November, five women are murdered. Historians call them the canonical five.",
+   "v": {
+    "t": "counter",
+    "value": 5,
+    "suffix": " VICTIMS",
+    "label": "AUG — NOV 1888",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Mary Ann Nichols. Annie Chapman. Elizabeth Stride. Catherine Eddowes. Mary Jane Kelly.",
+   "v": {
+    "t": "names",
+    "label": "THE CANONICAL FIVE",
+    "names": [
+     "MARY ANN NICHOLS",
+     "ANNIE CHAPMAN",
+     "ELIZABETH STRIDE",
+     "CATHERINE EDDOWES",
+     "MARY JANE KELLY"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "The killings are savage, and panic spreads across the city.",
+   "v": {
+    "t": "newspaper",
+    "headline": "TERROR IN WHITECHAPEL",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "Police and newspapers receive hundreds of letters claiming to be from the killer.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "envelope",
+      "label": "LETTERS"
+     },
+     {
+      "icon": "envelope",
+      "label": "POSTCARDS"
+     },
+     {
+      "icon": "magnifier",
+      "label": "HOAXES?"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "One of them, the 'Dear Boss' letter, gives him the name the world will remember: Jack the Ripper.",
+   "v": {
+    "t": "letter",
+    "heading": "DEAR BOSS,",
+    "sign": "Jack the Ripper",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Another, the 'From Hell' letter, is sent with half of a human kidney.",
+   "v": {
+    "t": "letter",
+    "heading": "FROM HELL",
+    "sign": "",
+    "stamp": "PARCEL",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "Scotland Yard investigates for months. Dozens of suspects are named, from doctors to drifters.",
+   "v": {
+    "t": "suspects",
+    "label": "DOZENS OF SUSPECTS",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "No one is ever charged.",
+   "v": {
+    "t": "silhouette",
+    "label": "IDENTITY UNKNOWN",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "More than a century later, the identity of Jack the Ripper remains one of history's greatest mysteries.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "JACK THE RIPPER · 1888",
+    "bg": "ink"
+   }
+  }
+ ]
+}

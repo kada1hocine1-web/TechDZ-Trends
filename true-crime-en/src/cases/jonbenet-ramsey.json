@@ -1,0 +1,114 @@
+{
+ "slug": "jonbenet-ramsey",
+ "title": "JONBENÉT RAMSEY",
+ "place": "COLORADO, USA",
+ "year": "1996",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Boulder, Colorado. December 26th, 1996.",
+   "v": {
+    "t": "date",
+    "date": "DECEMBER 26, 1996",
+    "label": "BOULDER, COLORADO",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Early in the morning, Patsy Ramsey calls the police. Her six-year-old daughter, JonBenét, is missing.",
+   "v": {
+    "t": "icon",
+    "icon": "phone",
+    "label": "CALL TO POLICE",
+    "sub": "JONBENÉT, 6, IS MISSING",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "On the stairs, she has found a long, handwritten ransom note demanding 118,000 dollars.",
+   "v": {
+    "t": "letter",
+    "heading": "RANSOM NOTE",
+    "sign": "$118,000",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "That afternoon, JonBenét is found dead in the basement of the family home.",
+   "v": {
+    "t": "icon",
+    "icon": "house",
+    "label": "FOUND IN THE BASEMENT",
+    "sub": "THAT AFTERNOON",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "The investigation is criticized from the start. The house was not fully secured, and evidence may have been compromised.",
+   "v": {
+    "t": "icon",
+    "icon": "footprints",
+    "label": "SCENE NOT SECURED",
+    "sub": "",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "For years, suspicion and media attention fall on the family.",
+   "v": {
+    "t": "newspaper",
+    "headline": "MEDIA FRENZY",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "In 2006, a man falsely confessed to the murder. DNA ruled him out.",
+   "v": {
+    "t": "dna",
+    "label": "FALSE CONFESSION",
+    "sub": "RULED OUT BY DNA · 2006",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "In 2008, new DNA testing leads the district attorney to formally clear the Ramsey family, and apologize.",
+   "v": {
+    "t": "court",
+    "lines": [
+     "2008",
+     "RAMSEY FAMILY",
+     "FORMALLY CLEARED"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "Boulder police say the investigation is still active.",
+   "v": {
+    "t": "icon",
+    "icon": "badge",
+    "label": "STILL ACTIVE",
+    "sub": "BOULDER POLICE",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "Nearly three decades later, JonBenét's killer has never been identified.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "BOULDER · 1996",
+    "bg": "ink"
+   }
+  }
+ ]
+}

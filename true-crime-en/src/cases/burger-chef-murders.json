@@ -1,0 +1,112 @@
+{
+ "slug": "burger-chef-murders",
+ "title": "THE BURGER CHEF MURDERS",
+ "place": "INDIANA, USA",
+ "year": "1978",
+ "lines": [
+  {
+   "id": "s01",
+   "text": "Speedway, Indiana. November 17th, 1978.",
+   "v": {
+    "t": "date",
+    "date": "NOVEMBER 17, 1978",
+    "label": "SPEEDWAY, INDIANA",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s02",
+   "text": "Four young employees close up a Burger Chef restaurant for the night.",
+   "v": {
+    "t": "icon",
+    "icon": "burger",
+    "label": "CLOSING TIME",
+    "sub": "",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s03",
+   "text": "Jayne Friedt, Ruth Ellen Shelton, Daniel Davis and Mark Flemmonds. The oldest is twenty.",
+   "v": {
+    "t": "names",
+    "label": "IN MEMORY",
+    "names": [
+     "JAYNE FRIEDT · 20",
+     "RUTH ELLEN SHELTON · 17",
+     "DANIEL DAVIS · 16",
+     "MARK FLEMMONDS · 16"
+    ],
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s04",
+   "text": "Later that night, the restaurant is found unlocked and empty. The day's earnings are gone.",
+   "v": {
+    "t": "evidence",
+    "items": [
+     {
+      "icon": "key",
+      "label": "DOOR UNLOCKED"
+     },
+     {
+      "icon": "money",
+      "label": "MONEY GONE"
+     }
+    ],
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s05",
+   "text": "At first, police think the staff took the money and left. The scene is cleaned before it is properly examined.",
+   "v": {
+    "t": "icon",
+    "icon": "footprints",
+    "label": "CRIME SCENE",
+    "sub": "CLEANED TOO SOON",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s06",
+   "text": "Two days later, the four are found dead in a wooded area in a neighboring county.",
+   "v": {
+    "t": "icon",
+    "icon": "tree",
+    "label": "FOUND IN THE WOODS",
+    "sub": "TWO DAYS LATER",
+    "bg": "night"
+   }
+  },
+  {
+   "id": "s07",
+   "text": "Investigators follow thousands of leads over the decades.",
+   "v": {
+    "t": "suspects",
+    "label": "THOUSANDS OF LEADS",
+    "bg": "kraft"
+   }
+  },
+  {
+   "id": "s08",
+   "text": "No one has ever been charged.",
+   "v": {
+    "t": "silhouette",
+    "label": "NO ONE CHARGED",
+    "bg": "ink"
+   }
+  },
+  {
+   "id": "s09",
+   "text": "The Burger Chef murders remain one of Indiana's most haunting unsolved cases.",
+   "v": {
+    "t": "stamp",
+    "text": "UNSOLVED",
+    "sub": "SPEEDWAY · 1978",
+    "bg": "night"
+   }
+  }
+ ]
+}
