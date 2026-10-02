@@ -10,6 +10,8 @@ from cases import CASES  # noqa: E402
 
 (ROOT / "src" / "cases").mkdir(parents=True, exist_ok=True)
 (ROOT / "voiceover").mkdir(exist_ok=True)
+photos_path = ROOT / "src" / "photos.json"
+photos = json.loads(photos_path.read_text()) if photos_path.exists() else {}
 index, desc, vo = [], ["# TikTok captions\n"], ["# Voice-over scripts\n\nOne recording per video. Read the lines in order with a pause of about one second between them.\n"]
 for n, c in enumerate(CASES, 1):
     lines = [{"id": f"s{i:02d}", "text": l["text"], "v": l["v"]} for i, l in enumerate(c["lines"], 1)]
@@ -23,7 +25,9 @@ for n, c in enumerate(CASES, 1):
     vo.append(f"## {n:02d}. {c['title'].title()} ({c['year']}, {c['place'].title()})\n\n" + "\n\n".join(l["text"] for l in c["lines"]) + "\n")
     d = c["description"]
     desc.append(f"## {n:02d}. {c['title'].title()} ({c['year']})\n\n**Title:** {d['title']}\n\n{d['body']}\n\n"
-                f"Follow for more unsolved mysteries.\n\n{' '.join(d['tags'])}\n")
+                f"Follow for more unsolved mysteries.\n\n{' '.join(d['tags'])}\n"
+                + ("\nPhotos (Wikimedia Commons): " + "; ".join(f"{p['label'].title()}: {p['credit']}" for p in photos[c['slug']].values()) + "\n"
+                   if photos.get(c["slug"]) else ""))
     index.append(c["slug"])
 (ROOT / "DESCRIPTIONS.md").write_text("\n".join(desc), encoding="utf-8")
 (ROOT / "VOICEOVERS.md").write_text("\n".join(vo), encoding="utf-8")

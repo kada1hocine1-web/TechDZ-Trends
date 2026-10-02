@@ -5,7 +5,10 @@ import type {TransitionPresentation, TransitionPresentationComponentProps} from 
 import {C, seeded} from './components/TornPaper';
 import {PaperTexture} from './components/PaperTexture';
 import {Subtitles} from './components/Subtitles';
-import {Block, type Spec} from './blocks';
+import {Block, type Photo, type Spec} from './blocks';
+import photos from './photos.json';
+
+const PHOTOS = photos as Record<string, Record<string, Photo>>;
 
 export type Word = {w: string; s: number; e: number};
 export type CaseData = {slug: string; title: string; place: string; year: string; lines: {id: string; text: string; v: Spec}[]};
@@ -63,7 +66,7 @@ export const CaseVideo: React.FC<{data: CaseData; timings: Timings}> = ({data, t
               <React.Fragment key={t.id}>
                 <TransitionSeries.Sequence durationInFrames={t.frames + (last ? FREEZE_FRAMES : TEAR_FRAMES)}>
                   <KenBurns>
-                    <Block v={data.lines[i].v} title={data.title} year={data.year} />
+                    <Block v={data.lines[i].v} title={data.title} year={data.year} photo={PHOTOS[data.slug]?.[t.id]} />
                   </KenBurns>
                   <Subtitles words={t.words} />
                 </TransitionSeries.Sequence>

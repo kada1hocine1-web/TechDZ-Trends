@@ -32,3 +32,11 @@ This splits your recording into lines on its pauses, retimes every scene and sub
 and renders `out/<slug>.mp4` (+ `out/<slug>-preview.mp4`). If two lines were read without a pause,
 force the boundaries with `--cuts end:start,...` (seconds, one pair per boundary).
 Remotion downloads its own headless browser on first run.
+
+## Real photos (Wikimedia Commons)
+
+`data/photos.py` lists, per case and scene, a Commons search query. `python3 scripts/fetch-photos.py [slug]`
+downloads the first freely licensed match (public domain, CC0, CC BY, CC BY-SA; anything else is skipped),
+saves it to `public/photos/<slug>/sNN.jpg` and records it in `src/photos.json`. Scenes with a photo show it as a
+torn print with the credit on screen; run `python3 scripts/export-cases.py` again to add the credits to `DESCRIPTIONS.md`.
+Needs network access to commons.wikimedia.org and upload.wikimedia.org.

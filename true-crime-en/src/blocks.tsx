@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, interpolate, spring, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Img, interpolate, spring, staticFile, useVideoConfig} from 'remotion';
 import {C, seeded, Stage, TITLE, TornPaper, TYPE, useStep} from './components/TornPaper';
 import {Stamp} from './components/Stamp';
 import {Counter} from './components/Counter';
@@ -534,6 +534,32 @@ const Letters: React.FC<{v: Spec}> = ({v}) => {
   );
 };
 
+export type Photo = {file: string; label: string; credit: string};
+
+// Real archive photo (Wikimedia Commons, free licence) pinned as a torn print, with its credit on screen.
+const PhotoBlock: React.FC<{photo: Photo}> = ({photo}) => {
+  const {f, at, pop} = useScene();
+  const card = pop(0);
+  const zoom = interpolate(f, [0, 300], [1.0, 1.12], {extrapolateRight: 'clamp'});
+  return (
+    <>
+      <SlideIn p={card} from="top">
+        <TornPaper x={540} y={430} w={900} h={880} seed={161} color={C.cream} rotate={-1.5}>
+          <div style={{position: 'absolute', left: 26, top: 26, right: 26, bottom: 26, overflow: 'hidden', background: C.ink}}>
+            <Img src={staticFile(photo.file)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${zoom})`, filter: 'sepia(0.35) contrast(1.08) saturate(0.8)'}} />
+            <div style={{position: 'absolute', left: 0, right: 0, bottom: 0, padding: '8px 14px', background: 'rgba(0,0,0,0.6)', fontFamily: TYPE, fontSize: 20, color: C.cream, lineHeight: 1.25}}>
+              Photo: {photo.credit}
+            </div>
+          </div>
+        </TornPaper>
+        <Tape x={150} y={10} rotate={-35} seed={14} />
+        <Tape x={930} y={850} rotate={-35} seed={15} />
+      </SlideIn>
+      {f >= at(0.2) && <Strip x={540} y={940} w={Math.min(980, 200 + photo.label.length * 40)} text={photo.label} seed={162} color={C.red} ink={C.cream} rotate={-2} />}
+    </>
+  );
+};
+
 // Small case-file tag shown at the top of every scene.
 const Tag: React.FC<{title: string; year: string}> = ({title, year}) => (
   <div style={{position: 'absolute', left: 0, right: 0, top: -90, display: 'flex', justifyContent: 'center'}}>
@@ -543,8 +569,9 @@ const Tag: React.FC<{title: string; year: string}> = ({title, year}) => (
   </div>
 );
 
-export const Block: React.FC<{v: Spec; title: string; year: string}> = ({v, title, year}) => {
+export const Block: React.FC<{v: Spec; title: string; year: string; photo?: Photo}> = ({v, title, year, photo}) => {
   const body = (() => {
+    if (photo) return <PhotoBlock photo={photo} />;
     switch (v.t) {
       case 'title': return <Title v={v} />;
       case 'place': return <Place v={v} />;
