@@ -40,3 +40,17 @@ downloads the first freely licensed match (public domain, CC0, CC BY, CC BY-SA; 
 saves it to `public/photos/<slug>/sNN.jpg` and records it in `src/photos.json`. Scenes with a photo show it as a
 torn print with the credit on screen; run `python3 scripts/export-cases.py` again to add the credits to `DESCRIPTIONS.md`.
 Needs network access to commons.wikimedia.org and upload.wikimedia.org.
+
+## Local AI voice (Kokoro, no online service)
+
+```bash
+python3 -m venv .tts/venv && .tts/venv/bin/pip install kokoro-onnx soundfile
+curl -L -o .tts/kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+curl -L -o .tts/voices-v1.0.bin  https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+.tts/venv/bin/python scripts/generate-voice.py --case jack-the-ripper --kokoro am_michael
+npx remotion render jack-the-ripper out/jack-the-ripper.mp4 --codec=h264
+```
+
+Kokoro-82M (Apache-2.0) runs on CPU. Male English voices: am_adam, am_echo, am_eric, am_fenrir, am_liam,
+am_michael, am_onyx, am_puck, bm_daniel, bm_fable, bm_george, bm_lewis. Each line is synthesized separately
+and loudness-normalised to -16 LUFS.

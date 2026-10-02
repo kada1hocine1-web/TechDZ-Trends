@@ -3,6 +3,8 @@
 
 - ELEVENLABS_API_KEY set  -> ElevenLabs (multilingual model, character-level timestamps)
 - otherwise               -> edge-tts, voice en-US-ChristopherNeural (word boundaries)
+- --kokoro [voice]        -> local neural TTS (Kokoro-82M, Apache-2.0), one file per line; run with .tts/venv/bin/python
+                             (model files in .tts/, see README); default voice am_michael
 - --no-voice              -> no audio: durations derived from the text at a subtitle reading speed
 - --from-file narration.wav -> one recording of the whole script, split into one file per line on its pauses
   (add --cuts end:start,... to force the boundaries when the recording has no clear pause between two lines)
@@ -226,6 +228,31 @@ def words_over_chunks(text, chunks):
     return out
 
 
+def kokoro_line(engine, voice, text, out):
+    """Synthesize one line locally with Kokoro and encode it to MP3."""
+    import soundfile as sf
+    samples, sr = engine.create(text.replace("…", "..."), voice=voice, speed=0.92, lang="en-us")
+    wav = out.with_suffix(".wav")
+    sf.write(wav, samples, sr)
+    ffmpeg("-y", "-loglevel", "error", "-i", str(wav), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ac", "2", "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "192k", str(out))
+    wav.unlink()
+
+
+def speech_chunks(path, total):
+    """Speech segments of one line file, from its short pauses."""
+    log = ffmpeg("-i", str(path), "-af", "silencedetect=noise=-32dB:d=0.12", "-f", "null", "-").stderr
+    v = [float(x) for x in re.findall(r"silence_(?:start|end): ([0-9.]+)", log)]
+    sil = [(v[i], v[i + 1] if i + 1 < len(v) else total) for i in range(0, len(v), 2)]
+    edges, t = [], 0.0
+    for a, b in sil:
+        if a > t:
+            edges.append((t, a))
+        t = max(t, b)
+    if t < total:
+        edges.append((t, total))
+    return edges or [(0.0, total)]
+
+
 def duration(path):
     r = subprocess.run(
         ["npx", "--no-install", "remotion", "ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)],
@@ -239,14 +266,26 @@ def main():
     no_voice = "--no-voice" in sys.argv
     recording = sys.argv[sys.argv.index("--from-file") + 1] if "--from-file" in sys.argv else None
     use_el = bool(os.environ.get("ELEVENLABS_API_KEY"))
-    print("Moteur :", "aucun (sans voix off)" if no_voice else f"fichier {recording}" if recording else "ElevenLabs" if use_el else "edge-tts en-US-ChristopherNeural")
+    print("Moteur :", "Kokoro (local)" if "--kokoro" in sys.argv else "aucun (sans voix off)" if no_voice else f"fichier {recording}" if recording else "ElevenLabs" if use_el else "edge-tts en-US-ChristopherNeural")
     cuts = None
     if "--cuts" in sys.argv:
         cuts = [tuple(float(v) for v in pair.split(":")) for pair in sys.argv[sys.argv.index("--cuts") + 1].split(",")]
     chunks = split_recording(Path(recording), cuts) if recording else None
+    kokoro = None
+    if "--kokoro" in sys.argv:
+        from kokoro_onnx import Kokoro
+        i = sys.argv.index("--kokoro")
+        voice = sys.argv[i + 1] if i + 1 < len(sys.argv) and not sys.argv[i + 1].startswith("--") else "am_michael"
+        kokoro = (Kokoro(str(ROOT / ".tts" / "kokoro-v1.0.onnx"), str(ROOT / ".tts" / "voices-v1.0.bin")), voice)
+        AUDIO.mkdir(parents=True, exist_ok=True)
     scenes = []
     for i, (sid, text) in enumerate(SCRIPT):
-        if chunks:
+        if kokoro:
+            out = AUDIO / f"{sid}.mp3"
+            kokoro_line(kokoro[0], kokoro[1], text, out)
+            secs = duration(out)
+            words = words_over_chunks(text, speech_chunks(out, secs))
+        elif chunks:
             out = AUDIO / f"{sid}.mp3"
             secs = duration(out)
             words = words_over_chunks(text, chunks[i])

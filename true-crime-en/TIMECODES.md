@@ -6,18 +6,18 @@ Start time of each line in the rendered videos (`out/<slug>.mp4`). Place each re
 
 | # | Start | Slot | Line |
 |---|---|---|---|
-| 01 | 0:00.00 | 5.9 s | London, 1888. In the crowded streets of Whitechapel, a killer strikes in the dark. |
-| 02 | 0:05.90 | 6.7 s | Between August and November, five women are murdered. Historians call them the canonical five. |
-| 03 | 0:12.60 | 6.1 s | Mary Ann Nichols. Annie Chapman. Elizabeth Stride. Catherine Eddowes. Mary Jane Kelly. |
-| 04 | 0:18.73 | 4.3 s | The killings are savage, and panic spreads across the city. |
-| 05 | 0:23.07 | 5.8 s | Police and newspapers receive hundreds of letters claiming to be from the killer. |
-| 06 | 0:28.87 | 6.9 s | One of them, the 'Dear Boss' letter, gives him the name the world will remember: Jack the Ripper. |
-| 07 | 0:35.77 | 5.0 s | Another, the 'From Hell' letter, is sent with half of a human kidney. |
-| 08 | 0:40.77 | 6.7 s | Scotland Yard investigates for months. Dozens of suspects are named, from doctors to drifters. |
-| 09 | 0:47.47 | 1.9 s | No one is ever charged. |
-| 10 | 0:49.40 | 7.3 s | More than a century later, the identity of Jack the Ripper remains one of history's greatest mysteries. |
+| 01 | 0:00.00 | 8.3 s | London, 1888. In the crowded streets of Whitechapel, a killer strikes in the dark. |
+| 02 | 0:08.30 | 7.3 s | Between August and November, five women are murdered. Historians call them the canonical five. |
+| 03 | 0:15.57 | 6.3 s | Mary Ann Nichols. Annie Chapman. Elizabeth Stride. Catherine Eddowes. Mary Jane Kelly. |
+| 04 | 0:21.90 | 4.4 s | The killings are savage, and panic spreads across the city. |
+| 05 | 0:26.27 | 5.5 s | Police and newspapers receive hundreds of letters claiming to be from the killer. |
+| 06 | 0:31.77 | 6.4 s | One of them, the 'Dear Boss' letter, gives him the name the world will remember: Jack the Ripper. |
+| 07 | 0:38.17 | 4.5 s | Another, the 'From Hell' letter, is sent with half of a human kidney. |
+| 08 | 0:42.70 | 7.5 s | Scotland Yard investigates for months. Dozens of suspects are named, from doctors to drifters. |
+| 09 | 0:50.23 | 2.3 s | No one is ever charged. |
+| 10 | 0:52.50 | 7.5 s | More than a century later, the identity of Jack the Ripper remains one of history's greatest mysteries. |
 
-Total: 58.7 s (including a 2 s freeze at the end).
+Total: 62.0 s (including a 2 s freeze at the end).
 
 ## 02. The Villisca Axe Murders — `out/villisca-axe-murders.mp4`
 
