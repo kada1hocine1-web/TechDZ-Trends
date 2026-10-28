@@ -1,0 +1,463 @@
+
+===== SLIDE 1 =====
+[sp:Text 0]
+    Cristallogenèse du silicium
+[sp:Text 0]
+    Du sable de quartz au monocristal parfait
+    Exposé — Kada Hocine
+    Master 2 Physique des matériaux
+    Encadré par : Dr Sehabi
+[pic:img-Monokristalines_Sili descr=Lingot de silicium monocristallin obtenu par tirage Czochralski]
+[sp:credit]
+    Lingot de Si monocristallin — Stahlkocher, GFDL, Wikimedia Commons
+RELS: ['../media/image-1-1.jpg', '../slideLayouts/slideLayout2.xml', '../notesSlides/notesSlide1.xml']
+NOTES: Présenter le sujet : comment on fabrique, à partir de la silice, un cristal de silicium sans défaut, base de l'électronique et du photovoltaïque. / 1
+
+===== SLIDE 2 =====
+[sp:Text 0]
+    Plan de l'exposé
+[sp:card]
+[sp:Shape 2]
+[sp:Text 3]
+    1
+[sp:Text 4]
+    Le silicium, un cristal covalent
+[sp:Text 5]
+    Structure diamant, propriétés utiles
+[sp:card]
+[sp:Shape 7]
+[sp:Text 8]
+    2
+[sp:Text 9]
+    Pourquoi un monocristal ?
+[sp:Text 10]
+    Défauts, pureté, dopage
+[sp:card]
+[sp:Shape 12]
+[sp:Text 13]
+    3
+[sp:Text 14]
+    Du quartz au polysilicium
+[sp:Text 15]
+    Carbothermie, procédé Siemens
+[sp:card]
+[sp:Shape 17]
+[sp:Text 18]
+    4
+[sp:Text 19]
+    Le tirage Czochralski (Cz)
+[sp:Text 20]
+    Principe, paramètres, ségrégation
+[sp:card]
+[sp:Shape 22]
+[sp:Text 23]
+    5
+[sp:Text 24]
+    La fusion de zone (FZ)
+[sp:Text 25]
+    Méthode sans creuset
+[sp:card]
+[sp:Shape 27]
+[sp:Text 28]
+    6
+[sp:Text 29]
+    Du lingot à la plaquette
+[sp:Text 30]
+    Comparaison Cz / FZ, conclusion
+[sp:Slide Number Placeholder 0]
+    2
+RELS: ['../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide2.xml']
+NOTES: 2
+
+===== SLIDE 3 =====
+[sp:Text 0]
+    Le silicium : un cristal covalent de structure diamant
+[pic:img-diamant_c.png descr=Maille conventionnelle cubique de la structure diamant]
+[sp:credit]
+    Maille diamant (schéma réalisé pour l'exposé) : CFC + motif décalé de (¼,¼,¼)a
+[sp:Text 2]
+    Réseau : cubique à faces centrées, motif de 2 atomes
+    Liaisons : chaque atome a 4 voisins en tétraèdre (hybridation sp³)
+    8 atomes par maille conventionnelle
+[sp:card]
+[sp:card]
+[sp:Text 5]
+    5,43 Å
+[sp:Text 6]
+    paramètre de maille a (Kittel)
+[sp:Text 7]
+    1414 °C
+[sp:Text 8]
+    température de fusion
+[sp:Slide Number Placeholder 0]
+    3
+RELS: ['../media/image-3-1.png', '../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide3.xml']
+NOTES: Le silicium cristallise comme le diamant. a = 5,43 Å à température ambiante. Il se dilate d'environ 10 % en se solidifiant, ce qui interdit de le solidifier simplement dans un moule si l'on veut un cristal sans contraintes. / 3
+
+===== SLIDE 4 =====
+[sp:Text 0]
+    Pourquoi un monocristal ultra-pur ?
+[pic:img-Multicrystalline_sil descr=Plaquette de silicium multicristallin montrant ses grains]
+[sp:credit]
+    Plaquette multicristalline : on voit les grains — Radiotrefoil, CC BY-SA 4.0, Wikimedia Commons
+[sp:Text 2]
+    Joints de grains et dislocations piègent les électrons et les trous : ils dégradent transistors et cellules.
+    Le dopage contrôle la conduction : il faut partir d'un cristal où rien d'autre n'est présent.
+    Exigence : un réseau parfait sur tout un lingot de plusieurs dizaines de kilogrammes.
+[sp:card]
+[sp:card]
+[sp:Text 5]
+    10¹⁵–10¹⁹
+[sp:Text 6]
+    atomes dopants par cm³
+[sp:Text 7]
+    < 10¹²
+[sp:Text 8]
+    métaux contaminants par cm³
+[sp:Slide Number Placeholder 0]
+    4
+RELS: ['../media/image-4-1.jpg', '../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide4.xml']
+NOTES: 4
+
+===== SLIDE 5 =====
+[sp:Text 0]
+    Du sable à la plaquette : la chaîne de fabrication
+[sp:etape0]
+[sp:Text 2]
+    Quartz
+    SiO₂
+[sp:Shape 3]
+[sp:etape1]
+[sp:Text 5]
+    Si métallurgique
+    ≈ 98 %
+[sp:Shape 6]
+[sp:etape2]
+[sp:Text 8]
+    Trichlorosilane
+    SiHCl₃ distillé
+[sp:Shape 9]
+[sp:etape3]
+[sp:Text 11]
+    Polysilicium
+    9N à 11N
+[sp:Shape 12]
+[sp:etape4]
+[sp:Text 14]
+    Monocristal
+    Cz ou FZ
+[sp:Shape 15]
+[sp:etape5]
+[sp:Text 17]
+    Plaquettes
+    découpe, polissage
+[sp:Text 18]
+    Réduction
+[sp:Text 19]
+    Purification chimique
+[sp:Text 20]
+    Cristallogenèse
+[sp:Text 21]
+    Usinage
+[sp:card]
+[sp:Text 23]
+    Cœur de l'exposé : l'étape 5, où l'on transforme un polysilicium pur en un réseau cristallin unique et orienté.
+[sp:Slide Number Placeholder 0]
+    5
+RELS: ['../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide5.xml']
+NOTES: 5
+
+===== SLIDE 6 =====
+[sp:Text 0]
+    Étape 1 : réduction carbothermique du quartz
+[sp:Text 1]
+    Quartz (SiO₂) + carbone dans un four électrique à arc immergé
+    ≈ 2000 °C dans la zone chaude, > 1780 °C en bas du four
+    Produit : silicium métallurgique (MG-Si) pur à ≈ 98 %
+[sp:card]
+[sp:Text 3]
+    Réactions principales
+[sp:Text 4]
+    SiO₂ + 3 C → SiC + 2 CO
+    SiO₂ + 2 SiC → 3 Si + 2 CO
+    Bilan : SiO₂ + 2 C → Si + 2 CO
+[sp:Text 5]
+    Le carbone réduit la silice ; le gaz CO s'échappe.
+[sp:card]
+[sp:Text 7]
+    98 % ne suffit pas : il reste 2 % d'impuretés (Fe, Al, B, P…) — bien trop pour l'électronique.
+[sp:Slide Number Placeholder 0]
+    6
+RELS: ['../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide6.xml']
+NOTES: 6
+
+===== SLIDE 7 =====
+[sp:Text 0]
+    Étape 2 : purification par le procédé Siemens
+[sp:Shape 1]
+[sp:Text 2]
+    1
+[sp:Text 3]
+    Chloration
+[sp:Text 4]
+    Si + 3 HCl → SiHCl₃ + H₂
+[sp:Shape 5]
+[sp:Text 6]
+    2
+[sp:Text 7]
+    Distillation
+[sp:Text 8]
+    SiHCl₃ bout à 31,8 °C : séparé des impuretés
+[sp:Shape 9]
+[sp:Text 10]
+    3
+[sp:Text 11]
+    Dépôt (CVD)
+[sp:Text 12]
+    SiHCl₃ + H₂ → Si + 3 HCl sur filaments à ≈ 1150 °C
+[sp:Text 13]
+    On obtient des barreaux de polysilicium de 15 à 20 cm de diamètre.
+[graphicFrame:Chart 0]
+[sp:Slide Number Placeholder 0]
+    7
+RELS: ['/ppt/charts/chart1.xml', '../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide7.xml']
+NOTES: 9N = 99,9999999 %. Valeurs : Si métallurgique ≈ 98 % (≈ 2N) ; UMG jusqu'à 6N ; solaire multi 7N–8N ; solaire mono 9N–10N ; électronique 10N–11N (Bernreuter Research). / 7
+
+===== SLIDE 8 =====
+[sp:Text 0]
+    Le tirage Czochralski
+[sp:Text 0]
+    1916 — Jan Czochralski, chez AEG à Berlin, tire des monocristaux d'étain, de zinc et de plomb depuis un bain fondu.
+    1948–1950 — Gordon Teal (Bell Labs) applique la méthode au germanium, puis elle devient la base du silicium électronique.
+[pic:img-Monokristalines_Sili descr=Lingot de silicium Czochralski]
+[sp:credit]
+    Stahlkocher, GFDL, Wikimedia Commons
+[sp:Slide Number Placeholder 0]
+    8
+RELS: ['../media/image-8-1.jpg', '../slideLayouts/slideLayout3.xml', '../notesSlides/notesSlide8.xml']
+NOTES: 8
+
+===== SLIDE 9 =====
+[sp:Text 0]
+    Principe du tirage Czochralski (Cz)
+[pic:img-cz_schema.png descr=Schéma d'un four de tirage Czochralski]
+[sp:credit]
+    Schéma de principe réalisé pour l'exposé
+[sp:Shape 2]
+[sp:Text 3]
+    1
+[sp:Text 4]
+    Fusion : du polysilicium dans un creuset de quartz, sous argon, au-dessus de 1414 °C
+[sp:Shape 5]
+[sp:Text 6]
+    2
+[sp:Text 7]
+    Contact : d'un germe monocristallin orienté avec la surface du bain
+[sp:Shape 8]
+[sp:Text 9]
+    3
+[sp:Text 10]
+    Col (necking) : tirage rapide et fin : les dislocations s'éliminent
+[sp:Shape 11]
+[sp:Text 12]
+    4
+[sp:Text 13]
+    Épaulement puis corps : on élargit au diamètre voulu et on tire lentement
+[sp:Shape 14]
+[sp:Text 15]
+    5
+[sp:Text 16]
+    Fin conique : on réduit le diamètre avant de quitter le bain
+[sp:Slide Number Placeholder 0]
+    9
+RELS: ['../media/image-9-1.png', '../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide9.xml']
+NOTES: 9
+
+===== SLIDE 10 =====
+[sp:Text 0]
+    Les paramètres qui font un bon cristal
+[sp:card]
+[sp:Text 2]
+    ≤ 1 mm/min
+[sp:Text 3]
+    vitesse de tirage du corps du lingot
+[sp:card]
+[sp:Text 5]
+    3–6 mm/min
+[sp:Text 6]
+    tirage du col, diamètre réduit à 2–5 mm
+[sp:card]
+[sp:Text 8]
+    300 mm
+[sp:Text 9]
+    diamètre produit en masse (450 mm démontré)
+[sp:card]
+[sp:Text 11]
+    Bilan thermique à l'interface
+[sp:Text 12]
+    V · ρ · L  =  K · dT/dx
+[sp:Text 13]
+    La chaleur latente L libérée à la vitesse V doit être évacuée par conduction dans le solide (K : conductivité, dT/dx : gradient). Cela fixe la vitesse maximale.
+[sp:Text 14]
+    Contre-rotation du germe et du creuset : bain homogène, interface plane.
+    Argon pour protéger le bain et évacuer SiO gazeux.
+    Asservissement de la puissance pour garder le diamètre constant.
+[sp:Slide Number Placeholder 0]
+    10
+RELS: ['../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide10.xml']
+NOTES: 10
+
+===== SLIDE 11 =====
+[sp:Text 0]
+    Ségrégation des dopants et contamination par l'oxygène
+[graphicFrame:Chart 0]
+[sp:Text 1]
+    Cs = k · C0 · (1 − g)^(k − 1),   avec k = Cs / Cl
+[sp:Text 2]
+    Si k < 1, l'impureté reste dans le liquide : le bas du lingot est plus dopé que la tête.
+[sp:card]
+[sp:Text 4]
+    L'oxygène, impureté principale du Cz
+[sp:Text 5]
+    Le creuset de quartz (SiO₂) se dissout lentement dans le bain
+    Teneur typique : 6·10¹⁷ à 1,1·10¹⁸ atomes/cm³
+    Il précipite et favorise des défauts, mais renforce mécaniquement le cristal
+    Cz magnétique (MCZ) : un champ B freine la convection (force de Laplace) et réduit l'oxygène
+[sp:Slide Number Placeholder 0]
+    11
+RELS: ['/ppt/charts/chart2.xml', '../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide11.xml']
+NOTES: 11
+
+===== SLIDE 12 =====
+[sp:Text 0]
+    La fusion de zone (Float Zone, FZ)
+[pic:img-fz_schema.png descr=Schéma du procédé de fusion de zone]
+[sp:credit]
+    Schéma de principe réalisé pour l'exposé
+[sp:Text 2]
+    Principe : une bobine à induction fond une zone étroite d'un barreau polycristallin vertical ; la zone monte, le monocristal se forme sous elle.
+    Aucun creuset : la zone fondue ne touche que le gaz (vide ou gaz inerte).
+    Purification : les impuretés sont entraînées par la zone liquide.
+    Développé en 1962 ; diamètre limité à 200 mm.
+[pic:img-4_inch_float_zone_n- descr=Plaquette de silicium FZ de 4 pouces]
+[sp:credit]
+    Plaquette FZ 4 pouces — Radiotrefoil, CC BY-SA 4.0, Wikimedia Commons
+[sp:card]
+[sp:Text 5]
+    < 10¹⁶ O/cm³
+    dans un Si FZ de référence
+[sp:Slide Number Placeholder 0]
+    12
+RELS: ['../media/image-12-1.png', '../media/image-12-2.png', '../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide12.xml']
+NOTES: 12
+
+===== SLIDE 13 =====
+[sp:Text 0]
+    Czochralski ou fusion de zone ?
+[graphicFrame:Table 0]
+    Critère
+    Czochralski (Cz)
+    Fusion de zone (FZ)
+    Creuset
+    Quartz : contact avec le bain
+    Aucun
+    Oxygène
+    ≈ 10¹⁷–10¹⁸ cm⁻³
+    Très faible (< 10¹⁶ cm⁻³)
+    Résistivité
+    Moyenne
+    Plus élevée (cristal plus pur)
+    Diamètre
+    Jusqu'à 300 mm en masse
+    Limité à 200 mm
+    Usages
+    Circuits intégrés, cellules solaires
+    Électronique de puissance, détecteurs
+[sp:Text 1]
+    À retenir : le Cz domine en volume grâce aux grands diamètres ; la FZ gagne là où la pureté prime.
+[sp:Slide Number Placeholder 0]
+    13
+RELS: ['../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide13.xml']
+NOTES: Usages FZ : composants de puissance et détecteurs, d'après la littérature générale ; la pureté et la haute résistivité sont citées par Wafer World. / 13
+
+===== SLIDE 14 =====
+[sp:Text 0]
+    Du lingot à la plaquette (wafer)
+[sp:Shape 1]
+[sp:Text 2]
+    1
+[sp:Text 3]
+    Rectification
+[sp:Text 4]
+    mise au diamètre, repère d'orientation
+[sp:Shape 5]
+[sp:Text 6]
+    2
+[sp:Text 7]
+    Découpe
+[sp:Text 8]
+    en tranches à la scie à fil
+[sp:Shape 9]
+[sp:Text 10]
+    3
+[sp:Text 11]
+    Rodage et gravure
+[sp:Text 12]
+    élimination de la zone écrouie
+[sp:Shape 13]
+[sp:Text 14]
+    4
+[sp:Text 15]
+    Polissage
+[sp:Text 16]
+    surface miroir, prête pour la lithographie
+[pic:img-12-inch_silicon_wafe descr=Plaquette de silicium de 12 pouces]
+[sp:credit]
+    Plaquette de 300 mm (12 pouces) — Peellden, CC BY-SA 3.0, Wikimedia Commons
+[sp:Slide Number Placeholder 0]
+    14
+RELS: ['../media/image-14-1.jpg', '../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide14.xml']
+NOTES: 14
+
+===== SLIDE 15 =====
+[sp:Text 0]
+    Conclusion
+[sp:Text 0]
+    Trois étapes transforment le sable en cristal parfait : réduction, purification chimique, cristallogenèse.
+    Le Czochralski fournit l'essentiel du silicium mondial ; la fusion de zone le plus pur.
+    Tout se joue à l'interface solide/liquide : thermique, vitesse et ségrégation.
+[pic:img-Silicon_wafer_resear descr=Chercheuse tenant une plaquette de silicium]
+[sp:credit]
+    U.S. Department of Energy, domaine public, Wikimedia Commons
+[sp:Slide Number Placeholder 0]
+    15
+RELS: ['../media/image-15-1.jpg', '../slideLayouts/slideLayout3.xml', '../notesSlides/notesSlide15.xml']
+NOTES: 15
+
+===== SLIDE 16 =====
+[sp:Text 0]
+    Références
+[sp:Text 1]
+    [1] Kittel C., Introduction to Solid State Physics, 8ᵉ éd., Wiley, 2005 (structure diamant, a = 5,43 Å).
+    [2] Ashcroft N. W., Mermin N. D., Physique des solides, EDP Sciences, 2002 (classification des solides covalents).
+    [3] Válek L., Šik J., « Defect Engineering During Czochralski Crystal Growth and Silicon Wafer Manufacturing », Modern Aspects of Bulk Crystal and Thin Film Preparation, InTech, 2012. cdn.intechopen.com/pdfs/26201.pdf
+    [4] Stamenov P., Czochralski & Float-Zone growth, cours PY2N20, Trinity College Dublin, 2014. maths.tcd.ie
+    [5] PV Manufacturing (UNSW), « Polysilicon production ». pv-manufacturing.org
+    [6] Bernreuter Research, « Polysilicon production processes ». bernreuter.com/polysilicon/production-processes
+    [7] IEEE/ETHW, « Milestones: Czochralski Process, 1916 ». ethw.org
+    [8] Wafer World, « Float Zone Wafer: The Float Zone Process ». waferworld.com
+[sp:card]
+[sp:Text 3]
+    Crédits des images
+    Wikimedia Commons, licences libres :
+    Lingot Cz — Stahlkocher, GFDL
+    Plaquette multicristalline — Radiotrefoil, CC BY-SA 4.0
+    Plaquette FZ 4″ — Radiotrefoil, CC BY-SA 4.0
+    Plaquette 300 mm — Peellden, CC BY-SA 3.0
+    Chercheuse et plaquette — U.S. DOE, domaine public
+[sp:Text 4]
+    Schémas (maille diamant, Cz, FZ) et graphiques : réalisés pour cet exposé.
+[sp:Slide Number Placeholder 0]
+    16
+RELS: ['../slideLayouts/slideLayout4.xml', '../notesSlides/notesSlide16.xml']
+NOTES: 16
