@@ -2,3 +2,5 @@
 node_modules/
 audio/_tmp/
 __pycache__/
+video/node_modules/
+video/out/
