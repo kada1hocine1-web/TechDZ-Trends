@@ -1,0 +1,522 @@
+{
+ "scene": "06",
+ "text": "Deuxième étape : le procédé Siemens. Chloré par l'acide chlorhydrique, le silicium donne du trichlorosilane et de l'hydrogène. Le trichlorosilane bout à 31,8 degrés : on le sépare des impuretés par distillation. On le décompose ensuite sous hydrogène, par dépôt chimique en phase vapeur, sur des filaments portés vers 1150 degrés. On obtient des barreaux de polysilicium de 15 à 20 centimètres de diamètre. Le graphique donne la pureté maximale en nombre de neuf, d'après Bernreuter Research : deux pour le silicium métallurgique, six pour le métallurgique amélioré, huit et dix pour le solaire multi et monocristallin, onze pour l'électronique. Onze neuf, c'est un atome étranger sur cent milliards.",
+ "spoken": "Deuxième étape : le procédé Siemens. Chloré par l'acide chlorhydrique, le silicium donne du trichlorosilane et de l'hydrogène. Le trichlorosilane bout à 31,8 degrés : on le sépare des impuretés par distillation. On le décompose ensuite sous hydrogène, par dépôt chimique en phase vapeur, sur des filaments portés vers 1150 degrés. On obtient des barreaux de polysilicium de 15 à 20 centimètres de diamètre. Le graphique donne la pureté maximale en nombre de neuf, d'après Bernreuter Research : deux pour le silicium métallurgique, six pour le métallurgique amélioré, huit et dix pour le solaire multi et monocristallin, onze pour l'électronique. Onze neuf, c'est un atome étranger sur cent milliards.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.514708,
+   "w": "Deuxième"
+  },
+  {
+   "t": 0.63825,
+   "d": 0.470583,
+   "w": "étape"
+  },
+  {
+   "t": 1.329416,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 1.491166,
+   "d": 0.5,
+   "w": "procédé"
+  },
+  {
+   "t": 2.005875,
+   "d": 0.75,
+   "w": "Siemens"
+  },
+  {
+   "t": 3.794125,
+   "d": 0.382333,
+   "w": "Chloré"
+  },
+  {
+   "t": 4.191166,
+   "d": 0.176458,
+   "w": "par"
+  },
+  {
+   "t": 4.382333,
+   "d": 0.367666,
+   "w": "l'acide"
+  },
+  {
+   "t": 4.764708,
+   "d": 0.764708,
+   "w": "chlorhydrique"
+  },
+  {
+   "t": 5.882333,
+   "d": 0.16175,
+   "w": "le"
+  },
+  {
+   "t": 6.058833,
+   "d": 0.602958,
+   "w": "silicium"
+  },
+  {
+   "t": 6.676458,
+   "d": 0.235291,
+   "w": "donne"
+  },
+  {
+   "t": 6.926458,
+   "d": 0.117666,
+   "w": "du"
+  },
+  {
+   "t": 7.058833,
+   "d": 0.882333,
+   "w": "trichlorosilane"
+  },
+  {
+   "t": 7.955875,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 8.014708,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 8.132333,
+   "d": 0.808833,
+   "w": "l'hydrogène"
+  },
+  {
+   "t": 9.955875,
+   "d": 0.235291,
+   "w": "Le"
+  },
+  {
+   "t": 10.205875,
+   "d": 0.91175,
+   "w": "trichlorosilane"
+  },
+  {
+   "t": 11.132333,
+   "d": 0.191166,
+   "w": "bout"
+  },
+  {
+   "t": 11.33825,
+   "d": 0.08825,
+   "w": "à"
+  },
+  {
+   "t": 11.441166,
+   "d": 1.088208,
+   "w": "31,8 "
+  },
+  {
+   "t": 12.544125,
+   "d": 0.485291,
+   "w": "degrés"
+  },
+  {
+   "t": 13.294125,
+   "d": 0.044125,
+   "w": "on"
+  },
+  {
+   "t": 13.352958,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 13.514708,
+   "d": 0.397041,
+   "w": "sépare"
+  },
+  {
+   "t": 13.926458,
+   "d": 0.117666,
+   "w": "des"
+  },
+  {
+   "t": 14.058833,
+   "d": 0.617666,
+   "w": "impuretés"
+  },
+  {
+   "t": 14.691166,
+   "d": 0.176458,
+   "w": "par"
+  },
+  {
+   "t": 14.882333,
+   "d": 0.867666,
+   "w": "distillation"
+  },
+  {
+   "t": 16.779416,
+   "d": 0.176458,
+   "w": "On"
+  },
+  {
+   "t": 16.970583,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 17.08825,
+   "d": 0.573541,
+   "w": "décompose"
+  },
+  {
+   "t": 17.676458,
+   "d": 0.367666,
+   "w": "ensuite"
+  },
+  {
+   "t": 18.058833,
+   "d": 0.132333,
+   "w": "sous"
+  },
+  {
+   "t": 18.205875,
+   "d": 0.691166,
+   "w": "hydrogène"
+  },
+  {
+   "t": 19.279416,
+   "d": 0.176458,
+   "w": "par"
+  },
+  {
+   "t": 19.470583,
+   "d": 0.367666,
+   "w": "dépôt"
+  },
+  {
+   "t": 19.852958,
+   "d": 0.382333,
+   "w": "chimique"
+  },
+  {
+   "t": 20.25,
+   "d": 0.08825,
+   "w": "en"
+  },
+  {
+   "t": 20.352958,
+   "d": 0.294125,
+   "w": "phase"
+  },
+  {
+   "t": 20.66175,
+   "d": 0.58825,
+   "w": "vapeur"
+  },
+  {
+   "t": 21.58825,
+   "d": 0.176458,
+   "w": "sur"
+  },
+  {
+   "t": 21.779416,
+   "d": 0.132333,
+   "w": "des"
+  },
+  {
+   "t": 21.926458,
+   "d": 0.470583,
+   "w": "filaments"
+  },
+  {
+   "t": 22.41175,
+   "d": 0.382333,
+   "w": "portés"
+  },
+  {
+   "t": 22.808833,
+   "d": 0.205875,
+   "w": "vers"
+  },
+  {
+   "t": 23.029416,
+   "d": 1.2794169,
+   "w": "1150 degrés"
+  },
+  {
+   "t": 25.323541,
+   "d": 0.176458,
+   "w": "On"
+  },
+  {
+   "t": 25.514708,
+   "d": 0.426458,
+   "w": "obtient"
+  },
+  {
+   "t": 25.955875,
+   "d": 0.117666,
+   "w": "des"
+  },
+  {
+   "t": 26.08825,
+   "d": 0.264708,
+   "w": "barreaux"
+  },
+  {
+   "t": 26.367666,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 26.529416,
+   "d": 0.852958,
+   "w": "polysilicium"
+  },
+  {
+   "t": 27.397041,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 27.558833,
+   "d": 0.397041,
+   "w": "15 à"
+  },
+  {
+   "t": 27.970583,
+   "d": 0.867625,
+   "w": "20 centimètres"
+  },
+  {
+   "t": 28.852958,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 28.970583,
+   "d": 0.66175,
+   "w": "diamètre"
+  },
+  {
+   "t": 30.647041,
+   "d": 0.220583,
+   "w": "Le"
+  },
+  {
+   "t": 30.882333,
+   "d": 0.455875,
+   "w": "graphique"
+  },
+  {
+   "t": 31.352958,
+   "d": 0.220583,
+   "w": "donne"
+  },
+  {
+   "t": 31.58825,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 31.720583,
+   "d": 0.367666,
+   "w": "pureté"
+  },
+  {
+   "t": 32.102958,
+   "d": 0.573541,
+   "w": "maximale"
+  },
+  {
+   "t": 32.691166,
+   "d": 0.058833,
+   "w": "en"
+  },
+  {
+   "t": 32.764708,
+   "d": 0.33825,
+   "w": "nombre"
+  },
+  {
+   "t": 33.117666,
+   "d": 0.08825,
+   "w": "de"
+  },
+  {
+   "t": 33.220583,
+   "d": 0.441166,
+   "w": "neuf"
+  },
+  {
+   "t": 33.985291,
+   "d": 0.367666,
+   "w": "d'après"
+  },
+  {
+   "t": 34.367666,
+   "d": 0.558833,
+   "w": "Bernreuter"
+  },
+  {
+   "t": 34.941166,
+   "d": 0.66175,
+   "w": "Research"
+  },
+  {
+   "t": 35.823541,
+   "d": 0.205875,
+   "w": "deux"
+  },
+  {
+   "t": 36.044125,
+   "d": 0.176458,
+   "w": "pour"
+  },
+  {
+   "t": 36.235291,
+   "d": 0.132333,
+   "w": "le"
+  },
+  {
+   "t": 36.382333,
+   "d": 0.529416,
+   "w": "silicium"
+  },
+  {
+   "t": 36.926458,
+   "d": 0.852958,
+   "w": "métallurgique"
+  },
+  {
+   "t": 38.132333,
+   "d": 0.235291,
+   "w": "six"
+  },
+  {
+   "t": 38.382333,
+   "d": 0.176458,
+   "w": "pour"
+  },
+  {
+   "t": 38.573541,
+   "d": 0.073541,
+   "w": "le"
+  },
+  {
+   "t": 38.66175,
+   "d": 0.75,
+   "w": "métallurgique"
+  },
+  {
+   "t": 39.426458,
+   "d": 0.602958,
+   "w": "amélioré"
+  },
+  {
+   "t": 40.426458,
+   "d": 0.235291,
+   "w": "huit"
+  },
+  {
+   "t": 40.676458,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 40.735291,
+   "d": 0.264708,
+   "w": "dix"
+  },
+  {
+   "t": 41.014708,
+   "d": 0.176458,
+   "w": "pour"
+  },
+  {
+   "t": 41.205875,
+   "d": 0.132333,
+   "w": "le"
+  },
+  {
+   "t": 41.352958,
+   "d": 0.352958,
+   "w": "solaire"
+  },
+  {
+   "t": 41.720583,
+   "d": 0.41175,
+   "w": "multi"
+  },
+  {
+   "t": 42.147041,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 42.205875,
+   "d": 0.91175,
+   "w": "monocristallin"
+  },
+  {
+   "t": 43.441166,
+   "d": 0.220583,
+   "w": "onze"
+  },
+  {
+   "t": 43.676458,
+   "d": 0.191166,
+   "w": "pour"
+  },
+  {
+   "t": 43.882333,
+   "d": 0.91175,
+   "w": "l'électronique"
+  },
+  {
+   "t": 45.823541,
+   "d": 0.25,
+   "w": "Onze"
+  },
+  {
+   "t": 46.08825,
+   "d": 0.426458,
+   "w": "neuf"
+  },
+  {
+   "t": 46.882333,
+   "d": 0.16175,
+   "w": "c'est"
+  },
+  {
+   "t": 47.058833,
+   "d": 0.132333,
+   "w": "un"
+  },
+  {
+   "t": 47.205875,
+   "d": 0.397041,
+   "w": "atome"
+  },
+  {
+   "t": 47.617625,
+   "d": 0.514708,
+   "w": "étranger"
+  },
+  {
+   "t": 48.147041,
+   "d": 0.205875,
+   "w": "sur"
+  },
+  {
+   "t": 48.367625,
+   "d": 0.16175,
+   "w": "cent"
+  },
+  {
+   "t": 48.544125,
+   "d": 0.676458,
+   "w": "milliards"
+  }
+ ]
+}

@@ -1,0 +1,967 @@
+{
+ "scene": "10",
+ "text": "Le corps du lingot se tire à un millimètre par minute au plus ; le col, entre 3 et 6 millimètres par minute, avec un diamètre de 2 à 5 millimètres. On produit en masse du 300 millimètres, et le 450 a été démontré. Qu'est-ce qui limite la vitesse ? Écrivons le bilan d'énergie à l'interface. En avançant à la vitesse V, elle libère par unité de surface la puissance rho L V. Cette chaleur, ajoutée au flux venu du liquide, doit partir par conduction dans le solide. La vitesse est maximale quand le liquide n'apporte plus rien : c'est la relation V rho L égale K d T sur d x. Allons plus loin : le gradient dans le solide dépend du refroidissement radiatif du lingot. Pour un cylindre de rayon r, d'émissivité epsilon et de conductivité constante, le bilan sur une tranche donne cette équation. Multiplions par d T sur d x et intégrons : la vitesse maximale varie comme l'inverse de la racine du rayon. Les gros lingots se tirent donc plus lentement. Enfin, la contre-rotation du germe et du creuset homogénéise le bain et aplanit l'interface ; l'argon protège le bain et évacue le monoxyde de silicium ; un asservissement de la puissance garde le diamètre constant.",
+ "spoken": "Le corps du lingot se tire à un millimètre par minute au plus ; le col, entre 3 et 6 millimètres par minute, avec un diamètre de 2 à 5 millimètres. On produit en masse du 300 millimètres, et le 450 a été démontré. Qu'est-ce qui limite la vitesse ? Écrivons le bilan d'énergie à l'interface. En avançant à la vitesse V, elle libère par unité de surface la puissance rho L V. Cette chaleur, ajoutée au flux venu du liquide, doit partir par conduction dans le solide. La vitesse est maximale quand le liquide n'apporte plus rien : c'est la relation V rho L égale K D.T. sur D.X.. Allons plus loin : le gradient dans le solide dépend du refroidissement radiatif du lingot. Pour un cylindre de rayon r, d'émissivité epsilon et de conductivité constante, le bilan sur une tranche donne cette équation. Multiplions par D.T. sur D.X. et intégrons : la vitesse maximale varie comme l'inverse de la racine du rayon. Les gros lingots se tirent donc plus lentement. Enfin, la contre-rotation du germe et du creuset homogénéise le bain et aplanit l'interface ; l'argon protège le bain et évacue le monoxyde de silicium ; un asservissement de la puissance garde le diamètre constant.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 0.373541,
+   "d": 0.235291,
+   "w": "corps"
+  },
+  {
+   "t": 0.623541,
+   "d": 0.117666,
+   "w": "du"
+  },
+  {
+   "t": 0.755875,
+   "d": 0.352958,
+   "w": "lingot"
+  },
+  {
+   "t": 1.123541,
+   "d": 0.147041,
+   "w": "se"
+  },
+  {
+   "t": 1.285291,
+   "d": 0.279416,
+   "w": "tire"
+  },
+  {
+   "t": 1.579416,
+   "d": 0.073541,
+   "w": "à"
+  },
+  {
+   "t": 1.667666,
+   "d": 0.058833,
+   "w": "un"
+  },
+  {
+   "t": 1.741166,
+   "d": 0.602958,
+   "w": "millimètre"
+  },
+  {
+   "t": 2.358833,
+   "d": 0.191166,
+   "w": "par"
+  },
+  {
+   "t": 2.564708,
+   "d": 0.367666,
+   "w": "minute"
+  },
+  {
+   "t": 2.947041,
+   "d": 0.073541,
+   "w": "au"
+  },
+  {
+   "t": 3.035291,
+   "d": 0.514708,
+   "w": "plus"
+  },
+  {
+   "t": 3.741166,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 3.902958,
+   "d": 0.352958,
+   "w": "col"
+  },
+  {
+   "t": 4.63825,
+   "d": 1.411749,
+   "w": "entre 3 et 6 millimètres"
+  },
+  {
+   "t": 6.064708,
+   "d": 0.191166,
+   "w": "par"
+  },
+  {
+   "t": 6.270583,
+   "d": 0.441166,
+   "w": "minute"
+  },
+  {
+   "t": 7.13825,
+   "d": 0.294125,
+   "w": "avec"
+  },
+  {
+   "t": 7.447041,
+   "d": 0.073541,
+   "w": "un"
+  },
+  {
+   "t": 7.535291,
+   "d": 0.514708,
+   "w": "diamètre"
+  },
+  {
+   "t": 8.064708,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 8.21175,
+   "d": 0.279458,
+   "w": "2 à"
+  },
+  {
+   "t": 8.505875,
+   "d": 1.014708,
+   "w": "5 millimètres"
+  },
+  {
+   "t": 10.558833,
+   "d": 0.191166,
+   "w": "On"
+  },
+  {
+   "t": 10.764708,
+   "d": 0.382333,
+   "w": "produit"
+  },
+  {
+   "t": 11.16175,
+   "d": 0.08825,
+   "w": "en"
+  },
+  {
+   "t": 11.264708,
+   "d": 0.220583,
+   "w": "masse"
+  },
+  {
+   "t": 11.5,
+   "d": 0.147041,
+   "w": "du"
+  },
+  {
+   "t": 11.66175,
+   "d": 1.073541,
+   "w": "300 millimètres"
+  },
+  {
+   "t": 13.132333,
+   "d": 0.029416,
+   "w": "et"
+  },
+  {
+   "t": 13.176458,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 13.308833,
+   "d": 1.117625,
+   "w": "450 a"
+  },
+  {
+   "t": 14.441166,
+   "d": 0.235291,
+   "w": "été"
+  },
+  {
+   "t": 14.691166,
+   "d": 0.691166,
+   "w": "démontré"
+  },
+  {
+   "t": 16.397041,
+   "d": 0.294125,
+   "w": "Qu'est-ce"
+  },
+  {
+   "t": 16.705875,
+   "d": 0.147041,
+   "w": "qui"
+  },
+  {
+   "t": 16.867666,
+   "d": 0.352958,
+   "w": "limite"
+  },
+  {
+   "t": 17.235291,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 17.352958,
+   "d": 0.75,
+   "w": "vitesse"
+  },
+  {
+   "t": 19.117666,
+   "d": 0.544125,
+   "w": "Écrivons"
+  },
+  {
+   "t": 19.676458,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 19.83825,
+   "d": 0.279416,
+   "w": "bilan"
+  },
+  {
+   "t": 20.132333,
+   "d": 0.558833,
+   "w": "d'énergie"
+  },
+  {
+   "t": 20.705875,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 20.764708,
+   "d": 1.0,
+   "w": "l'interface"
+  },
+  {
+   "t": 22.779416,
+   "d": 0.176458,
+   "w": "En"
+  },
+  {
+   "t": 22.970583,
+   "d": 0.558833,
+   "w": "avançant"
+  },
+  {
+   "t": 23.544125,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 23.602958,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 23.720583,
+   "d": 0.441166,
+   "w": "vitesse"
+  },
+  {
+   "t": 24.176458,
+   "d": 0.279416,
+   "w": "V"
+  },
+  {
+   "t": 24.867666,
+   "d": 0.147041,
+   "w": "elle"
+  },
+  {
+   "t": 25.029416,
+   "d": 0.397041,
+   "w": "libère"
+  },
+  {
+   "t": 25.441166,
+   "d": 0.191166,
+   "w": "par"
+  },
+  {
+   "t": 25.647041,
+   "d": 0.382333,
+   "w": "unité"
+  },
+  {
+   "t": 26.044125,
+   "d": 0.16175,
+   "w": "de"
+  },
+  {
+   "t": 26.220583,
+   "d": 0.514708,
+   "w": "surface"
+  },
+  {
+   "t": 26.75,
+   "d": 0.147041,
+   "w": "la"
+  },
+  {
+   "t": 26.91175,
+   "d": 0.529416,
+   "w": "puissance"
+  },
+  {
+   "t": 27.455875,
+   "d": 0.16175,
+   "w": "rho"
+  },
+  {
+   "t": 27.632333,
+   "d": 0.117666,
+   "w": "L"
+  },
+  {
+   "t": 27.764708,
+   "d": 0.352958,
+   "w": "V"
+  },
+  {
+   "t": 29.132333,
+   "d": 0.323541,
+   "w": "Cette"
+  },
+  {
+   "t": 29.470583,
+   "d": 0.529416,
+   "w": "chaleur"
+  },
+  {
+   "t": 30.382333,
+   "d": 0.441166,
+   "w": "ajoutée"
+  },
+  {
+   "t": 30.83825,
+   "d": 0.073541,
+   "w": "au"
+  },
+  {
+   "t": 30.926458,
+   "d": 0.205875,
+   "w": "flux"
+  },
+  {
+   "t": 31.147041,
+   "d": 0.264708,
+   "w": "venu"
+  },
+  {
+   "t": 31.426458,
+   "d": 0.117666,
+   "w": "du"
+  },
+  {
+   "t": 31.558833,
+   "d": 0.514708,
+   "w": "liquide"
+  },
+  {
+   "t": 32.426458,
+   "d": 0.205875,
+   "w": "doit"
+  },
+  {
+   "t": 32.647041,
+   "d": 0.455875,
+   "w": "partir"
+  },
+  {
+   "t": 33.117666,
+   "d": 0.205875,
+   "w": "par"
+  },
+  {
+   "t": 33.33825,
+   "d": 0.544125,
+   "w": "conduction"
+  },
+  {
+   "t": 33.897041,
+   "d": 0.117666,
+   "w": "dans"
+  },
+  {
+   "t": 34.029416,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 34.16175,
+   "d": 0.602958,
+   "w": "solide"
+  },
+  {
+   "t": 35.794125,
+   "d": 0.235291,
+   "w": "La"
+  },
+  {
+   "t": 36.044125,
+   "d": 0.426458,
+   "w": "vitesse"
+  },
+  {
+   "t": 36.485291,
+   "d": 0.044125,
+   "w": "est"
+  },
+  {
+   "t": 36.544125,
+   "d": 0.58825,
+   "w": "maximale"
+  },
+  {
+   "t": 37.147041,
+   "d": 0.16175,
+   "w": "quand"
+  },
+  {
+   "t": 37.323541,
+   "d": 0.08825,
+   "w": "le"
+  },
+  {
+   "t": 37.426458,
+   "d": 0.367666,
+   "w": "liquide"
+  },
+  {
+   "t": 37.808833,
+   "d": 0.470583,
+   "w": "n'apporte"
+  },
+  {
+   "t": 38.294125,
+   "d": 0.191166,
+   "w": "plus"
+  },
+  {
+   "t": 38.5,
+   "d": 0.367666,
+   "w": "rien"
+  },
+  {
+   "t": 39.102958,
+   "d": 0.147041,
+   "w": "c'est"
+  },
+  {
+   "t": 39.264708,
+   "d": 0.08825,
+   "w": "la"
+  },
+  {
+   "t": 39.367666,
+   "d": 0.514708,
+   "w": "relation"
+  },
+  {
+   "t": 39.897041,
+   "d": 0.132333,
+   "w": "V"
+  },
+  {
+   "t": 40.044125,
+   "d": 0.191166,
+   "w": "rho"
+  },
+  {
+   "t": 40.25,
+   "d": 0.102958,
+   "w": "L"
+  },
+  {
+   "t": 40.367666,
+   "d": 0.323541,
+   "w": "égale"
+  },
+  {
+   "t": 40.705875,
+   "d": 0.16175,
+   "w": "K"
+  },
+  {
+   "t": 40.882333,
+   "d": 0.33825,
+   "w": "D.T."
+  },
+  {
+   "t": 41.235291,
+   "d": 0.191166,
+   "w": "sur"
+  },
+  {
+   "t": 41.441166,
+   "d": 0.647041,
+   "w": "D.X."
+  },
+  {
+   "t": 43.102958,
+   "d": 0.33825,
+   "w": "Allons"
+  },
+  {
+   "t": 43.455875,
+   "d": 0.191166,
+   "w": "plus"
+  },
+  {
+   "t": 43.66175,
+   "d": 0.352958,
+   "w": "loin"
+  },
+  {
+   "t": 44.25,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 44.41175,
+   "d": 0.41175,
+   "w": "gradient"
+  },
+  {
+   "t": 44.83825,
+   "d": 0.117666,
+   "w": "dans"
+  },
+  {
+   "t": 44.970583,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 45.132333,
+   "d": 0.352958,
+   "w": "solide"
+  },
+  {
+   "t": 45.5,
+   "d": 0.352958,
+   "w": "dépend"
+  },
+  {
+   "t": 45.867625,
+   "d": 0.147041,
+   "w": "du"
+  },
+  {
+   "t": 46.029416,
+   "d": 0.779416,
+   "w": "refroidissement"
+  },
+  {
+   "t": 46.823541,
+   "d": 0.558833,
+   "w": "radiatif"
+  },
+  {
+   "t": 47.397041,
+   "d": 0.132333,
+   "w": "du"
+  },
+  {
+   "t": 47.544125,
+   "d": 0.5,
+   "w": "lingot"
+  },
+  {
+   "t": 49.073541,
+   "d": 0.220583,
+   "w": "Pour"
+  },
+  {
+   "t": 49.308833,
+   "d": 0.073541,
+   "w": "un"
+  },
+  {
+   "t": 49.397041,
+   "d": 0.426458,
+   "w": "cylindre"
+  },
+  {
+   "t": 49.83825,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 49.955875,
+   "d": 0.323541,
+   "w": "rayon"
+  },
+  {
+   "t": 50.294125,
+   "d": 0.294125,
+   "w": "r"
+  },
+  {
+   "t": 50.852958,
+   "d": 0.75,
+   "w": "d'émissivité"
+  },
+  {
+   "t": 51.617625,
+   "d": 0.470583,
+   "w": "epsilon"
+  },
+  {
+   "t": 52.102958,
+   "d": 0.073541,
+   "w": "et"
+  },
+  {
+   "t": 52.191166,
+   "d": 0.117666,
+   "w": "de"
+  },
+  {
+   "t": 52.323541,
+   "d": 0.764708,
+   "w": "conductivité"
+  },
+  {
+   "t": 53.102958,
+   "d": 0.676458,
+   "w": "constante"
+  },
+  {
+   "t": 54.16175,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 54.323541,
+   "d": 0.294125,
+   "w": "bilan"
+  },
+  {
+   "t": 54.632333,
+   "d": 0.220583,
+   "w": "sur"
+  },
+  {
+   "t": 54.867625,
+   "d": 0.102958,
+   "w": "une"
+  },
+  {
+   "t": 54.985291,
+   "d": 0.323541,
+   "w": "tranche"
+  },
+  {
+   "t": 55.323541,
+   "d": 0.235291,
+   "w": "donne"
+  },
+  {
+   "t": 55.573541,
+   "d": 0.220583,
+   "w": "cette"
+  },
+  {
+   "t": 55.808833,
+   "d": 0.632333,
+   "w": "équation"
+  },
+  {
+   "t": 57.470583,
+   "d": 0.779416,
+   "w": "Multiplions"
+  },
+  {
+   "t": 58.264708,
+   "d": 0.220583,
+   "w": "par"
+  },
+  {
+   "t": 58.5,
+   "d": 0.323541,
+   "w": "D.T."
+  },
+  {
+   "t": 58.83825,
+   "d": 0.205875,
+   "w": "sur"
+  },
+  {
+   "t": 59.058833,
+   "d": 0.382333,
+   "w": "D.X."
+  },
+  {
+   "t": 59.455875,
+   "d": 0.08825,
+   "w": "et"
+  },
+  {
+   "t": 59.558833,
+   "d": 0.58825,
+   "w": "intégrons"
+  },
+  {
+   "t": 60.426458,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 60.573541,
+   "d": 0.426458,
+   "w": "vitesse"
+  },
+  {
+   "t": 61.014708,
+   "d": 0.58825,
+   "w": "maximale"
+  },
+  {
+   "t": 61.617625,
+   "d": 0.294125,
+   "w": "varie"
+  },
+  {
+   "t": 61.926458,
+   "d": 0.235291,
+   "w": "comme"
+  },
+  {
+   "t": 62.176458,
+   "d": 0.41175,
+   "w": "l'inverse"
+  },
+  {
+   "t": 62.602958,
+   "d": 0.117666,
+   "w": "de"
+  },
+  {
+   "t": 62.735291,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 62.852958,
+   "d": 0.397041,
+   "w": "racine"
+  },
+  {
+   "t": 63.264708,
+   "d": 0.147041,
+   "w": "du"
+  },
+  {
+   "t": 63.426458,
+   "d": 0.41175,
+   "w": "rayon"
+  },
+  {
+   "t": 64.867625,
+   "d": 0.235291,
+   "w": "Les"
+  },
+  {
+   "t": 65.117625,
+   "d": 0.235291,
+   "w": "gros"
+  },
+  {
+   "t": 65.367625,
+   "d": 0.367666,
+   "w": "lingots"
+  },
+  {
+   "t": 65.75,
+   "d": 0.16175,
+   "w": "se"
+  },
+  {
+   "t": 65.926458,
+   "d": 0.220583,
+   "w": "tirent"
+  },
+  {
+   "t": 66.16175,
+   "d": 0.25,
+   "w": "donc"
+  },
+  {
+   "t": 66.426458,
+   "d": 0.16175,
+   "w": "plus"
+  },
+  {
+   "t": 66.602958,
+   "d": 0.544125,
+   "w": "lentement"
+  },
+  {
+   "t": 68.16175,
+   "d": 0.573541,
+   "w": "Enfin"
+  },
+  {
+   "t": 69.16175,
+   "d": 0.220583,
+   "w": "la"
+  },
+  {
+   "t": 69.397041,
+   "d": 0.823541,
+   "w": "contre-rotation"
+  },
+  {
+   "t": 70.235291,
+   "d": 0.147041,
+   "w": "du"
+  },
+  {
+   "t": 70.397041,
+   "d": 0.294125,
+   "w": "germe"
+  },
+  {
+   "t": 70.705875,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 70.764708,
+   "d": 0.102958,
+   "w": "du"
+  },
+  {
+   "t": 70.882333,
+   "d": 0.397041,
+   "w": "creuset"
+  },
+  {
+   "t": 71.294125,
+   "d": 0.647041,
+   "w": "homogénéise"
+  },
+  {
+   "t": 71.955875,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 72.117625,
+   "d": 0.235291,
+   "w": "bain"
+  },
+  {
+   "t": 72.367625,
+   "d": 0.073541,
+   "w": "et"
+  },
+  {
+   "t": 72.455875,
+   "d": 0.41175,
+   "w": "aplanit"
+  },
+  {
+   "t": 72.882333,
+   "d": 0.867666,
+   "w": "l'interface"
+  },
+  {
+   "t": 73.985291,
+   "d": 0.426458,
+   "w": "l'argon"
+  },
+  {
+   "t": 74.426458,
+   "d": 0.485291,
+   "w": "protège"
+  },
+  {
+   "t": 74.926458,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 75.08825,
+   "d": 0.220583,
+   "w": "bain"
+  },
+  {
+   "t": 75.323541,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 75.397041,
+   "d": 0.382333,
+   "w": "évacue"
+  },
+  {
+   "t": 75.794125,
+   "d": 0.08825,
+   "w": "le"
+  },
+  {
+   "t": 75.897041,
+   "d": 0.544125,
+   "w": "monoxyde"
+  },
+  {
+   "t": 76.455875,
+   "d": 0.176458,
+   "w": "de"
+  },
+  {
+   "t": 76.647041,
+   "d": 0.647041,
+   "w": "silicium"
+  },
+  {
+   "t": 77.558833,
+   "d": 0.044125,
+   "w": "un"
+  },
+  {
+   "t": 77.617625,
+   "d": 0.75,
+   "w": "asservissement"
+  },
+  {
+   "t": 78.382333,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 78.5,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 78.617625,
+   "d": 0.5,
+   "w": "puissance"
+  },
+  {
+   "t": 79.132333,
+   "d": 0.294125,
+   "w": "garde"
+  },
+  {
+   "t": 79.441166,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 79.573541,
+   "d": 0.514708,
+   "w": "diamètre"
+  },
+  {
+   "t": 80.102958,
+   "d": 0.602958,
+   "w": "constant"
+  }
+ ]
+}

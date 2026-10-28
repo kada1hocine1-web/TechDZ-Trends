@@ -1,0 +1,82 @@
+{
+ "scene": "20",
+ "text": "Les références et les crédits des images sont affichés à l'écran. Merci de votre attention.",
+ "spoken": "Les références et les crédits des images sont affichés à l'écran. Merci de votre attention.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.220583,
+   "w": "Les"
+  },
+  {
+   "t": 0.344125,
+   "d": 0.617666,
+   "w": "références"
+  },
+  {
+   "t": 0.976458,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 1.035291,
+   "d": 0.117666,
+   "w": "les"
+  },
+  {
+   "t": 1.167666,
+   "d": 0.367666,
+   "w": "crédits"
+  },
+  {
+   "t": 1.55,
+   "d": 0.132333,
+   "w": "des"
+  },
+  {
+   "t": 1.697041,
+   "d": 0.397041,
+   "w": "images"
+  },
+  {
+   "t": 2.108833,
+   "d": 0.16175,
+   "w": "sont"
+  },
+  {
+   "t": 2.285291,
+   "d": 0.558833,
+   "w": "affichés"
+  },
+  {
+   "t": 2.858833,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 2.917666,
+   "d": 0.485291,
+   "w": "l'écran"
+  },
+  {
+   "t": 4.441166,
+   "d": 0.485291,
+   "w": "Merci"
+  },
+  {
+   "t": 4.941166,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 5.058833,
+   "d": 0.25,
+   "w": "votre"
+  },
+  {
+   "t": 5.323541,
+   "d": 0.602958,
+   "w": "attention"
+  }
+ ]
+}

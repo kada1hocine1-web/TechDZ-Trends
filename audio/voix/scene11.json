@@ -1,0 +1,672 @@
+{
+ "scene": "11",
+ "text": "Le rapport entre vitesse et gradient gouverne aussi les défauts ponctuels. À l'interface, lacunes et auto-interstitiels sont incorporés à leur concentration d'équilibre. En refroidissant, ils se recombinent vite : seule compte leur différence, delta. Deux flux la transportent. Le flux convectif, porté par le cristal, vaut v fois delta. Le flux diffusif suit le gradient thermique G et favorise l'espèce la plus mobile, l'interstitiel. Le bilan change de signe pour un rapport critique v sur G, noté ksi t. Au-dessus, les lacunes l'emportent et s'agglomèrent en cavités, visibles en surface comme défauts C O P. Au-dessous, les interstitiels dominent et forment des boucles de dislocation. Comme G croît du centre vers le bord, la frontière dessine un anneau dans la plaquette. Rester près de ksi t sur tout le rayon limite les deux familles de défauts.",
+ "spoken": "Le rapport entre vitesse et gradient gouverne aussi les défauts ponctuels. À l'interface, lacunes et auto-interstitiels sont incorporés à leur concentration d'équilibre. En refroidissant, ils se recombinent vite : seule compte leur différence, delta. Deux flux la transportent. Le flux convectif, porté par le cristal, vaut v fois delta. Le flux diffusif suit le gradient thermique G et favorise l'espèce la plus mobile, l'interstitiel. Le bilan change de signe pour un rapport critique v sur G, noté ksi té. Au-dessus, les lacunes l'emportent et s'agglomèrent en cavités, visibles en surface comme défauts C.O.P.. Au-dessous, les interstitiels dominent et forment des boucles de dislocation. Comme G croît du centre vers le bord, la frontière dessine un anneau dans la plaquette. Rester près de ksi té sur tout le rayon limite les deux familles de défauts.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.205875,
+   "w": "Le"
+  },
+  {
+   "t": 0.329416,
+   "d": 0.382333,
+   "w": "rapport"
+  },
+  {
+   "t": 0.726458,
+   "d": 0.264708,
+   "w": "entre"
+  },
+  {
+   "t": 1.005875,
+   "d": 0.455875,
+   "w": "vitesse"
+  },
+  {
+   "t": 1.476458,
+   "d": 0.073541,
+   "w": "et"
+  },
+  {
+   "t": 1.564708,
+   "d": 0.441166,
+   "w": "gradient"
+  },
+  {
+   "t": 2.020583,
+   "d": 0.455875,
+   "w": "gouverne"
+  },
+  {
+   "t": 2.491166,
+   "d": 0.308833,
+   "w": "aussi"
+  },
+  {
+   "t": 2.814708,
+   "d": 0.08825,
+   "w": "les"
+  },
+  {
+   "t": 2.917666,
+   "d": 0.397041,
+   "w": "défauts"
+  },
+  {
+   "t": 3.329416,
+   "d": 0.794125,
+   "w": "ponctuels"
+  },
+  {
+   "t": 5.16175,
+   "d": 0.16175,
+   "w": "À"
+  },
+  {
+   "t": 5.33825,
+   "d": 0.882333,
+   "w": "l'interface"
+  },
+  {
+   "t": 6.573541,
+   "d": 0.470583,
+   "w": "lacunes"
+  },
+  {
+   "t": 7.058833,
+   "d": 0.08825,
+   "w": "et"
+  },
+  {
+   "t": 7.16175,
+   "d": 1.044125,
+   "w": "auto-interstitiels"
+  },
+  {
+   "t": 8.220583,
+   "d": 0.147041,
+   "w": "sont"
+  },
+  {
+   "t": 8.382333,
+   "d": 0.720583,
+   "w": "incorporés"
+  },
+  {
+   "t": 9.117666,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 9.176458,
+   "d": 0.16175,
+   "w": "leur"
+  },
+  {
+   "t": 9.352958,
+   "d": 0.75,
+   "w": "concentration"
+  },
+  {
+   "t": 10.117666,
+   "d": 0.75,
+   "w": "d'équilibre"
+  },
+  {
+   "t": 11.882333,
+   "d": 0.176458,
+   "w": "En"
+  },
+  {
+   "t": 12.073541,
+   "d": 0.867666,
+   "w": "refroidissant"
+  },
+  {
+   "t": 13.323541,
+   "d": 0.176458,
+   "w": "ils"
+  },
+  {
+   "t": 13.514708,
+   "d": 0.132333,
+   "w": "se"
+  },
+  {
+   "t": 13.66175,
+   "d": 0.544125,
+   "w": "recombinent"
+  },
+  {
+   "t": 14.220583,
+   "d": 0.308833,
+   "w": "vite"
+  },
+  {
+   "t": 14.779416,
+   "d": 0.264708,
+   "w": "seule"
+  },
+  {
+   "t": 15.058833,
+   "d": 0.294125,
+   "w": "compte"
+  },
+  {
+   "t": 15.367666,
+   "d": 0.16175,
+   "w": "leur"
+  },
+  {
+   "t": 15.544125,
+   "d": 0.823541,
+   "w": "différence"
+  },
+  {
+   "t": 16.617666,
+   "d": 0.602958,
+   "w": "delta"
+  },
+  {
+   "t": 18.235291,
+   "d": 0.33825,
+   "w": "Deux"
+  },
+  {
+   "t": 18.58825,
+   "d": 0.176458,
+   "w": "flux"
+  },
+  {
+   "t": 18.779416,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 18.91175,
+   "d": 0.882333,
+   "w": "transportent"
+  },
+  {
+   "t": 20.823541,
+   "d": 0.264708,
+   "w": "Le"
+  },
+  {
+   "t": 21.102958,
+   "d": 0.191166,
+   "w": "flux"
+  },
+  {
+   "t": 21.308833,
+   "d": 0.779416,
+   "w": "convectif"
+  },
+  {
+   "t": 22.397041,
+   "d": 0.352958,
+   "w": "porté"
+  },
+  {
+   "t": 22.764708,
+   "d": 0.191166,
+   "w": "par"
+  },
+  {
+   "t": 22.970583,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 23.08825,
+   "d": 0.647041,
+   "w": "cristal"
+  },
+  {
+   "t": 24.044125,
+   "d": 0.147041,
+   "w": "vaut"
+  },
+  {
+   "t": 24.205875,
+   "d": 0.132333,
+   "w": "v"
+  },
+  {
+   "t": 24.352958,
+   "d": 0.205875,
+   "w": "fois"
+  },
+  {
+   "t": 24.573541,
+   "d": 0.558833,
+   "w": "delta"
+  },
+  {
+   "t": 26.147041,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 26.41175,
+   "d": 0.191166,
+   "w": "flux"
+  },
+  {
+   "t": 26.617666,
+   "d": 0.58825,
+   "w": "diffusif"
+  },
+  {
+   "t": 27.220583,
+   "d": 0.147041,
+   "w": "suit"
+  },
+  {
+   "t": 27.382333,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 27.5,
+   "d": 0.41175,
+   "w": "gradient"
+  },
+  {
+   "t": 27.926458,
+   "d": 0.41175,
+   "w": "thermique"
+  },
+  {
+   "t": 28.352958,
+   "d": 0.176458,
+   "w": "G"
+  },
+  {
+   "t": 28.544125,
+   "d": 0.073541,
+   "w": "et"
+  },
+  {
+   "t": 28.632333,
+   "d": 0.529416,
+   "w": "favorise"
+  },
+  {
+   "t": 29.176458,
+   "d": 0.485291,
+   "w": "l'espèce"
+  },
+  {
+   "t": 29.676458,
+   "d": 0.147041,
+   "w": "la"
+  },
+  {
+   "t": 29.83825,
+   "d": 0.176458,
+   "w": "plus"
+  },
+  {
+   "t": 30.029416,
+   "d": 0.470583,
+   "w": "mobile"
+  },
+  {
+   "t": 30.897041,
+   "d": 1.073541,
+   "w": "l'interstitiel"
+  },
+  {
+   "t": 32.985291,
+   "d": 0.235291,
+   "w": "Le"
+  },
+  {
+   "t": 33.235291,
+   "d": 0.279416,
+   "w": "bilan"
+  },
+  {
+   "t": 33.529416,
+   "d": 0.33825,
+   "w": "change"
+  },
+  {
+   "t": 33.882333,
+   "d": 0.176458,
+   "w": "de"
+  },
+  {
+   "t": 34.073541,
+   "d": 0.308833,
+   "w": "signe"
+  },
+  {
+   "t": 34.397041,
+   "d": 0.205875,
+   "w": "pour"
+  },
+  {
+   "t": 34.617666,
+   "d": 0.044125,
+   "w": "un"
+  },
+  {
+   "t": 34.676458,
+   "d": 0.382333,
+   "w": "rapport"
+  },
+  {
+   "t": 35.073541,
+   "d": 0.455875,
+   "w": "critique"
+  },
+  {
+   "t": 35.544125,
+   "d": 0.147041,
+   "w": "v"
+  },
+  {
+   "t": 35.705875,
+   "d": 0.205875,
+   "w": "sur"
+  },
+  {
+   "t": 35.926458,
+   "d": 0.279416,
+   "w": "G"
+  },
+  {
+   "t": 36.544125,
+   "d": 0.279416,
+   "w": "noté"
+  },
+  {
+   "t": 36.83825,
+   "d": 0.264708,
+   "w": "ksi"
+  },
+  {
+   "t": 37.117666,
+   "d": 0.382333,
+   "w": "té"
+  },
+  {
+   "t": 38.514708,
+   "d": 0.617666,
+   "w": "Au-dessus"
+  },
+  {
+   "t": 39.558833,
+   "d": 0.147041,
+   "w": "les"
+  },
+  {
+   "t": 39.720583,
+   "d": 0.367666,
+   "w": "lacunes"
+  },
+  {
+   "t": 40.102958,
+   "d": 0.470583,
+   "w": "l'emportent"
+  },
+  {
+   "t": 40.58825,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 40.66175,
+   "d": 0.558833,
+   "w": "s'agglomèrent"
+  },
+  {
+   "t": 41.235291,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 41.323541,
+   "d": 0.676458,
+   "w": "cavités"
+  },
+  {
+   "t": 42.323541,
+   "d": 0.455875,
+   "w": "visibles"
+  },
+  {
+   "t": 42.794125,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 42.882333,
+   "d": 0.514708,
+   "w": "surface"
+  },
+  {
+   "t": 43.41175,
+   "d": 0.25,
+   "w": "comme"
+  },
+  {
+   "t": 43.676458,
+   "d": 0.33825,
+   "w": "défauts"
+  },
+  {
+   "t": 44.029416,
+   "d": 0.632333,
+   "w": "C.O.P."
+  },
+  {
+   "t": 45.691166,
+   "d": 0.676458,
+   "w": "Au-dessous"
+  },
+  {
+   "t": 46.794125,
+   "d": 0.16175,
+   "w": "les"
+  },
+  {
+   "t": 46.970583,
+   "d": 0.852958,
+   "w": "interstitiels"
+  },
+  {
+   "t": 47.83825,
+   "d": 0.352958,
+   "w": "dominent"
+  },
+  {
+   "t": 48.205875,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 48.279416,
+   "d": 0.308833,
+   "w": "forment"
+  },
+  {
+   "t": 48.602958,
+   "d": 0.132333,
+   "w": "des"
+  },
+  {
+   "t": 48.75,
+   "d": 0.33825,
+   "w": "boucles"
+  },
+  {
+   "t": 49.102958,
+   "d": 0.117666,
+   "w": "de"
+  },
+  {
+   "t": 49.235291,
+   "d": 0.867666,
+   "w": "dislocation"
+  },
+  {
+   "t": 51.132333,
+   "d": 0.264708,
+   "w": "Comme"
+  },
+  {
+   "t": 51.41175,
+   "d": 0.147041,
+   "w": "G"
+  },
+  {
+   "t": 51.573541,
+   "d": 0.235291,
+   "w": "croît"
+  },
+  {
+   "t": 51.823541,
+   "d": 0.132333,
+   "w": "du"
+  },
+  {
+   "t": 51.970583,
+   "d": 0.397041,
+   "w": "centre"
+  },
+  {
+   "t": 52.382333,
+   "d": 0.191166,
+   "w": "vers"
+  },
+  {
+   "t": 52.58825,
+   "d": 0.132333,
+   "w": "le"
+  },
+  {
+   "t": 52.735291,
+   "d": 0.352958,
+   "w": "bord"
+  },
+  {
+   "t": 53.514708,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 53.66175,
+   "d": 0.485291,
+   "w": "frontière"
+  },
+  {
+   "t": 54.16175,
+   "d": 0.426458,
+   "w": "dessine"
+  },
+  {
+   "t": 54.602958,
+   "d": 0.044125,
+   "w": "un"
+  },
+  {
+   "t": 54.66175,
+   "d": 0.279416,
+   "w": "anneau"
+  },
+  {
+   "t": 54.955875,
+   "d": 0.117666,
+   "w": "dans"
+  },
+  {
+   "t": 55.08825,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 55.205875,
+   "d": 0.779416,
+   "w": "plaquette"
+  },
+  {
+   "t": 57.014708,
+   "d": 0.514708,
+   "w": "Rester"
+  },
+  {
+   "t": 57.544125,
+   "d": 0.205875,
+   "w": "près"
+  },
+  {
+   "t": 57.764708,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 57.926458,
+   "d": 0.235291,
+   "w": "ksi"
+  },
+  {
+   "t": 58.176458,
+   "d": 0.176458,
+   "w": "té"
+  },
+  {
+   "t": 58.367625,
+   "d": 0.25,
+   "w": "sur"
+  },
+  {
+   "t": 58.632333,
+   "d": 0.16175,
+   "w": "tout"
+  },
+  {
+   "t": 58.808833,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 58.941166,
+   "d": 0.294125,
+   "w": "rayon"
+  },
+  {
+   "t": 59.25,
+   "d": 0.382333,
+   "w": "limite"
+  },
+  {
+   "t": 59.647041,
+   "d": 0.132333,
+   "w": "les"
+  },
+  {
+   "t": 59.794125,
+   "d": 0.176458,
+   "w": "deux"
+  },
+  {
+   "t": 59.985291,
+   "d": 0.33825,
+   "w": "familles"
+  },
+  {
+   "t": 60.33825,
+   "d": 0.117666,
+   "w": "de"
+  },
+  {
+   "t": 60.470583,
+   "d": 0.529416,
+   "w": "défauts"
+  }
+ ]
+}

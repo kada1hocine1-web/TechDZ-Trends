@@ -1,0 +1,127 @@
+{
+ "scene": "00",
+ "text": "Cristallogenèse du silicium : du sable de quartz au monocristal parfait. Un exposé de Kada Hocine, Master 2 Physique des matériaux, encadré par le docteur Sehabi.",
+ "spoken": "Cristallogenèse du silicium : du sable de quartz au monocristal parfait. Un exposé de Kada Hocine, Master 2 Physique des matériaux, encadré par le docteur Sehabi.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.867666,
+   "w": "Cristallogenèse"
+  },
+  {
+   "t": 0.991166,
+   "d": 0.147041,
+   "w": "du"
+  },
+  {
+   "t": 1.152958,
+   "d": 0.705875,
+   "w": "silicium"
+  },
+  {
+   "t": 2.05,
+   "d": 0.16175,
+   "w": "du"
+  },
+  {
+   "t": 2.226458,
+   "d": 0.308833,
+   "w": "sable"
+  },
+  {
+   "t": 2.55,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 2.697041,
+   "d": 0.382333,
+   "w": "quartz"
+  },
+  {
+   "t": 3.094125,
+   "d": 0.044125,
+   "w": "au"
+  },
+  {
+   "t": 3.152958,
+   "d": 0.764708,
+   "w": "monocristal"
+  },
+  {
+   "t": 3.932333,
+   "d": 0.544125,
+   "w": "parfait"
+  },
+  {
+   "t": 5.514708,
+   "d": 0.176458,
+   "w": "Un"
+  },
+  {
+   "t": 5.705875,
+   "d": 0.558833,
+   "w": "exposé"
+  },
+  {
+   "t": 6.279416,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 6.426458,
+   "d": 0.323541,
+   "w": "Kada"
+  },
+  {
+   "t": 6.764708,
+   "d": 0.529416,
+   "w": "Hocine"
+  },
+  {
+   "t": 7.676458,
+   "d": 0.455875,
+   "w": "Master"
+  },
+  {
+   "t": 8.147041,
+   "d": 0.5441669,
+   "w": "2 Physique"
+  },
+  {
+   "t": 8.705875,
+   "d": 0.102958,
+   "w": "des"
+  },
+  {
+   "t": 8.823541,
+   "d": 0.705875,
+   "w": "matériaux"
+  },
+  {
+   "t": 9.808833,
+   "d": 0.485291,
+   "w": "encadré"
+  },
+  {
+   "t": 10.308833,
+   "d": 0.191166,
+   "w": "par"
+  },
+  {
+   "t": 10.514708,
+   "d": 0.08825,
+   "w": "le"
+  },
+  {
+   "t": 10.617666,
+   "d": 0.397041,
+   "w": "docteur"
+  },
+  {
+   "t": 11.029416,
+   "d": 0.573541,
+   "w": "Sehabi"
+  }
+ ]
+}

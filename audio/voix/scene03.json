@@ -1,0 +1,522 @@
+{
+ "scene": "03",
+ "text": "Pourquoi exiger un monocristal ? Sur cette plaquette multicristalline, les grains se voient à l'œil nu. Joints de grains et dislocations introduisent des niveaux dans la bande interdite : ils piègent électrons et trous, et dégradent transistors et cellules. Le dopage contrôle la conduction, avec dix puissance quinze à dix puissance dix-neuf atomes par centimètre cube, soit deux atomes sur cent millions à deux sur dix mille. Les métaux contaminants doivent rester sous dix puissance douze, soit deux atomes sur cent milliards. Il faut donc un cristal où rien d'autre n'est présent, et un réseau parfait sur tout un lingot de plusieurs dizaines de kilogrammes.",
+ "spoken": "Pourquoi exiger un monocristal ? Sur cette plaquette multicristalline, les grains se voient à l'œil nu. Joints de grains et dislocations introduisent des niveaux dans la bande interdite : ils piègent électrons et trous, et dégradent transistors et cellules. Le dopage contrôle la conduction, avec dix puissance quinze à dix puissance dix-neuf atomes par centimètre cube, soit deux atomes sur cent millions à deux sur dix mille. Les métaux contaminants doivent rester sous dix puissance douze, soit deux atomes sur cent milliards. Il faut donc un cristal où rien d'autre n'est présent, et un réseau parfait sur tout un lingot de plusieurs dizaines de kilogrammes.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.441166,
+   "w": "Pourquoi"
+  },
+  {
+   "t": 0.564708,
+   "d": 0.455875,
+   "w": "exiger"
+  },
+  {
+   "t": 1.035291,
+   "d": 0.073541,
+   "w": "un"
+  },
+  {
+   "t": 1.123541,
+   "d": 0.955875,
+   "w": "monocristal"
+  },
+  {
+   "t": 3.117666,
+   "d": 0.323541,
+   "w": "Sur"
+  },
+  {
+   "t": 3.455875,
+   "d": 0.220583,
+   "w": "cette"
+  },
+  {
+   "t": 3.691166,
+   "d": 0.441166,
+   "w": "plaquette"
+  },
+  {
+   "t": 4.147041,
+   "d": 1.08825,
+   "w": "multicristalline"
+  },
+  {
+   "t": 5.602958,
+   "d": 0.132333,
+   "w": "les"
+  },
+  {
+   "t": 5.75,
+   "d": 0.264708,
+   "w": "grains"
+  },
+  {
+   "t": 6.029416,
+   "d": 0.147041,
+   "w": "se"
+  },
+  {
+   "t": 6.191166,
+   "d": 0.205875,
+   "w": "voient"
+  },
+  {
+   "t": 6.41175,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 6.470583,
+   "d": 0.176458,
+   "w": "l'œil"
+  },
+  {
+   "t": 6.66175,
+   "d": 0.279416,
+   "w": "nu"
+  },
+  {
+   "t": 7.955875,
+   "d": 0.367666,
+   "w": "Joints"
+  },
+  {
+   "t": 8.33825,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 8.485291,
+   "d": 0.279416,
+   "w": "grains"
+  },
+  {
+   "t": 8.779416,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 8.83825,
+   "d": 0.794125,
+   "w": "dislocations"
+  },
+  {
+   "t": 9.647041,
+   "d": 0.529416,
+   "w": "introduisent"
+  },
+  {
+   "t": 10.191166,
+   "d": 0.117666,
+   "w": "des"
+  },
+  {
+   "t": 10.323541,
+   "d": 0.323541,
+   "w": "niveaux"
+  },
+  {
+   "t": 10.66175,
+   "d": 0.117666,
+   "w": "dans"
+  },
+  {
+   "t": 10.794125,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 10.91175,
+   "d": 0.264708,
+   "w": "bande"
+  },
+  {
+   "t": 11.191166,
+   "d": 0.558833,
+   "w": "interdite"
+  },
+  {
+   "t": 12.029416,
+   "d": 0.132333,
+   "w": "ils"
+  },
+  {
+   "t": 12.176458,
+   "d": 0.308833,
+   "w": "piègent"
+  },
+  {
+   "t": 12.5,
+   "d": 0.441166,
+   "w": "électrons"
+  },
+  {
+   "t": 12.955875,
+   "d": 0.102958,
+   "w": "et"
+  },
+  {
+   "t": 13.073541,
+   "d": 0.33825,
+   "w": "trous"
+  },
+  {
+   "t": 13.808833,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 13.882333,
+   "d": 0.426458,
+   "w": "dégradent"
+  },
+  {
+   "t": 14.323541,
+   "d": 0.647041,
+   "w": "transistors"
+  },
+  {
+   "t": 14.985291,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 15.058833,
+   "d": 0.573541,
+   "w": "cellules"
+  },
+  {
+   "t": 16.647041,
+   "d": 0.235291,
+   "w": "Le"
+  },
+  {
+   "t": 16.897041,
+   "d": 0.397041,
+   "w": "dopage"
+  },
+  {
+   "t": 17.308833,
+   "d": 0.455875,
+   "w": "contrôle"
+  },
+  {
+   "t": 17.779416,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 17.897041,
+   "d": 0.691166,
+   "w": "conduction"
+  },
+  {
+   "t": 19.014708,
+   "d": 0.294125,
+   "w": "avec"
+  },
+  {
+   "t": 19.323541,
+   "d": 0.16175,
+   "w": "dix"
+  },
+  {
+   "t": 19.5,
+   "d": 0.514708,
+   "w": "puissance"
+  },
+  {
+   "t": 20.029416,
+   "d": 0.308833,
+   "w": "quinze"
+  },
+  {
+   "t": 20.352958,
+   "d": 0.058833,
+   "w": "à"
+  },
+  {
+   "t": 20.426458,
+   "d": 0.16175,
+   "w": "dix"
+  },
+  {
+   "t": 20.602958,
+   "d": 0.485291,
+   "w": "puissance"
+  },
+  {
+   "t": 21.102958,
+   "d": 0.441166,
+   "w": "dix-neuf"
+  },
+  {
+   "t": 21.558833,
+   "d": 0.352958,
+   "w": "atomes"
+  },
+  {
+   "t": 21.926458,
+   "d": 0.205875,
+   "w": "par"
+  },
+  {
+   "t": 22.147041,
+   "d": 0.676458,
+   "w": "centimètre"
+  },
+  {
+   "t": 22.83825,
+   "d": 0.33825,
+   "w": "cube"
+  },
+  {
+   "t": 23.558833,
+   "d": 0.220583,
+   "w": "soit"
+  },
+  {
+   "t": 23.794125,
+   "d": 0.16175,
+   "w": "deux"
+  },
+  {
+   "t": 23.970583,
+   "d": 0.41175,
+   "w": "atomes"
+  },
+  {
+   "t": 24.397041,
+   "d": 0.220583,
+   "w": "sur"
+  },
+  {
+   "t": 24.632333,
+   "d": 0.147041,
+   "w": "cent"
+  },
+  {
+   "t": 24.794125,
+   "d": 0.382333,
+   "w": "millions"
+  },
+  {
+   "t": 25.191166,
+   "d": 0.08825,
+   "w": "à"
+  },
+  {
+   "t": 25.294125,
+   "d": 0.176458,
+   "w": "deux"
+  },
+  {
+   "t": 25.485291,
+   "d": 0.191166,
+   "w": "sur"
+  },
+  {
+   "t": 25.691166,
+   "d": 0.16175,
+   "w": "dix"
+  },
+  {
+   "t": 25.867666,
+   "d": 0.41175,
+   "w": "mille"
+  },
+  {
+   "t": 27.294125,
+   "d": 0.235291,
+   "w": "Les"
+  },
+  {
+   "t": 27.544125,
+   "d": 0.294125,
+   "w": "métaux"
+  },
+  {
+   "t": 27.852958,
+   "d": 0.632333,
+   "w": "contaminants"
+  },
+  {
+   "t": 28.5,
+   "d": 0.235291,
+   "w": "doivent"
+  },
+  {
+   "t": 28.75,
+   "d": 0.397041,
+   "w": "rester"
+  },
+  {
+   "t": 29.16175,
+   "d": 0.16175,
+   "w": "sous"
+  },
+  {
+   "t": 29.33825,
+   "d": 0.147041,
+   "w": "dix"
+  },
+  {
+   "t": 29.5,
+   "d": 0.5,
+   "w": "puissance"
+  },
+  {
+   "t": 30.014708,
+   "d": 0.41175,
+   "w": "douze"
+  },
+  {
+   "t": 30.794125,
+   "d": 0.220583,
+   "w": "soit"
+  },
+  {
+   "t": 31.029416,
+   "d": 0.176458,
+   "w": "deux"
+  },
+  {
+   "t": 31.220583,
+   "d": 0.41175,
+   "w": "atomes"
+  },
+  {
+   "t": 31.647041,
+   "d": 0.205875,
+   "w": "sur"
+  },
+  {
+   "t": 31.867666,
+   "d": 0.147041,
+   "w": "cent"
+  },
+  {
+   "t": 32.029416,
+   "d": 0.720583,
+   "w": "milliards"
+  },
+  {
+   "t": 33.764708,
+   "d": 0.220583,
+   "w": "Il"
+  },
+  {
+   "t": 34.0,
+   "d": 0.147041,
+   "w": "faut"
+  },
+  {
+   "t": 34.16175,
+   "d": 0.279416,
+   "w": "donc"
+  },
+  {
+   "t": 34.455875,
+   "d": 0.08825,
+   "w": "un"
+  },
+  {
+   "t": 34.558833,
+   "d": 0.5,
+   "w": "cristal"
+  },
+  {
+   "t": 35.073541,
+   "d": 0.058833,
+   "w": "où"
+  },
+  {
+   "t": 35.147041,
+   "d": 0.220583,
+   "w": "rien"
+  },
+  {
+   "t": 35.382333,
+   "d": 0.308833,
+   "w": "d'autre"
+  },
+  {
+   "t": 35.705875,
+   "d": 0.132333,
+   "w": "n'est"
+  },
+  {
+   "t": 35.852958,
+   "d": 0.514708,
+   "w": "présent"
+  },
+  {
+   "t": 36.75,
+   "d": 0.08825,
+   "w": "et"
+  },
+  {
+   "t": 36.852958,
+   "d": 0.073541,
+   "w": "un"
+  },
+  {
+   "t": 36.941166,
+   "d": 0.33825,
+   "w": "réseau"
+  },
+  {
+   "t": 37.294125,
+   "d": 0.41175,
+   "w": "parfait"
+  },
+  {
+   "t": 37.720583,
+   "d": 0.25,
+   "w": "sur"
+  },
+  {
+   "t": 37.985291,
+   "d": 0.220583,
+   "w": "tout"
+  },
+  {
+   "t": 38.220583,
+   "d": 0.058833,
+   "w": "un"
+  },
+  {
+   "t": 38.294125,
+   "d": 0.308833,
+   "w": "lingot"
+  },
+  {
+   "t": 38.617666,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 38.779416,
+   "d": 0.455875,
+   "w": "plusieurs"
+  },
+  {
+   "t": 39.25,
+   "d": 0.41175,
+   "w": "dizaines"
+  },
+  {
+   "t": 39.676458,
+   "d": 0.117666,
+   "w": "de"
+  },
+  {
+   "t": 39.808833,
+   "d": 0.779416,
+   "w": "kilogrammes"
+  }
+ ]
+}

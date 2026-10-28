@@ -1,0 +1,637 @@
+{
+ "scene": "02",
+ "text": "Le silicium cristallise dans la structure diamant : un réseau cubique à faces centrées, avec un motif de deux atomes décalés d'un quart de la grande diagonale. La maille conventionnelle contient donc huit atomes. Chaque atome a quatre voisins aux sommets d'un tétraèdre, signature de l'hybridation s p trois, avec un angle de 109,47 degrés. Le paramètre de maille vaut 5,43 ångströms, d'après Kittel. On en déduit la distance entre premiers voisins, 2,35 ångströms, et la densité atomique, environ cinq fois dix puissance vingt-deux atomes par centimètre cube. La structure est peu compacte : 34 % seulement de l'espace est occupé. Le silicium fond à 1414 degrés et se dilate d'environ 10 % en se solidifiant : on ne peut pas le couler dans un moule si l'on veut un cristal sans contraintes.",
+ "spoken": "Le silicium cristallise dans la structure diamant : un réseau cubique à faces centrées, avec un motif de deux atomes décalés d'un quart de la grande diagonale. La maille conventionnelle contient donc huit atomes. Chaque atome a quatre voisins aux sommets d'un tétraèdre, signature de l'hybridation S.P. trois, avec un angle de 109,47 degrés. Le paramètre de maille vaut 5,43 ångströms, d'après Kittel. On en déduit la distance entre premiers voisins, 2,35 ångströms, et la densité atomique, environ cinq fois dix puissance vingt-deux atomes par centimètre cube. La structure est peu compacte : 34 % seulement de l'espace est occupé. Le silicium fond à 1414 degrés et se dilate d'environ 10 % en se solidifiant : on ne peut pas le couler dans un moule si l'on veut un cristal sans contraintes.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 0.373541,
+   "d": 0.558833,
+   "w": "silicium"
+  },
+  {
+   "t": 0.947041,
+   "d": 0.617666,
+   "w": "cristallise"
+  },
+  {
+   "t": 1.579416,
+   "d": 0.132333,
+   "w": "dans"
+  },
+  {
+   "t": 1.726458,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 1.858833,
+   "d": 0.5,
+   "w": "structure"
+  },
+  {
+   "t": 2.373541,
+   "d": 0.470583,
+   "w": "diamant"
+  },
+  {
+   "t": 3.079416,
+   "d": 0.058833,
+   "w": "un"
+  },
+  {
+   "t": 3.152958,
+   "d": 0.323541,
+   "w": "réseau"
+  },
+  {
+   "t": 3.491166,
+   "d": 0.426458,
+   "w": "cubique"
+  },
+  {
+   "t": 3.932333,
+   "d": 0.073541,
+   "w": "à"
+  },
+  {
+   "t": 4.020583,
+   "d": 0.279416,
+   "w": "faces"
+  },
+  {
+   "t": 4.314708,
+   "d": 0.558833,
+   "w": "centrées"
+  },
+  {
+   "t": 5.21175,
+   "d": 0.33825,
+   "w": "avec"
+  },
+  {
+   "t": 5.564708,
+   "d": 0.073541,
+   "w": "un"
+  },
+  {
+   "t": 5.652958,
+   "d": 0.41175,
+   "w": "motif"
+  },
+  {
+   "t": 6.079416,
+   "d": 0.16175,
+   "w": "de"
+  },
+  {
+   "t": 6.255875,
+   "d": 0.16175,
+   "w": "deux"
+  },
+  {
+   "t": 6.432333,
+   "d": 0.397041,
+   "w": "atomes"
+  },
+  {
+   "t": 6.844125,
+   "d": 0.397041,
+   "w": "décalés"
+  },
+  {
+   "t": 7.255875,
+   "d": 0.176458,
+   "w": "d'un"
+  },
+  {
+   "t": 7.447041,
+   "d": 0.279416,
+   "w": "quart"
+  },
+  {
+   "t": 7.741166,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 7.858833,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 7.976458,
+   "d": 0.294125,
+   "w": "grande"
+  },
+  {
+   "t": 8.285291,
+   "d": 0.779416,
+   "w": "diagonale"
+  },
+  {
+   "t": 10.08825,
+   "d": 0.220583,
+   "w": "La"
+  },
+  {
+   "t": 10.323541,
+   "d": 0.205875,
+   "w": "maille"
+  },
+  {
+   "t": 10.544125,
+   "d": 0.764708,
+   "w": "conventionnelle"
+  },
+  {
+   "t": 11.323541,
+   "d": 0.441166,
+   "w": "contient"
+  },
+  {
+   "t": 11.779416,
+   "d": 0.279416,
+   "w": "donc"
+  },
+  {
+   "t": 12.073541,
+   "d": 0.117666,
+   "w": "huit"
+  },
+  {
+   "t": 12.205875,
+   "d": 0.705875,
+   "w": "atomes"
+  },
+  {
+   "t": 13.926458,
+   "d": 0.397041,
+   "w": "Chaque"
+  },
+  {
+   "t": 14.33825,
+   "d": 0.33825,
+   "w": "atome"
+  },
+  {
+   "t": 14.691166,
+   "d": 0.073541,
+   "w": "a"
+  },
+  {
+   "t": 14.779416,
+   "d": 0.352958,
+   "w": "quatre"
+  },
+  {
+   "t": 15.147041,
+   "d": 0.352958,
+   "w": "voisins"
+  },
+  {
+   "t": 15.514708,
+   "d": 0.08825,
+   "w": "aux"
+  },
+  {
+   "t": 15.617666,
+   "d": 0.33825,
+   "w": "sommets"
+  },
+  {
+   "t": 15.970583,
+   "d": 0.132333,
+   "w": "d'un"
+  },
+  {
+   "t": 16.117666,
+   "d": 0.676458,
+   "w": "tétraèdre"
+  },
+  {
+   "t": 17.147041,
+   "d": 0.573541,
+   "w": "signature"
+  },
+  {
+   "t": 17.735291,
+   "d": 0.117666,
+   "w": "de"
+  },
+  {
+   "t": 17.867666,
+   "d": 0.691166,
+   "w": "l'hybridation"
+  },
+  {
+   "t": 18.573541,
+   "d": 0.323541,
+   "w": "S.P."
+  },
+  {
+   "t": 18.91175,
+   "d": 0.367666,
+   "w": "trois"
+  },
+  {
+   "t": 19.66175,
+   "d": 0.352958,
+   "w": "avec"
+  },
+  {
+   "t": 20.029416,
+   "d": 0.073541,
+   "w": "un"
+  },
+  {
+   "t": 20.117666,
+   "d": 0.294125,
+   "w": "angle"
+  },
+  {
+   "t": 20.426458,
+   "d": 0.16175,
+   "w": "de"
+  },
+  {
+   "t": 20.602958,
+   "d": 1.308833,
+   "w": "109,47 "
+  },
+  {
+   "t": 21.926458,
+   "d": 0.485291,
+   "w": "degrés"
+  },
+  {
+   "t": 23.426458,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 23.691166,
+   "d": 0.602958,
+   "w": "paramètre"
+  },
+  {
+   "t": 24.308833,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 24.426458,
+   "d": 0.220583,
+   "w": "maille"
+  },
+  {
+   "t": 24.66175,
+   "d": 0.147041,
+   "w": "vaut"
+  },
+  {
+   "t": 24.823541,
+   "d": 1.2205839,
+   "w": "5,43 "
+  },
+  {
+   "t": 26.058833,
+   "d": 0.602958,
+   "w": "ångströms"
+  },
+  {
+   "t": 26.970583,
+   "d": 0.382333,
+   "w": "d'après"
+  },
+  {
+   "t": 27.367666,
+   "d": 0.66175,
+   "w": "Kittel"
+  },
+  {
+   "t": 29.044125,
+   "d": 0.176458,
+   "w": "On"
+  },
+  {
+   "t": 29.235291,
+   "d": 0.147041,
+   "w": "en"
+  },
+  {
+   "t": 29.397041,
+   "d": 0.294125,
+   "w": "déduit"
+  },
+  {
+   "t": 29.705875,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 29.823541,
+   "d": 0.558833,
+   "w": "distance"
+  },
+  {
+   "t": 30.397041,
+   "d": 0.264708,
+   "w": "entre"
+  },
+  {
+   "t": 30.676458,
+   "d": 0.308833,
+   "w": "premiers"
+  },
+  {
+   "t": 31.0,
+   "d": 0.5,
+   "w": "voisins"
+  },
+  {
+   "t": 31.823541,
+   "d": 1.1470419,
+   "w": "2,35 "
+  },
+  {
+   "t": 32.985291,
+   "d": 0.573541,
+   "w": "ångströms"
+  },
+  {
+   "t": 33.941166,
+   "d": 0.029416,
+   "w": "et"
+  },
+  {
+   "t": 33.985291,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 34.117666,
+   "d": 0.529416,
+   "w": "densité"
+  },
+  {
+   "t": 34.66175,
+   "d": 0.573541,
+   "w": "atomique"
+  },
+  {
+   "t": 35.58825,
+   "d": 0.367666,
+   "w": "environ"
+  },
+  {
+   "t": 35.970583,
+   "d": 0.294125,
+   "w": "cinq"
+  },
+  {
+   "t": 36.279416,
+   "d": 0.191166,
+   "w": "fois"
+  },
+  {
+   "t": 36.485291,
+   "d": 0.147041,
+   "w": "dix"
+  },
+  {
+   "t": 36.647041,
+   "d": 0.5,
+   "w": "puissance"
+  },
+  {
+   "t": 37.16175,
+   "d": 0.33825,
+   "w": "vingt-deux"
+  },
+  {
+   "t": 37.514708,
+   "d": 0.426458,
+   "w": "atomes"
+  },
+  {
+   "t": 37.955875,
+   "d": 0.205875,
+   "w": "par"
+  },
+  {
+   "t": 38.176458,
+   "d": 0.676458,
+   "w": "centimètre"
+  },
+  {
+   "t": 38.867666,
+   "d": 0.529416,
+   "w": "cube"
+  },
+  {
+   "t": 40.41175,
+   "d": 0.25,
+   "w": "La"
+  },
+  {
+   "t": 40.676458,
+   "d": 0.558833,
+   "w": "structure"
+  },
+  {
+   "t": 41.25,
+   "d": 0.058833,
+   "w": "est"
+  },
+  {
+   "t": 41.323541,
+   "d": 0.147041,
+   "w": "peu"
+  },
+  {
+   "t": 41.485291,
+   "d": 0.529416,
+   "w": "compacte"
+  },
+  {
+   "t": 42.264708,
+   "d": 1.044083,
+   "w": "34 %"
+  },
+  {
+   "t": 43.323541,
+   "d": 0.352958,
+   "w": "seulement"
+  },
+  {
+   "t": 43.691166,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 43.808833,
+   "d": 0.470583,
+   "w": "l'espace"
+  },
+  {
+   "t": 44.294125,
+   "d": 0.058833,
+   "w": "est"
+  },
+  {
+   "t": 44.367625,
+   "d": 0.691166,
+   "w": "occupé"
+  },
+  {
+   "t": 46.08825,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 46.352958,
+   "d": 0.573541,
+   "w": "silicium"
+  },
+  {
+   "t": 46.941166,
+   "d": 0.235291,
+   "w": "fond"
+  },
+  {
+   "t": 47.191166,
+   "d": 0.08825,
+   "w": "à"
+  },
+  {
+   "t": 47.294125,
+   "d": 1.529416,
+   "w": "1414 degrés"
+  },
+  {
+   "t": 48.83825,
+   "d": 0.073541,
+   "w": "et"
+  },
+  {
+   "t": 48.926458,
+   "d": 0.132333,
+   "w": "se"
+  },
+  {
+   "t": 49.073541,
+   "d": 0.352958,
+   "w": "dilate"
+  },
+  {
+   "t": 49.441166,
+   "d": 0.455875,
+   "w": "d'environ"
+  },
+  {
+   "t": 49.91175,
+   "d": 0.58825,
+   "w": "10 %"
+  },
+  {
+   "t": 50.514708,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 50.602958,
+   "d": 0.176458,
+   "w": "se"
+  },
+  {
+   "t": 50.794125,
+   "d": 0.794125,
+   "w": "solidifiant"
+  },
+  {
+   "t": 51.794125,
+   "d": 0.044125,
+   "w": "on"
+  },
+  {
+   "t": 51.852958,
+   "d": 0.102958,
+   "w": "ne"
+  },
+  {
+   "t": 51.970583,
+   "d": 0.16175,
+   "w": "peut"
+  },
+  {
+   "t": 52.147041,
+   "d": 0.147041,
+   "w": "pas"
+  },
+  {
+   "t": 52.308833,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 52.441166,
+   "d": 0.279416,
+   "w": "couler"
+  },
+  {
+   "t": 52.735291,
+   "d": 0.147041,
+   "w": "dans"
+  },
+  {
+   "t": 52.897041,
+   "d": 0.16175,
+   "w": "un"
+  },
+  {
+   "t": 53.073541,
+   "d": 0.220583,
+   "w": "moule"
+  },
+  {
+   "t": 53.308833,
+   "d": 0.176458,
+   "w": "si"
+  },
+  {
+   "t": 53.5,
+   "d": 0.132333,
+   "w": "l'on"
+  },
+  {
+   "t": 53.647041,
+   "d": 0.176458,
+   "w": "veut"
+  },
+  {
+   "t": 53.83825,
+   "d": 0.102958,
+   "w": "un"
+  },
+  {
+   "t": 53.955875,
+   "d": 0.514708,
+   "w": "cristal"
+  },
+  {
+   "t": 54.485291,
+   "d": 0.176458,
+   "w": "sans"
+  },
+  {
+   "t": 54.676458,
+   "d": 0.735291,
+   "w": "contraintes"
+  }
+ ]
+}

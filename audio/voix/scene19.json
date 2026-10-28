@@ -1,0 +1,322 @@
+{
+ "scene": "19",
+ "text": "Trois étapes transforment le sable en cristal parfait : réduction, purification chimique, cristallogenèse. Le Czochralski fournit l'essentiel du silicium mondial ; la fusion de zone, le plus pur. Tout se joue à l'interface solide-liquide. Le bilan thermique y fixe la vitesse maximale. Le rapport v sur G y choisit le défaut ponctuel dominant. La couche limite y règle la ségrégation et la stabilité du front.",
+ "spoken": "Trois étapes transforment le sable en cristal parfait : réduction, purification chimique, cristallogenèse. Le Czochralski fournit l'essentiel du silicium mondial ; la fusion de zone, le plus pur. Tout se joue à l'interface solide-liquide. Le bilan thermique y fixe la vitesse maximale. Le rapport v sur G y choisit le défaut ponctuel dominant. La couche limite y règle la ségrégation et la stabilité du front.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.279416,
+   "w": "Trois"
+  },
+  {
+   "t": 0.402958,
+   "d": 0.382333,
+   "w": "étapes"
+  },
+  {
+   "t": 0.8,
+   "d": 0.529416,
+   "w": "transforment"
+  },
+  {
+   "t": 1.344125,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 1.505875,
+   "d": 0.294125,
+   "w": "sable"
+  },
+  {
+   "t": 1.814708,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 1.902958,
+   "d": 0.514708,
+   "w": "cristal"
+  },
+  {
+   "t": 2.432333,
+   "d": 0.5,
+   "w": "parfait"
+  },
+  {
+   "t": 3.255875,
+   "d": 0.617666,
+   "w": "réduction"
+  },
+  {
+   "t": 4.241166,
+   "d": 0.823541,
+   "w": "purification"
+  },
+  {
+   "t": 5.079416,
+   "d": 0.573541,
+   "w": "chimique"
+  },
+  {
+   "t": 5.96175,
+   "d": 1.117666,
+   "w": "cristallogenèse"
+  },
+  {
+   "t": 8.117666,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 8.382333,
+   "d": 0.705875,
+   "w": "Czochralski"
+  },
+  {
+   "t": 9.102958,
+   "d": 0.33825,
+   "w": "fournit"
+  },
+  {
+   "t": 9.455875,
+   "d": 0.632333,
+   "w": "l'essentiel"
+  },
+  {
+   "t": 10.102958,
+   "d": 0.16175,
+   "w": "du"
+  },
+  {
+   "t": 10.279416,
+   "d": 0.529416,
+   "w": "silicium"
+  },
+  {
+   "t": 10.823541,
+   "d": 0.558833,
+   "w": "mondial"
+  },
+  {
+   "t": 11.647041,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 11.794125,
+   "d": 0.367666,
+   "w": "fusion"
+  },
+  {
+   "t": 12.176458,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 12.33825,
+   "d": 0.397041,
+   "w": "zone"
+  },
+  {
+   "t": 13.102958,
+   "d": 0.176458,
+   "w": "le"
+  },
+  {
+   "t": 13.294125,
+   "d": 0.205875,
+   "w": "plus"
+  },
+  {
+   "t": 13.514708,
+   "d": 0.485291,
+   "w": "pur"
+  },
+  {
+   "t": 15.014708,
+   "d": 0.220583,
+   "w": "Tout"
+  },
+  {
+   "t": 15.25,
+   "d": 0.16175,
+   "w": "se"
+  },
+  {
+   "t": 15.426458,
+   "d": 0.191166,
+   "w": "joue"
+  },
+  {
+   "t": 15.632333,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 15.691166,
+   "d": 0.617666,
+   "w": "l'interface"
+  },
+  {
+   "t": 16.323541,
+   "d": 0.985291,
+   "w": "solide-liquide"
+  },
+  {
+   "t": 18.323541,
+   "d": 0.235291,
+   "w": "Le"
+  },
+  {
+   "t": 18.573541,
+   "d": 0.294125,
+   "w": "bilan"
+  },
+  {
+   "t": 18.882333,
+   "d": 0.485291,
+   "w": "thermique"
+  },
+  {
+   "t": 19.382333,
+   "d": 0.073541,
+   "w": "y"
+  },
+  {
+   "t": 19.470583,
+   "d": 0.294125,
+   "w": "fixe"
+  },
+  {
+   "t": 19.779416,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 19.926458,
+   "d": 0.441166,
+   "w": "vitesse"
+  },
+  {
+   "t": 20.382333,
+   "d": 0.83825,
+   "w": "maximale"
+  },
+  {
+   "t": 22.235291,
+   "d": 0.205875,
+   "w": "Le"
+  },
+  {
+   "t": 22.455875,
+   "d": 0.382333,
+   "w": "rapport"
+  },
+  {
+   "t": 22.852958,
+   "d": 0.147041,
+   "w": "v"
+  },
+  {
+   "t": 23.014708,
+   "d": 0.205875,
+   "w": "sur"
+  },
+  {
+   "t": 23.235291,
+   "d": 0.16175,
+   "w": "G"
+  },
+  {
+   "t": 23.41175,
+   "d": 0.08825,
+   "w": "y"
+  },
+  {
+   "t": 23.514708,
+   "d": 0.397041,
+   "w": "choisit"
+  },
+  {
+   "t": 23.926458,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 24.058833,
+   "d": 0.397041,
+   "w": "défaut"
+  },
+  {
+   "t": 24.470583,
+   "d": 0.544125,
+   "w": "ponctuel"
+  },
+  {
+   "t": 25.029416,
+   "d": 0.544125,
+   "w": "dominant"
+  },
+  {
+   "t": 26.602958,
+   "d": 0.25,
+   "w": "La"
+  },
+  {
+   "t": 26.867666,
+   "d": 0.294125,
+   "w": "couche"
+  },
+  {
+   "t": 27.176458,
+   "d": 0.397041,
+   "w": "limite"
+  },
+  {
+   "t": 27.58825,
+   "d": 0.08825,
+   "w": "y"
+  },
+  {
+   "t": 27.691166,
+   "d": 0.279416,
+   "w": "règle"
+  },
+  {
+   "t": 27.985291,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 28.117666,
+   "d": 0.83825,
+   "w": "ségrégation"
+  },
+  {
+   "t": 28.970583,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 29.044125,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 29.176458,
+   "d": 0.617666,
+   "w": "stabilité"
+  },
+  {
+   "t": 29.808833,
+   "d": 0.132333,
+   "w": "du"
+  },
+  {
+   "t": 29.955875,
+   "d": 0.33825,
+   "w": "front"
+  }
+ ]
+}

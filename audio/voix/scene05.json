@@ -1,0 +1,507 @@
+{
+ "scene": "05",
+ "text": "Première étape : la réduction carbothermique. Quartz et carbone sont chargés dans un four électrique à arc immergé. La zone chaude atteint environ 2000 degrés, et le bas du four dépasse 1780 degrés. Deux réactions dominent. Le carbone attaque d'abord la silice et forme du carbure de silicium. Ce carbure réduit ensuite la silice restante en silicium. Au bilan, une silice et deux carbones donnent un silicium et deux monoxydes de carbone, qui quittent le four sous forme gazeuse. Le silicium métallurgique obtenu titre environ 98 %. Il reste deux pour cent de fer, d'aluminium, de bore et de phosphore : bien trop pour l'électronique.",
+ "spoken": "Première étape : la réduction carbothermique. Quartz et carbone sont chargés dans un four électrique à arc immergé. La zone chaude atteint environ 2000 degrés, et le bas du four dépasse 1780 degrés. Deux réactions dominent. Le carbone attaque d'abord la silice et forme du carbure de silicium. Ce carbure réduit ensuite la silice restante en silicium. Au bilan, une silice et deux carbones donnent un silicium et deux monoxydes de carbone, qui quittent le four sous forme gazeuse. Le silicium métallurgique obtenu titre environ 98 %. Il reste deux pour cent de fer, d'aluminium, de bore et de phosphore : bien trop pour l'électronique.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.41175,
+   "w": "Première"
+  },
+  {
+   "t": 0.535291,
+   "d": 0.426458,
+   "w": "étape"
+  },
+  {
+   "t": 1.21175,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 1.358833,
+   "d": 0.514708,
+   "w": "réduction"
+  },
+  {
+   "t": 1.88825,
+   "d": 1.117666,
+   "w": "carbothermique"
+  },
+  {
+   "t": 4.044125,
+   "d": 0.41175,
+   "w": "Quartz"
+  },
+  {
+   "t": 4.470583,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 4.544125,
+   "d": 0.5,
+   "w": "carbone"
+  },
+  {
+   "t": 5.058833,
+   "d": 0.176458,
+   "w": "sont"
+  },
+  {
+   "t": 5.25,
+   "d": 0.455875,
+   "w": "chargés"
+  },
+  {
+   "t": 5.720583,
+   "d": 0.147041,
+   "w": "dans"
+  },
+  {
+   "t": 5.882333,
+   "d": 0.191166,
+   "w": "un"
+  },
+  {
+   "t": 6.08825,
+   "d": 0.294125,
+   "w": "four"
+  },
+  {
+   "t": 6.397041,
+   "d": 0.5,
+   "w": "électrique"
+  },
+  {
+   "t": 6.91175,
+   "d": 0.073541,
+   "w": "à"
+  },
+  {
+   "t": 7.0,
+   "d": 0.220583,
+   "w": "arc"
+  },
+  {
+   "t": 7.235291,
+   "d": 0.617666,
+   "w": "immergé"
+  },
+  {
+   "t": 8.882333,
+   "d": 0.235291,
+   "w": "La"
+  },
+  {
+   "t": 9.132333,
+   "d": 0.235291,
+   "w": "zone"
+  },
+  {
+   "t": 9.382333,
+   "d": 0.279416,
+   "w": "chaude"
+  },
+  {
+   "t": 9.676458,
+   "d": 0.308833,
+   "w": "atteint"
+  },
+  {
+   "t": 10.0,
+   "d": 0.382333,
+   "w": "environ"
+  },
+  {
+   "t": 10.397041,
+   "d": 0.83825,
+   "w": "2000 degrés"
+  },
+  {
+   "t": 11.632333,
+   "d": 0.029416,
+   "w": "et"
+  },
+  {
+   "t": 11.676458,
+   "d": 0.132333,
+   "w": "le"
+  },
+  {
+   "t": 11.823541,
+   "d": 0.147041,
+   "w": "bas"
+  },
+  {
+   "t": 11.985291,
+   "d": 0.117666,
+   "w": "du"
+  },
+  {
+   "t": 12.117666,
+   "d": 0.235291,
+   "w": "four"
+  },
+  {
+   "t": 12.367666,
+   "d": 0.455875,
+   "w": "dépasse"
+  },
+  {
+   "t": 12.83825,
+   "d": 1.602916,
+   "w": "1780 degrés"
+  },
+  {
+   "t": 15.470583,
+   "d": 0.279416,
+   "w": "Deux"
+  },
+  {
+   "t": 15.764708,
+   "d": 0.514708,
+   "w": "réactions"
+  },
+  {
+   "t": 16.294125,
+   "d": 0.617666,
+   "w": "dominent"
+  },
+  {
+   "t": 17.926458,
+   "d": 0.235291,
+   "w": "Le"
+  },
+  {
+   "t": 18.176458,
+   "d": 0.470583,
+   "w": "carbone"
+  },
+  {
+   "t": 18.66175,
+   "d": 0.323541,
+   "w": "attaque"
+  },
+  {
+   "t": 19.0,
+   "d": 0.397041,
+   "w": "d'abord"
+  },
+  {
+   "t": 19.41175,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 19.544125,
+   "d": 0.455875,
+   "w": "silice"
+  },
+  {
+   "t": 20.014708,
+   "d": 0.08825,
+   "w": "et"
+  },
+  {
+   "t": 20.117666,
+   "d": 0.308833,
+   "w": "forme"
+  },
+  {
+   "t": 20.441166,
+   "d": 0.117666,
+   "w": "du"
+  },
+  {
+   "t": 20.573541,
+   "d": 0.470583,
+   "w": "carbure"
+  },
+  {
+   "t": 21.058833,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 21.220583,
+   "d": 0.808833,
+   "w": "silicium"
+  },
+  {
+   "t": 23.058833,
+   "d": 0.264708,
+   "w": "Ce"
+  },
+  {
+   "t": 23.33825,
+   "d": 0.455875,
+   "w": "carbure"
+  },
+  {
+   "t": 23.808833,
+   "d": 0.323541,
+   "w": "réduit"
+  },
+  {
+   "t": 24.147041,
+   "d": 0.426458,
+   "w": "ensuite"
+  },
+  {
+   "t": 24.58825,
+   "d": 0.147041,
+   "w": "la"
+  },
+  {
+   "t": 24.75,
+   "d": 0.441166,
+   "w": "silice"
+  },
+  {
+   "t": 25.205875,
+   "d": 0.529416,
+   "w": "restante"
+  },
+  {
+   "t": 25.75,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 25.83825,
+   "d": 0.852958,
+   "w": "silicium"
+  },
+  {
+   "t": 27.720583,
+   "d": 0.176458,
+   "w": "Au"
+  },
+  {
+   "t": 27.91175,
+   "d": 0.41175,
+   "w": "bilan"
+  },
+  {
+   "t": 28.691166,
+   "d": 0.117666,
+   "w": "une"
+  },
+  {
+   "t": 28.823541,
+   "d": 0.41175,
+   "w": "silice"
+  },
+  {
+   "t": 29.25,
+   "d": 0.073541,
+   "w": "et"
+  },
+  {
+   "t": 29.33825,
+   "d": 0.147041,
+   "w": "deux"
+  },
+  {
+   "t": 29.5,
+   "d": 0.485291,
+   "w": "carbones"
+  },
+  {
+   "t": 30.0,
+   "d": 0.220583,
+   "w": "donnent"
+  },
+  {
+   "t": 30.235291,
+   "d": 0.08825,
+   "w": "un"
+  },
+  {
+   "t": 30.33825,
+   "d": 0.573541,
+   "w": "silicium"
+  },
+  {
+   "t": 30.926458,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 31.0,
+   "d": 0.16175,
+   "w": "deux"
+  },
+  {
+   "t": 31.176458,
+   "d": 0.529416,
+   "w": "monoxydes"
+  },
+  {
+   "t": 31.720583,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 31.867666,
+   "d": 0.647041,
+   "w": "carbone"
+  },
+  {
+   "t": 32.897041,
+   "d": 0.16175,
+   "w": "qui"
+  },
+  {
+   "t": 33.073541,
+   "d": 0.279416,
+   "w": "quittent"
+  },
+  {
+   "t": 33.367666,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 33.529416,
+   "d": 0.264708,
+   "w": "four"
+  },
+  {
+   "t": 33.808833,
+   "d": 0.16175,
+   "w": "sous"
+  },
+  {
+   "t": 33.985291,
+   "d": 0.279416,
+   "w": "forme"
+  },
+  {
+   "t": 34.279416,
+   "d": 0.691166,
+   "w": "gazeuse"
+  },
+  {
+   "t": 36.0,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 36.264708,
+   "d": 0.544125,
+   "w": "silicium"
+  },
+  {
+   "t": 36.823541,
+   "d": 0.75,
+   "w": "métallurgique"
+  },
+  {
+   "t": 37.58825,
+   "d": 0.441166,
+   "w": "obtenu"
+  },
+  {
+   "t": 38.044125,
+   "d": 0.33825,
+   "w": "titre"
+  },
+  {
+   "t": 38.397041,
+   "d": 0.352958,
+   "w": "environ"
+  },
+  {
+   "t": 38.764708,
+   "d": 1.3970829,
+   "w": "98 %"
+  },
+  {
+   "t": 41.191166,
+   "d": 0.25,
+   "w": "Il"
+  },
+  {
+   "t": 41.455875,
+   "d": 0.367666,
+   "w": "reste"
+  },
+  {
+   "t": 41.83825,
+   "d": 0.176458,
+   "w": "deux"
+  },
+  {
+   "t": 42.029416,
+   "d": 0.220583,
+   "w": "pour"
+  },
+  {
+   "t": 42.264708,
+   "d": 0.147041,
+   "w": "cent"
+  },
+  {
+   "t": 42.426458,
+   "d": 0.16175,
+   "w": "de"
+  },
+  {
+   "t": 42.602958,
+   "d": 0.426458,
+   "w": "fer"
+  },
+  {
+   "t": 43.279416,
+   "d": 0.764708,
+   "w": "d'aluminium"
+  },
+  {
+   "t": 44.367625,
+   "d": 0.16175,
+   "w": "de"
+  },
+  {
+   "t": 44.544125,
+   "d": 0.25,
+   "w": "bore"
+  },
+  {
+   "t": 44.808833,
+   "d": 0.029416,
+   "w": "et"
+  },
+  {
+   "t": 44.852958,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 45.014708,
+   "d": 0.632333,
+   "w": "phosphore"
+  },
+  {
+   "t": 45.852958,
+   "d": 0.25,
+   "w": "bien"
+  },
+  {
+   "t": 46.117625,
+   "d": 0.264708,
+   "w": "trop"
+  },
+  {
+   "t": 46.397041,
+   "d": 0.205875,
+   "w": "pour"
+  },
+  {
+   "t": 46.617625,
+   "d": 0.926458,
+   "w": "l'électronique"
+  }
+ ]
+}

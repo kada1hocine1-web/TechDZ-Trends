@@ -1,0 +1,772 @@
+{
+ "scene": "15",
+ "text": "L'oxygène est l'impureté principale du Cz. Le creuset de quartz se dissout lentement dans le bain. Une partie de l'oxygène s'évapore en monoxyde de silicium, évacué par l'argon ; le reste est porté par la convection jusqu'à l'interface. La teneur typique va de six fois dix puissance dix-sept à 1,1 fois dix puissance dix-huit atomes par centimètre cube. L'oxygène précipite et favorise des défauts, mais il renforce mécaniquement le cristal. Pour le réduire, le Cz magnétique, ou M C Z, applique un champ B au bain, qui est un bon conducteur. Un écoulement de vitesse u y induit un courant, donc une force de Laplace d'ordre sigma u B carré, qui s'oppose au mouvement. Rapportée à la force visqueuse, d'ordre mu u sur L carré, elle définit le carré du nombre de Hartmann. Quand celui-ci est grand devant un, la convection est freinée, l'oxygène quitte moins vite la paroi, et la teneur incorporée diminue.",
+ "spoken": "L'oxygène est l'impureté principale du C Z. Le creuset de quartz se dissout lentement dans le bain. Une partie de l'oxygène s'évapore en monoxyde de silicium, évacué par l'argon ; le reste est porté par la convection jusqu'à l'interface. La teneur typique va de six fois dix puissance dix-sept à 1,1 fois dix puissance dix-huit atomes par centimètre cube. L'oxygène précipite et favorise des défauts, mais il renforce mécaniquement le cristal. Pour le réduire, le C Z magnétique, ou M.C.Z., applique un champ B au bain, qui est un bon conducteur. Un écoulement de vitesse u y induit un courant, donc une force de Laplace d'ordre sigma u B carré, qui s'oppose au mouvement. Rapportée à la force visqueuse, d'ordre mu u sur L carré, elle définit le carré du nombre de Hartmann. Quand celui-ci est grand devant un, la convection est freinée, l'oxygène quitte moins vite la paroi, et la teneur incorporée diminue.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.779416,
+   "w": "L'oxygène"
+  },
+  {
+   "t": 0.902958,
+   "d": 0.044125,
+   "w": "est"
+  },
+  {
+   "t": 0.96175,
+   "d": 0.514708,
+   "w": "l'impureté"
+  },
+  {
+   "t": 1.491166,
+   "d": 0.647041,
+   "w": "principale"
+  },
+  {
+   "t": 2.152958,
+   "d": 0.16175,
+   "w": "du"
+  },
+  {
+   "t": 2.329416,
+   "d": 0.16175,
+   "w": "C"
+  },
+  {
+   "t": 2.505875,
+   "d": 0.455875,
+   "w": "Z"
+  },
+  {
+   "t": 4.0,
+   "d": 0.235291,
+   "w": "Le"
+  },
+  {
+   "t": 4.25,
+   "d": 0.397041,
+   "w": "creuset"
+  },
+  {
+   "t": 4.66175,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 4.823541,
+   "d": 0.382333,
+   "w": "quartz"
+  },
+  {
+   "t": 5.220583,
+   "d": 0.147041,
+   "w": "se"
+  },
+  {
+   "t": 5.382333,
+   "d": 0.367666,
+   "w": "dissout"
+  },
+  {
+   "t": 5.764708,
+   "d": 0.382333,
+   "w": "lentement"
+  },
+  {
+   "t": 6.16175,
+   "d": 0.117666,
+   "w": "dans"
+  },
+  {
+   "t": 6.294125,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 6.41175,
+   "d": 0.308833,
+   "w": "bain"
+  },
+  {
+   "t": 7.735291,
+   "d": 0.235291,
+   "w": "Une"
+  },
+  {
+   "t": 7.985291,
+   "d": 0.33825,
+   "w": "partie"
+  },
+  {
+   "t": 8.33825,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 8.455875,
+   "d": 0.602958,
+   "w": "l'oxygène"
+  },
+  {
+   "t": 9.073541,
+   "d": 0.544125,
+   "w": "s'évapore"
+  },
+  {
+   "t": 9.632333,
+   "d": 0.058833,
+   "w": "en"
+  },
+  {
+   "t": 9.705875,
+   "d": 0.544125,
+   "w": "monoxyde"
+  },
+  {
+   "t": 10.264708,
+   "d": 0.16175,
+   "w": "de"
+  },
+  {
+   "t": 10.441166,
+   "d": 0.66175,
+   "w": "silicium"
+  },
+  {
+   "t": 11.514708,
+   "d": 0.514708,
+   "w": "évacué"
+  },
+  {
+   "t": 12.044125,
+   "d": 0.176458,
+   "w": "par"
+  },
+  {
+   "t": 12.235291,
+   "d": 0.470583,
+   "w": "l'argon"
+  },
+  {
+   "t": 12.955875,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 13.073541,
+   "d": 0.323541,
+   "w": "reste"
+  },
+  {
+   "t": 13.41175,
+   "d": 0.058833,
+   "w": "est"
+  },
+  {
+   "t": 13.485291,
+   "d": 0.382333,
+   "w": "porté"
+  },
+  {
+   "t": 13.882333,
+   "d": 0.191166,
+   "w": "par"
+  },
+  {
+   "t": 14.08825,
+   "d": 0.08825,
+   "w": "la"
+  },
+  {
+   "t": 14.191166,
+   "d": 0.544125,
+   "w": "convection"
+  },
+  {
+   "t": 14.75,
+   "d": 0.382333,
+   "w": "jusqu'à"
+  },
+  {
+   "t": 15.147041,
+   "d": 0.970583,
+   "w": "l'interface"
+  },
+  {
+   "t": 17.147041,
+   "d": 0.235291,
+   "w": "La"
+  },
+  {
+   "t": 17.397041,
+   "d": 0.33825,
+   "w": "teneur"
+  },
+  {
+   "t": 17.75,
+   "d": 0.41175,
+   "w": "typique"
+  },
+  {
+   "t": 18.176458,
+   "d": 0.147041,
+   "w": "va"
+  },
+  {
+   "t": 18.33825,
+   "d": 0.16175,
+   "w": "de"
+  },
+  {
+   "t": 18.514708,
+   "d": 0.191166,
+   "w": "six"
+  },
+  {
+   "t": 18.720583,
+   "d": 0.220583,
+   "w": "fois"
+  },
+  {
+   "t": 18.955875,
+   "d": 0.147041,
+   "w": "dix"
+  },
+  {
+   "t": 19.117666,
+   "d": 0.485291,
+   "w": "puissance"
+  },
+  {
+   "t": 19.617666,
+   "d": 0.455875,
+   "w": "dix-sept"
+  },
+  {
+   "t": 20.08825,
+   "d": 0.073541,
+   "w": "à"
+  },
+  {
+   "t": 20.176458,
+   "d": 0.573542,
+   "w": "1,1 "
+  },
+  {
+   "t": 20.764708,
+   "d": 0.235291,
+   "w": "fois"
+  },
+  {
+   "t": 21.014708,
+   "d": 0.147041,
+   "w": "dix"
+  },
+  {
+   "t": 21.176458,
+   "d": 0.485291,
+   "w": "puissance"
+  },
+  {
+   "t": 21.676458,
+   "d": 0.352958,
+   "w": "dix-huit"
+  },
+  {
+   "t": 22.044125,
+   "d": 0.455875,
+   "w": "atomes"
+  },
+  {
+   "t": 22.514708,
+   "d": 0.205875,
+   "w": "par"
+  },
+  {
+   "t": 22.735291,
+   "d": 0.676458,
+   "w": "centimètre"
+  },
+  {
+   "t": 23.426458,
+   "d": 0.529416,
+   "w": "cube"
+  },
+  {
+   "t": 24.970583,
+   "d": 0.764708,
+   "w": "L'oxygène"
+  },
+  {
+   "t": 25.75,
+   "d": 0.632333,
+   "w": "précipite"
+  },
+  {
+   "t": 26.397041,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 26.470583,
+   "d": 0.485291,
+   "w": "favorise"
+  },
+  {
+   "t": 26.970583,
+   "d": 0.117666,
+   "w": "des"
+  },
+  {
+   "t": 27.102958,
+   "d": 0.529416,
+   "w": "défauts"
+  },
+  {
+   "t": 28.0,
+   "d": 0.147041,
+   "w": "mais"
+  },
+  {
+   "t": 28.16175,
+   "d": 0.191166,
+   "w": "il"
+  },
+  {
+   "t": 28.367666,
+   "d": 0.529416,
+   "w": "renforce"
+  },
+  {
+   "t": 28.91175,
+   "d": 0.691166,
+   "w": "mécaniquement"
+  },
+  {
+   "t": 29.617666,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 29.75,
+   "d": 0.735291,
+   "w": "cristal"
+  },
+  {
+   "t": 31.5,
+   "d": 0.205875,
+   "w": "Pour"
+  },
+  {
+   "t": 31.720583,
+   "d": 0.073541,
+   "w": "le"
+  },
+  {
+   "t": 31.808833,
+   "d": 0.514708,
+   "w": "réduire"
+  },
+  {
+   "t": 32.66175,
+   "d": 0.132333,
+   "w": "le"
+  },
+  {
+   "t": 32.808833,
+   "d": 0.16175,
+   "w": "C"
+  },
+  {
+   "t": 32.985291,
+   "d": 0.191166,
+   "w": "Z"
+  },
+  {
+   "t": 33.191166,
+   "d": 0.676458,
+   "w": "magnétique"
+  },
+  {
+   "t": 34.191166,
+   "d": 0.08825,
+   "w": "ou"
+  },
+  {
+   "t": 34.294125,
+   "d": 0.676458,
+   "w": "M.C.Z."
+  },
+  {
+   "t": 35.382333,
+   "d": 0.441166,
+   "w": "applique"
+  },
+  {
+   "t": 35.83825,
+   "d": 0.08825,
+   "w": "un"
+  },
+  {
+   "t": 35.941166,
+   "d": 0.220583,
+   "w": "champ"
+  },
+  {
+   "t": 36.176458,
+   "d": 0.147041,
+   "w": "B"
+  },
+  {
+   "t": 36.33825,
+   "d": 0.08825,
+   "w": "au"
+  },
+  {
+   "t": 36.441166,
+   "d": 0.279416,
+   "w": "bain"
+  },
+  {
+   "t": 37.044125,
+   "d": 0.220583,
+   "w": "qui"
+  },
+  {
+   "t": 37.279416,
+   "d": 0.044125,
+   "w": "est"
+  },
+  {
+   "t": 37.33825,
+   "d": 0.176458,
+   "w": "un"
+  },
+  {
+   "t": 37.529416,
+   "d": 0.191166,
+   "w": "bon"
+  },
+  {
+   "t": 37.735291,
+   "d": 0.867666,
+   "w": "conducteur"
+  },
+  {
+   "t": 39.632333,
+   "d": 0.176458,
+   "w": "Un"
+  },
+  {
+   "t": 39.823541,
+   "d": 0.485291,
+   "w": "écoulement"
+  },
+  {
+   "t": 40.323541,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 40.470583,
+   "d": 0.441166,
+   "w": "vitesse"
+  },
+  {
+   "t": 40.926458,
+   "d": 0.08825,
+   "w": "u"
+  },
+  {
+   "t": 41.029416,
+   "d": 0.102958,
+   "w": "y"
+  },
+  {
+   "t": 41.147041,
+   "d": 0.279416,
+   "w": "induit"
+  },
+  {
+   "t": 41.441166,
+   "d": 0.08825,
+   "w": "un"
+  },
+  {
+   "t": 41.544125,
+   "d": 0.455875,
+   "w": "courant"
+  },
+  {
+   "t": 42.382333,
+   "d": 0.279416,
+   "w": "donc"
+  },
+  {
+   "t": 42.676458,
+   "d": 0.117666,
+   "w": "une"
+  },
+  {
+   "t": 42.808833,
+   "d": 0.294125,
+   "w": "force"
+  },
+  {
+   "t": 43.117666,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 43.264708,
+   "d": 0.41175,
+   "w": "Laplace"
+  },
+  {
+   "t": 43.691166,
+   "d": 0.382333,
+   "w": "d'ordre"
+  },
+  {
+   "t": 44.08825,
+   "d": 0.382333,
+   "w": "sigma"
+  },
+  {
+   "t": 44.485291,
+   "d": 0.102958,
+   "w": "u"
+  },
+  {
+   "t": 44.602958,
+   "d": 0.132333,
+   "w": "B"
+  },
+  {
+   "t": 44.75,
+   "d": 0.441166,
+   "w": "carré"
+  },
+  {
+   "t": 45.558833,
+   "d": 0.176458,
+   "w": "qui"
+  },
+  {
+   "t": 45.75,
+   "d": 0.441166,
+   "w": "s'oppose"
+  },
+  {
+   "t": 46.205875,
+   "d": 0.044125,
+   "w": "au"
+  },
+  {
+   "t": 46.264708,
+   "d": 0.529416,
+   "w": "mouvement"
+  },
+  {
+   "t": 47.808833,
+   "d": 0.676458,
+   "w": "Rapportée"
+  },
+  {
+   "t": 48.5,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 48.558833,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 48.691166,
+   "d": 0.294125,
+   "w": "force"
+  },
+  {
+   "t": 49.0,
+   "d": 0.66175,
+   "w": "visqueuse"
+  },
+  {
+   "t": 50.0,
+   "d": 0.352958,
+   "w": "d'ordre"
+  },
+  {
+   "t": 50.367625,
+   "d": 0.132333,
+   "w": "mu"
+  },
+  {
+   "t": 50.514708,
+   "d": 0.102958,
+   "w": "u"
+  },
+  {
+   "t": 50.632333,
+   "d": 0.205875,
+   "w": "sur"
+  },
+  {
+   "t": 50.852958,
+   "d": 0.102958,
+   "w": "L"
+  },
+  {
+   "t": 50.970583,
+   "d": 0.455875,
+   "w": "carré"
+  },
+  {
+   "t": 51.823541,
+   "d": 0.191166,
+   "w": "elle"
+  },
+  {
+   "t": 52.029416,
+   "d": 0.470583,
+   "w": "définit"
+  },
+  {
+   "t": 52.514708,
+   "d": 0.132333,
+   "w": "le"
+  },
+  {
+   "t": 52.66175,
+   "d": 0.308833,
+   "w": "carré"
+  },
+  {
+   "t": 52.985291,
+   "d": 0.117666,
+   "w": "du"
+  },
+  {
+   "t": 53.117625,
+   "d": 0.33825,
+   "w": "nombre"
+  },
+  {
+   "t": 53.470583,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 53.58825,
+   "d": 0.632333,
+   "w": "Hartmann"
+  },
+  {
+   "t": 55.235291,
+   "d": 0.205875,
+   "w": "Quand"
+  },
+  {
+   "t": 55.455875,
+   "d": 0.58825,
+   "w": "celui-ci"
+  },
+  {
+   "t": 56.058833,
+   "d": 0.058833,
+   "w": "est"
+  },
+  {
+   "t": 56.132333,
+   "d": 0.220583,
+   "w": "grand"
+  },
+  {
+   "t": 56.367625,
+   "d": 0.323541,
+   "w": "devant"
+  },
+  {
+   "t": 56.705875,
+   "d": 0.102958,
+   "w": "un"
+  },
+  {
+   "t": 57.205875,
+   "d": 0.191166,
+   "w": "la"
+  },
+  {
+   "t": 57.41175,
+   "d": 0.573541,
+   "w": "convection"
+  },
+  {
+   "t": 58.0,
+   "d": 0.073541,
+   "w": "est"
+  },
+  {
+   "t": 58.08825,
+   "d": 0.485291,
+   "w": "freinée"
+  },
+  {
+   "t": 58.970583,
+   "d": 0.647041,
+   "w": "l'oxygène"
+  },
+  {
+   "t": 59.632333,
+   "d": 0.264708,
+   "w": "quitte"
+  },
+  {
+   "t": 59.91175,
+   "d": 0.220583,
+   "w": "moins"
+  },
+  {
+   "t": 60.147041,
+   "d": 0.220583,
+   "w": "vite"
+  },
+  {
+   "t": 60.382333,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 60.529416,
+   "d": 0.5,
+   "w": "paroi"
+  },
+  {
+   "t": 61.41175,
+   "d": 0.029416,
+   "w": "et"
+  },
+  {
+   "t": 61.455875,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 61.58825,
+   "d": 0.352958,
+   "w": "teneur"
+  },
+  {
+   "t": 61.955875,
+   "d": 0.573541,
+   "w": "incorporée"
+  },
+  {
+   "t": 62.544125,
+   "d": 0.544125,
+   "w": "diminue"
+  }
+ ]
+}

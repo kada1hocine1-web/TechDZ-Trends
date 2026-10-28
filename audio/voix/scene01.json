@@ -1,0 +1,342 @@
+{
+ "scene": "01",
+ "text": "Nous suivrons le silicium en six temps. D'abord sa structure cristalline, puis les raisons qui imposent un monocristal ultra-pur. Viennent ensuite la réduction du quartz et la purification par le procédé Siemens. Le cœur de l'exposé porte sur le tirage Czochralski : principe, paramètres, défauts ponctuels et ségrégation. Nous terminerons par la fusion de zone, la comparaison des deux méthodes et le passage du lingot à la plaquette.",
+ "spoken": "Nous suivrons le silicium en six temps. D'abord sa structure cristalline, puis les raisons qui imposent un monocristal ultra-pur. Viennent ensuite la réduction du quartz et la purification par le procédé Siemens. Le cœur de l'exposé porte sur le tirage Czochralski : principe, paramètres, défauts ponctuels et ségrégation. Nous terminerons par la fusion de zone, la comparaison des deux méthodes et le passage du lingot à la plaquette.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.235291,
+   "w": "Nous"
+  },
+  {
+   "t": 0.358833,
+   "d": 0.41175,
+   "w": "suivrons"
+  },
+  {
+   "t": 0.785291,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 0.947041,
+   "d": 0.558833,
+   "w": "silicium"
+  },
+  {
+   "t": 1.520583,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 1.608833,
+   "d": 0.205875,
+   "w": "six"
+  },
+  {
+   "t": 1.829416,
+   "d": 0.323541,
+   "w": "temps"
+  },
+  {
+   "t": 3.191166,
+   "d": 0.514708,
+   "w": "D'abord"
+  },
+  {
+   "t": 3.720583,
+   "d": 0.147041,
+   "w": "sa"
+  },
+  {
+   "t": 3.882333,
+   "d": 0.5,
+   "w": "structure"
+  },
+  {
+   "t": 4.397041,
+   "d": 0.75,
+   "w": "cristalline"
+  },
+  {
+   "t": 5.5,
+   "d": 0.176458,
+   "w": "puis"
+  },
+  {
+   "t": 5.691166,
+   "d": 0.102958,
+   "w": "les"
+  },
+  {
+   "t": 5.808833,
+   "d": 0.323541,
+   "w": "raisons"
+  },
+  {
+   "t": 6.147041,
+   "d": 0.220583,
+   "w": "qui"
+  },
+  {
+   "t": 6.382333,
+   "d": 0.382333,
+   "w": "imposent"
+  },
+  {
+   "t": 6.779416,
+   "d": 0.058833,
+   "w": "un"
+  },
+  {
+   "t": 6.852958,
+   "d": 0.764708,
+   "w": "monocristal"
+  },
+  {
+   "t": 7.632333,
+   "d": 0.882333,
+   "w": "ultra-pur"
+  },
+  {
+   "t": 9.529416,
+   "d": 0.397041,
+   "w": "Viennent"
+  },
+  {
+   "t": 9.941166,
+   "d": 0.397041,
+   "w": "ensuite"
+  },
+  {
+   "t": 10.352958,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 10.5,
+   "d": 0.5,
+   "w": "réduction"
+  },
+  {
+   "t": 11.014708,
+   "d": 0.132333,
+   "w": "du"
+  },
+  {
+   "t": 11.16175,
+   "d": 0.41175,
+   "w": "quartz"
+  },
+  {
+   "t": 11.58825,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 11.647041,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 11.779416,
+   "d": 0.897041,
+   "w": "purification"
+  },
+  {
+   "t": 12.691166,
+   "d": 0.191166,
+   "w": "par"
+  },
+  {
+   "t": 12.897041,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 13.014708,
+   "d": 0.485291,
+   "w": "procédé"
+  },
+  {
+   "t": 13.514708,
+   "d": 0.735291,
+   "w": "Siemens"
+  },
+  {
+   "t": 15.279416,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 15.544125,
+   "d": 0.264708,
+   "w": "cœur"
+  },
+  {
+   "t": 15.823541,
+   "d": 0.102958,
+   "w": "de"
+  },
+  {
+   "t": 15.941166,
+   "d": 0.558833,
+   "w": "l'exposé"
+  },
+  {
+   "t": 16.514708,
+   "d": 0.308833,
+   "w": "porte"
+  },
+  {
+   "t": 16.83825,
+   "d": 0.16175,
+   "w": "sur"
+  },
+  {
+   "t": 17.014708,
+   "d": 0.08825,
+   "w": "le"
+  },
+  {
+   "t": 17.117666,
+   "d": 0.397041,
+   "w": "tirage"
+  },
+  {
+   "t": 17.529416,
+   "d": 0.764708,
+   "w": "Czochralski"
+  },
+  {
+   "t": 18.558833,
+   "d": 0.58825,
+   "w": "principe"
+  },
+  {
+   "t": 19.470583,
+   "d": 0.647041,
+   "w": "paramètres"
+  },
+  {
+   "t": 20.382333,
+   "d": 0.397041,
+   "w": "défauts"
+  },
+  {
+   "t": 20.794125,
+   "d": 0.529416,
+   "w": "ponctuels"
+  },
+  {
+   "t": 21.33825,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 21.41175,
+   "d": 0.852958,
+   "w": "ségrégation"
+  },
+  {
+   "t": 23.294125,
+   "d": 0.220583,
+   "w": "Nous"
+  },
+  {
+   "t": 23.529416,
+   "d": 0.58825,
+   "w": "terminerons"
+  },
+  {
+   "t": 24.132333,
+   "d": 0.191166,
+   "w": "par"
+  },
+  {
+   "t": 24.33825,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 24.455875,
+   "d": 0.352958,
+   "w": "fusion"
+  },
+  {
+   "t": 24.823541,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 24.985291,
+   "d": 0.397041,
+   "w": "zone"
+  },
+  {
+   "t": 25.779416,
+   "d": 0.176458,
+   "w": "la"
+  },
+  {
+   "t": 25.970583,
+   "d": 0.647041,
+   "w": "comparaison"
+  },
+  {
+   "t": 26.632333,
+   "d": 0.147041,
+   "w": "des"
+  },
+  {
+   "t": 26.794125,
+   "d": 0.147041,
+   "w": "deux"
+  },
+  {
+   "t": 26.955875,
+   "d": 0.397041,
+   "w": "méthodes"
+  },
+  {
+   "t": 27.367666,
+   "d": 0.029416,
+   "w": "et"
+  },
+  {
+   "t": 27.41175,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 27.544125,
+   "d": 0.441166,
+   "w": "passage"
+  },
+  {
+   "t": 28.0,
+   "d": 0.132333,
+   "w": "du"
+  },
+  {
+   "t": 28.147041,
+   "d": 0.382333,
+   "w": "lingot"
+  },
+  {
+   "t": 28.544125,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 28.602958,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 28.735291,
+   "d": 0.75,
+   "w": "plaquette"
+  }
+ ]
+}

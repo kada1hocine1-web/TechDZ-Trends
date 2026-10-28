@@ -1,0 +1,727 @@
+{
+ "scene": "14",
+ "text": "La couche limite enrichie a une autre conséquence. En régime stationnaire, avec k inférieur à un, la concentration décroît exponentiellement devant l'interface jusqu'à C zéro. Le liquidus suit la concentration, avec une pente m négative : il est plus bas à l'interface que loin d'elle. La température réelle croît linéairement, avec le gradient G. Si G est plus faible que la pente du liquidus à l'interface, une couche de liquide passe sous son liquidus : elle est surfondue par sa composition. En dérivant le liquidus en z égale zéro, on obtient la condition de stabilité : G sur v doit rester supérieur à moins m C zéro, fois un moins k, sur k D. Sinon, l'interface devient cellulaire, piège le soluté en stries, et peut perdre la monocristallinité. Le risque croît avec la vitesse et le dopage : c'est une limite de plus pour les lingots fortement dopés.",
+ "spoken": "La couche limite enrichie a une autre conséquence. En régime stationnaire, avec k inférieur à un, la concentration décroît exponentiellement devant l'interface jusqu'à C zéro. Le liquidus suit la concentration, avec une pente m négative : il est plus bas à l'interface que loin d'elle. La température réelle croît linéairement, avec le gradient G. Si G est plus faible que la pente du liquidus à l'interface, une couche de liquide passe sous son liquidus : elle est surfondue par sa composition. En dérivant le liquidus en z égale zéro, on obtient la condition de stabilité : G sur v doit rester supérieur à moins m C zéro, fois un moins k, sur k D. Sinon, l'interface devient cellulaire, piège le soluté en stries, et peut perdre la monocristallinité. Le risque croît avec la vitesse et le dopage : c'est une limite de plus pour les lingots fortement dopés.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.25,
+   "w": "La"
+  },
+  {
+   "t": 0.373541,
+   "d": 0.294125,
+   "w": "couche"
+  },
+  {
+   "t": 0.682333,
+   "d": 0.41175,
+   "w": "limite"
+  },
+  {
+   "t": 1.108833,
+   "d": 0.470583,
+   "w": "enrichie"
+  },
+  {
+   "t": 1.594125,
+   "d": 0.058833,
+   "w": "a"
+  },
+  {
+   "t": 1.667666,
+   "d": 0.16175,
+   "w": "une"
+  },
+  {
+   "t": 1.844125,
+   "d": 0.25,
+   "w": "autre"
+  },
+  {
+   "t": 2.108833,
+   "d": 1.029416,
+   "w": "conséquence"
+  },
+  {
+   "t": 4.176458,
+   "d": 0.191166,
+   "w": "En"
+  },
+  {
+   "t": 4.382333,
+   "d": 0.367666,
+   "w": "régime"
+  },
+  {
+   "t": 4.764708,
+   "d": 0.779416,
+   "w": "stationnaire"
+  },
+  {
+   "t": 5.941166,
+   "d": 0.235291,
+   "w": "avec"
+  },
+  {
+   "t": 6.191166,
+   "d": 0.191166,
+   "w": "k"
+  },
+  {
+   "t": 6.397041,
+   "d": 0.544125,
+   "w": "inférieur"
+  },
+  {
+   "t": 6.955875,
+   "d": 0.08825,
+   "w": "à"
+  },
+  {
+   "t": 7.058833,
+   "d": 0.08825,
+   "w": "un"
+  },
+  {
+   "t": 7.558833,
+   "d": 0.191166,
+   "w": "la"
+  },
+  {
+   "t": 7.764708,
+   "d": 0.779416,
+   "w": "concentration"
+  },
+  {
+   "t": 8.558833,
+   "d": 0.382333,
+   "w": "décroît"
+  },
+  {
+   "t": 8.955875,
+   "d": 0.852958,
+   "w": "exponentiellement"
+  },
+  {
+   "t": 9.823541,
+   "d": 0.264708,
+   "w": "devant"
+  },
+  {
+   "t": 10.102958,
+   "d": 0.602958,
+   "w": "l'interface"
+  },
+  {
+   "t": 10.720583,
+   "d": 0.382333,
+   "w": "jusqu'à"
+  },
+  {
+   "t": 11.117666,
+   "d": 0.147041,
+   "w": "C"
+  },
+  {
+   "t": 11.279416,
+   "d": 0.470583,
+   "w": "zéro"
+  },
+  {
+   "t": 12.779416,
+   "d": 0.191166,
+   "w": "Le"
+  },
+  {
+   "t": 12.985291,
+   "d": 0.529416,
+   "w": "liquidus"
+  },
+  {
+   "t": 13.529416,
+   "d": 0.147041,
+   "w": "suit"
+  },
+  {
+   "t": 13.691166,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 13.808833,
+   "d": 0.926458,
+   "w": "concentration"
+  },
+  {
+   "t": 15.16175,
+   "d": 0.323541,
+   "w": "avec"
+  },
+  {
+   "t": 15.5,
+   "d": 0.147041,
+   "w": "une"
+  },
+  {
+   "t": 15.66175,
+   "d": 0.294125,
+   "w": "pente"
+  },
+  {
+   "t": 15.970583,
+   "d": 0.102958,
+   "w": "m"
+  },
+  {
+   "t": 16.08825,
+   "d": 0.676458,
+   "w": "négative"
+  },
+  {
+   "t": 17.029416,
+   "d": 0.08825,
+   "w": "il"
+  },
+  {
+   "t": 17.132333,
+   "d": 0.058833,
+   "w": "est"
+  },
+  {
+   "t": 17.205875,
+   "d": 0.191166,
+   "w": "plus"
+  },
+  {
+   "t": 17.41175,
+   "d": 0.176458,
+   "w": "bas"
+  },
+  {
+   "t": 17.602958,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 17.66175,
+   "d": 0.632333,
+   "w": "l'interface"
+  },
+  {
+   "t": 18.308833,
+   "d": 0.117666,
+   "w": "que"
+  },
+  {
+   "t": 18.441166,
+   "d": 0.220583,
+   "w": "loin"
+  },
+  {
+   "t": 18.676458,
+   "d": 0.441166,
+   "w": "d'elle"
+  },
+  {
+   "t": 20.132333,
+   "d": 0.235291,
+   "w": "La"
+  },
+  {
+   "t": 20.382333,
+   "d": 0.735291,
+   "w": "température"
+  },
+  {
+   "t": 21.132333,
+   "d": 0.308833,
+   "w": "réelle"
+  },
+  {
+   "t": 21.455875,
+   "d": 0.264708,
+   "w": "croît"
+  },
+  {
+   "t": 21.735291,
+   "d": 0.66175,
+   "w": "linéairement"
+  },
+  {
+   "t": 22.75,
+   "d": 0.294125,
+   "w": "avec"
+  },
+  {
+   "t": 23.058833,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 23.176458,
+   "d": 0.41175,
+   "w": "gradient"
+  },
+  {
+   "t": 23.602958,
+   "d": 0.382333,
+   "w": "G"
+  },
+  {
+   "t": 25.014708,
+   "d": 0.308833,
+   "w": "Si"
+  },
+  {
+   "t": 25.33825,
+   "d": 0.176458,
+   "w": "G"
+  },
+  {
+   "t": 25.529416,
+   "d": 0.073541,
+   "w": "est"
+  },
+  {
+   "t": 25.617666,
+   "d": 0.191166,
+   "w": "plus"
+  },
+  {
+   "t": 25.823541,
+   "d": 0.367666,
+   "w": "faible"
+  },
+  {
+   "t": 26.205875,
+   "d": 0.117666,
+   "w": "que"
+  },
+  {
+   "t": 26.33825,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 26.470583,
+   "d": 0.235291,
+   "w": "pente"
+  },
+  {
+   "t": 26.720583,
+   "d": 0.102958,
+   "w": "du"
+  },
+  {
+   "t": 26.83825,
+   "d": 0.544125,
+   "w": "liquidus"
+  },
+  {
+   "t": 27.397041,
+   "d": 0.058833,
+   "w": "à"
+  },
+  {
+   "t": 27.470583,
+   "d": 0.83825,
+   "w": "l'interface"
+  },
+  {
+   "t": 28.632333,
+   "d": 0.132333,
+   "w": "une"
+  },
+  {
+   "t": 28.779416,
+   "d": 0.294125,
+   "w": "couche"
+  },
+  {
+   "t": 29.08825,
+   "d": 0.117666,
+   "w": "de"
+  },
+  {
+   "t": 29.220583,
+   "d": 0.382333,
+   "w": "liquide"
+  },
+  {
+   "t": 29.617666,
+   "d": 0.264708,
+   "w": "passe"
+  },
+  {
+   "t": 29.897041,
+   "d": 0.16175,
+   "w": "sous"
+  },
+  {
+   "t": 30.073541,
+   "d": 0.132333,
+   "w": "son"
+  },
+  {
+   "t": 30.220583,
+   "d": 0.720583,
+   "w": "liquidus"
+  },
+  {
+   "t": 31.147041,
+   "d": 0.073541,
+   "w": "elle"
+  },
+  {
+   "t": 31.235291,
+   "d": 0.058833,
+   "w": "est"
+  },
+  {
+   "t": 31.308833,
+   "d": 0.558833,
+   "w": "surfondue"
+  },
+  {
+   "t": 31.882333,
+   "d": 0.205875,
+   "w": "par"
+  },
+  {
+   "t": 32.102958,
+   "d": 0.132333,
+   "w": "sa"
+  },
+  {
+   "t": 32.25,
+   "d": 0.852958,
+   "w": "composition"
+  },
+  {
+   "t": 34.132333,
+   "d": 0.176458,
+   "w": "En"
+  },
+  {
+   "t": 34.323541,
+   "d": 0.426458,
+   "w": "dérivant"
+  },
+  {
+   "t": 34.764708,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 34.882333,
+   "d": 0.558833,
+   "w": "liquidus"
+  },
+  {
+   "t": 35.455875,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 35.544125,
+   "d": 0.220583,
+   "w": "z"
+  },
+  {
+   "t": 35.779416,
+   "d": 0.294125,
+   "w": "égale"
+  },
+  {
+   "t": 36.08825,
+   "d": 0.470583,
+   "w": "zéro"
+  },
+  {
+   "t": 36.823541,
+   "d": 0.058833,
+   "w": "on"
+  },
+  {
+   "t": 36.897041,
+   "d": 0.397041,
+   "w": "obtient"
+  },
+  {
+   "t": 37.308833,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 37.426458,
+   "d": 0.558833,
+   "w": "condition"
+  },
+  {
+   "t": 38.0,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 38.16175,
+   "d": 0.779416,
+   "w": "stabilité"
+  },
+  {
+   "t": 39.25,
+   "d": 0.16175,
+   "w": "G"
+  },
+  {
+   "t": 39.426458,
+   "d": 0.205875,
+   "w": "sur"
+  },
+  {
+   "t": 39.647041,
+   "d": 0.117666,
+   "w": "v"
+  },
+  {
+   "t": 39.779416,
+   "d": 0.191166,
+   "w": "doit"
+  },
+  {
+   "t": 39.985291,
+   "d": 0.382333,
+   "w": "rester"
+  },
+  {
+   "t": 40.382333,
+   "d": 0.573541,
+   "w": "supérieur"
+  },
+  {
+   "t": 40.970583,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 41.029416,
+   "d": 0.235291,
+   "w": "moins"
+  },
+  {
+   "t": 41.279416,
+   "d": 0.117666,
+   "w": "m"
+  },
+  {
+   "t": 41.41175,
+   "d": 0.147041,
+   "w": "C"
+  },
+  {
+   "t": 41.573541,
+   "d": 0.41175,
+   "w": "zéro"
+  },
+  {
+   "t": 42.308833,
+   "d": 0.205875,
+   "w": "fois"
+  },
+  {
+   "t": 42.529416,
+   "d": 0.058833,
+   "w": "un"
+  },
+  {
+   "t": 42.602958,
+   "d": 0.220583,
+   "w": "moins"
+  },
+  {
+   "t": 42.83825,
+   "d": 0.308833,
+   "w": "k"
+  },
+  {
+   "t": 43.485291,
+   "d": 0.191166,
+   "w": "sur"
+  },
+  {
+   "t": 43.691166,
+   "d": 0.176458,
+   "w": "k"
+  },
+  {
+   "t": 43.882333,
+   "d": 0.323541,
+   "w": "D"
+  },
+  {
+   "t": 45.220583,
+   "d": 0.573541,
+   "w": "Sinon"
+  },
+  {
+   "t": 46.16175,
+   "d": 0.632333,
+   "w": "l'interface"
+  },
+  {
+   "t": 46.808833,
+   "d": 0.352958,
+   "w": "devient"
+  },
+  {
+   "t": 47.176458,
+   "d": 0.647041,
+   "w": "cellulaire"
+  },
+  {
+   "t": 48.16175,
+   "d": 0.294125,
+   "w": "piège"
+  },
+  {
+   "t": 48.470583,
+   "d": 0.147041,
+   "w": "le"
+  },
+  {
+   "t": 48.632333,
+   "d": 0.441166,
+   "w": "soluté"
+  },
+  {
+   "t": 49.08825,
+   "d": 0.08825,
+   "w": "en"
+  },
+  {
+   "t": 49.191166,
+   "d": 0.441166,
+   "w": "stries"
+  },
+  {
+   "t": 50.029416,
+   "d": 0.073541,
+   "w": "et"
+  },
+  {
+   "t": 50.117625,
+   "d": 0.176458,
+   "w": "peut"
+  },
+  {
+   "t": 50.308833,
+   "d": 0.352958,
+   "w": "perdre"
+  },
+  {
+   "t": 50.676458,
+   "d": 0.102958,
+   "w": "la"
+  },
+  {
+   "t": 50.794125,
+   "d": 1.279416,
+   "w": "monocristallinité"
+  },
+  {
+   "t": 53.08825,
+   "d": 0.205875,
+   "w": "Le"
+  },
+  {
+   "t": 53.308833,
+   "d": 0.33825,
+   "w": "risque"
+  },
+  {
+   "t": 53.66175,
+   "d": 0.294125,
+   "w": "croît"
+  },
+  {
+   "t": 53.970583,
+   "d": 0.25,
+   "w": "avec"
+  },
+  {
+   "t": 54.235291,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 54.367625,
+   "d": 0.455875,
+   "w": "vitesse"
+  },
+  {
+   "t": 54.83825,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 54.897041,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 55.014708,
+   "d": 0.647041,
+   "w": "dopage"
+  },
+  {
+   "t": 55.926458,
+   "d": 0.176458,
+   "w": "c'est"
+  },
+  {
+   "t": 56.117625,
+   "d": 0.191166,
+   "w": "une"
+  },
+  {
+   "t": 56.323541,
+   "d": 0.308833,
+   "w": "limite"
+  },
+  {
+   "t": 56.647041,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 56.794125,
+   "d": 0.323541,
+   "w": "plus"
+  },
+  {
+   "t": 57.132333,
+   "d": 0.191166,
+   "w": "pour"
+  },
+  {
+   "t": 57.33825,
+   "d": 0.058833,
+   "w": "les"
+  },
+  {
+   "t": 57.41175,
+   "d": 0.367666,
+   "w": "lingots"
+  },
+  {
+   "t": 57.794125,
+   "d": 0.5,
+   "w": "fortement"
+  },
+  {
+   "t": 58.308833,
+   "d": 0.514708,
+   "w": "dopés"
+  }
+ ]
+}

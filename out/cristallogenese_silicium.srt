@@ -1,0 +1,1118 @@
+1
+00:00:01,309 --> 00:00:05,676
+Cristallogenèse du silicium : du sable
+de quartz au monocristal parfait.
+
+2
+00:00:06,715 --> 00:00:11,008
+Un exposé de Kada Hocine,
+Master 2 Physique des matériaux,
+
+3
+00:00:11,009 --> 00:00:12,803
+encadré par le docteur Sehabi.
+
+4
+00:00:15,542 --> 00:00:17,586
+Nous suivrons le silicium en six temps.
+
+5
+00:00:18,624 --> 00:00:20,932
+D'abord sa structure cristalline,
+
+6
+00:00:20,933 --> 00:00:23,948
+puis les raisons qui imposent
+un monocristal ultra-pur.
+
+7
+00:00:24,963 --> 00:00:27,079
+Viennent ensuite la réduction du quartz et
+
+8
+00:00:27,080 --> 00:00:29,683
+la purification par le procédé Siemens.
+
+9
+00:00:30,713 --> 00:00:33,991
+Le cœur de l'exposé porte
+sur le tirage Czochralski :
+
+10
+00:00:33,992 --> 00:00:37,698
+principe, paramètres, défauts
+ponctuels et ségrégation.
+
+11
+00:00:38,727 --> 00:00:41,212
+Nous terminerons par la fusion de zone,
+
+12
+00:00:41,213 --> 00:00:44,919
+la comparaison des deux méthodes et
+le passage du lingot à la plaquette.
+
+13
+00:00:47,675 --> 00:00:51,880
+Le silicium cristallise dans la structure
+diamant : un réseau cubique à faces
+
+14
+00:00:51,881 --> 00:00:54,410
+centrées, avec un motif de deux atomes
+
+15
+00:00:54,411 --> 00:00:56,631
+décalés d'un quart de la grande diagonale.
+
+16
+00:00:57,655 --> 00:01:00,478
+La maille conventionnelle
+contient donc huit atomes.
+
+17
+00:01:01,493 --> 00:01:04,713
+Chaque atome a quatre voisins
+aux sommets d'un tétraèdre,
+
+18
+00:01:04,714 --> 00:01:09,978
+signature de l'hybridation sp³,
+avec un angle de 109,47 degrés.
+
+19
+00:01:10,993 --> 00:01:15,596
+Le paramètre de maille vaut
+5,43 ångströms, d'après Kittel.
+
+20
+00:01:16,611 --> 00:01:21,507
+On en déduit la distance entre
+premiers voisins, 2,35 ångströms,
+
+21
+00:01:21,508 --> 00:01:26,964
+et la densité atomique, environ cinq
+fois 10²² atomes par centimètre cube.
+
+22
+00:01:27,978 --> 00:01:32,625
+La structure est peu compacte : 34
+% seulement de l'espace est occupé.
+
+23
+00:01:33,655 --> 00:01:39,360
+Le silicium fond à 1414 degrés et se
+dilate d'environ 10 % en se solidifiant :
+
+24
+00:01:39,361 --> 00:01:42,978
+on ne peut pas le couler dans un moule
+si l'on veut un cristal sans contraintes.
+
+25
+00:01:45,742 --> 00:01:47,713
+Pourquoi exiger un monocristal ?
+
+26
+00:01:48,751 --> 00:01:52,574
+Sur cette plaquette multicristalline,
+les grains se voient à l'œil nu.
+
+27
+00:01:53,589 --> 00:01:56,823
+Joints de grains et dislocations
+introduisent des niveaux dans la bande
+
+28
+00:01:56,824 --> 00:01:59,441
+interdite : ils piègent
+électrons et trous,
+
+29
+00:01:59,442 --> 00:02:01,266
+et dégradent transistors et cellules.
+
+30
+00:02:02,280 --> 00:02:07,191
+Le dopage contrôle la
+conduction, avec 10¹⁵ à 10¹⁹
+
+31
+00:02:07,192 --> 00:02:09,191
+atomes par centimètre cube,
+
+32
+00:02:09,192 --> 00:02:11,913
+soit deux atomes sur cent
+millions à deux sur dix mille.
+
+33
+00:02:12,927 --> 00:02:16,426
+Les métaux contaminants
+doivent rester sous 10¹²,
+
+34
+00:02:16,427 --> 00:02:18,383
+soit deux atomes sur cent milliards.
+
+35
+00:02:19,398 --> 00:02:22,382
+Il faut donc un cristal où
+rien d'autre n'est présent,
+
+36
+00:02:22,383 --> 00:02:26,222
+et un réseau parfait sur tout un lingot
+de plusieurs dizaines de kilogrammes.
+
+37
+00:02:28,975 --> 00:02:31,284
+La chaîne de fabrication
+compte six maillons.
+
+38
+00:02:32,323 --> 00:02:37,381
+Le quartz est réduit en silicium
+métallurgique, pur à 98 % environ.
+
+39
+00:02:38,411 --> 00:02:42,513
+Celui-ci est converti en
+trichlorosilane, que l'on distille,
+
+40
+00:02:42,514 --> 00:02:45,411
+puis en polysilicium de
+pureté neuf N à onze N.
+
+41
+00:02:46,425 --> 00:02:50,498
+La cristallogenèse transforme
+ce polysilicium en monocristal,
+
+42
+00:02:50,499 --> 00:02:53,190
+par tirage Czochralski
+ou par fusion de zone.
+
+43
+00:02:54,205 --> 00:02:56,352
+L'usinage livre enfin les plaquettes.
+
+44
+00:02:57,381 --> 00:03:00,689
+C'est l'étape de cristallogenèse
+qui nous occupera surtout :
+
+45
+00:03:00,690 --> 00:03:04,425
+elle change un solide pur mais désordonné
+en un réseau unique et orienté.
+
+46
+00:03:07,175 --> 00:03:10,073
+Première étape : la
+réduction carbothermique.
+
+47
+00:03:11,111 --> 00:03:14,920
+Quartz et carbone sont chargés dans
+un four électrique à arc immergé.
+
+48
+00:03:15,949 --> 00:03:18,698
+La zone chaude atteint
+environ 2000 degrés,
+
+49
+00:03:18,699 --> 00:03:21,508
+et le bas du four dépasse 1780 degrés.
+
+50
+00:03:22,537 --> 00:03:23,978
+Deux réactions dominent.
+
+51
+00:03:24,993 --> 00:03:29,096
+Le carbone attaque d'abord la silice
+et forme du carbure de silicium.
+
+52
+00:03:30,125 --> 00:03:33,758
+Ce carbure réduit ensuite la
+silice restante en silicium.
+
+53
+00:03:34,787 --> 00:03:38,242
+Au bilan, une silice et deux
+carbones donnent un silicium et deux
+
+54
+00:03:38,243 --> 00:03:42,037
+monoxydes de carbone, qui quittent
+le four sous forme gazeuse.
+
+55
+00:03:43,067 --> 00:03:47,228
+Le silicium métallurgique
+obtenu titre environ 98 %.
+
+56
+00:03:48,258 --> 00:03:51,433
+Il reste deux pour cent
+de fer, d'aluminium,
+
+57
+00:03:51,434 --> 00:03:54,611
+de bore et de phosphore :
+bien trop pour l'électronique.
+
+58
+00:03:57,375 --> 00:04:00,023
+Deuxième étape : le procédé Siemens.
+
+59
+00:04:01,061 --> 00:04:03,148
+Chloré par l'acide chlorhydrique,
+
+60
+00:04:03,149 --> 00:04:06,208
+le silicium donne du
+trichlorosilane et de l'hydrogène.
+
+61
+00:04:07,223 --> 00:04:10,560
+Le trichlorosilane bout à 31,8 degrés :
+
+62
+00:04:10,561 --> 00:04:13,017
+on le sépare des impuretés
+par distillation.
+
+63
+00:04:14,046 --> 00:04:18,854
+On le décompose ensuite sous hydrogène,
+par dépôt chimique en phase vapeur,
+
+64
+00:04:18,855 --> 00:04:21,575
+sur des filaments portés vers 1150 degrés.
+
+65
+00:04:22,590 --> 00:04:26,899
+On obtient des barreaux de polysilicium
+de 15 à 20 centimètres de diamètre.
+
+66
+00:04:27,914 --> 00:04:31,251
+Le graphique donne la pureté
+maximale en nombre de neuf,
+
+67
+00:04:31,252 --> 00:04:35,398
+d'après Bernreuter Research : deux
+pour le silicium métallurgique,
+
+68
+00:04:35,399 --> 00:04:37,692
+six pour le métallurgique amélioré,
+
+69
+00:04:37,693 --> 00:04:42,061
+huit et dix pour le solaire multi et
+monocristallin, onze pour l'électronique.
+
+70
+00:04:43,090 --> 00:04:46,487
+Onze neuf, c'est un atome
+étranger sur cent milliards.
+
+71
+00:04:49,242 --> 00:04:52,419
+Le tirage Czochralski porte
+le nom de Jan Czochralski.
+
+72
+00:04:53,442 --> 00:04:58,500
+En 1916, chez AEG à Berlin, il
+tire des monocristaux d'étain,
+
+73
+00:04:58,501 --> 00:05:00,677
+de zinc et de plomb depuis un bain fondu.
+
+74
+00:05:01,707 --> 00:05:06,809
+Entre 1948 et 1950, Gordon
+Teal, aux Bell Labs,
+
+75
+00:05:06,810 --> 00:05:08,780
+applique la méthode au germanium.
+
+76
+00:05:09,810 --> 00:05:12,898
+Elle devient ensuite la base
+du silicium électronique.
+
+77
+00:05:15,642 --> 00:05:17,554
+Le procédé tient en cinq étapes.
+
+78
+00:05:18,592 --> 00:05:21,782
+On fond du polysilicium
+dans un creuset de quartz,
+
+79
+00:05:21,783 --> 00:05:25,063
+sous argon, au-dessus de 1414 degrés.
+
+80
+00:05:26,077 --> 00:05:30,166
+On met en contact un germe monocristallin
+orienté avec la surface du bain.
+
+81
+00:05:31,180 --> 00:05:35,607
+On tire alors un col, fin et rapide,
+où les dislocations s'éliminent.
+
+82
+00:05:36,622 --> 00:05:40,665
+On élargit ensuite le cristal en un
+épaulement jusqu'au diamètre voulu,
+
+83
+00:05:40,666 --> 00:05:42,973
+puis on tire lentement le corps du lingot,
+
+84
+00:05:42,974 --> 00:05:45,739
+pendant que germe et creuset
+tournent en sens inverse.
+
+85
+00:05:46,769 --> 00:05:50,386
+Enfin, on réduit le diamètre en
+un cône avant de quitter le bain.
+
+86
+00:05:53,142 --> 00:05:55,672
+Pourquoi le col élimine-t-il
+les dislocations ?
+
+87
+00:05:56,710 --> 00:06:00,416
+Au contact du bain, le choc
+thermique en crée dans le germe.
+
+88
+00:06:01,445 --> 00:06:04,504
+Dans la structure diamant, elles
+glissent sur les plans {111}.
+
+89
+00:06:05,533 --> 00:06:09,621
+Pour une croissance selon l'axe
+[100], l'angle θ entre l'axe et
+
+90
+00:06:09,622 --> 00:06:15,048
+la normale à ces plans a pour cosinus
+un sur racine de trois : 54,7 degrés.
+
+91
+00:06:16,063 --> 00:06:19,444
+Dans un col de diamètre d,
+un tel plan s'étend sur une
+
+92
+00:06:19,445 --> 00:06:22,666
+hauteur d tangente θ, soit
+racine de deux fois d.
+
+93
+00:06:23,695 --> 00:06:27,121
+Une dislocation qui y glisse
+atteint donc la surface latérale
+
+94
+00:06:27,122 --> 00:06:30,092
+en moins d'un diamètre et
+demi de col, et disparaît.
+
+95
+00:06:31,107 --> 00:06:33,576
+Avec un col de 2 à 5 millimètres,
+
+96
+00:06:33,577 --> 00:06:36,239
+quelques diamètres de longueur
+suffisent en principe.
+
+97
+00:06:37,269 --> 00:06:41,636
+Mais ce col fin porte tout le lingot
+: sa section limite la masse tirable.
+
+98
+00:06:44,375 --> 00:06:48,904
+Le corps du lingot se tire à un
+millimètre par minute au plus ; le col,
+
+99
+00:06:48,905 --> 00:06:53,787
+entre 3 et 6 millimètres par minute,
+avec un diamètre de 2 à 5 millimètres.
+
+100
+00:06:54,825 --> 00:06:59,649
+On produit en masse du 300
+millimètres, et le 450 a été démontré.
+
+101
+00:07:00,664 --> 00:07:02,370
+Qu'est-ce qui limite la vitesse ?
+
+102
+00:07:03,384 --> 00:07:06,031
+Écrivons le bilan d'énergie à l'interface.
+
+103
+00:07:07,046 --> 00:07:12,384
+En avançant à la vitesse V, elle libère
+par unité de surface la puissance ρLV.
+
+104
+00:07:13,399 --> 00:07:16,692
+Cette chaleur, ajoutée
+au flux venu du liquide,
+
+105
+00:07:16,693 --> 00:07:19,031
+doit partir par conduction dans le solide.
+
+106
+00:07:20,061 --> 00:07:23,369
+La vitesse est maximale quand
+le liquide n'apporte plus rien :
+
+107
+00:07:23,370 --> 00:07:26,355
+c'est la relation V·ρ·L = K·dT/dx.
+
+108
+00:07:27,370 --> 00:07:29,766
+Allons plus loin : le
+gradient dans le solide
+
+109
+00:07:29,767 --> 00:07:32,311
+dépend du refroidissement
+radiatif du lingot.
+
+110
+00:07:33,340 --> 00:07:38,427
+Pour un cylindre de rayon r, d'émissivité
+ε et de conductivité constante,
+
+111
+00:07:38,428 --> 00:07:40,708
+le bilan sur une tranche
+donne cette équation.
+
+112
+00:07:41,737 --> 00:07:44,692
+Multiplions par dT/dx et intégrons :
+
+113
+00:07:44,693 --> 00:07:48,105
+la vitesse maximale varie comme
+l'inverse de la racine du rayon.
+
+114
+00:07:49,134 --> 00:07:51,414
+Les gros lingots se tirent
+donc plus lentement.
+
+115
+00:07:52,428 --> 00:07:57,148
+Enfin, la contre-rotation du germe et du
+creuset homogénéise le bain et aplanit
+
+116
+00:07:57,149 --> 00:08:01,824
+l'interface ; l'argon protège le bain
+et évacue le monoxyde de silicium ;
+
+117
+00:08:01,825 --> 00:08:04,973
+un asservissement de la puissance
+garde le diamètre constant.
+
+118
+00:08:07,742 --> 00:08:11,757
+Le rapport entre vitesse et gradient
+gouverne aussi les défauts ponctuels.
+
+119
+00:08:12,795 --> 00:08:16,015
+À l'interface, lacunes et
+auto-interstitiels sont
+
+120
+00:08:16,016 --> 00:08:18,501
+incorporés à leur
+concentration d'équilibre.
+
+121
+00:08:19,516 --> 00:08:24,854
+En refroidissant, ils se recombinent
+vite : seule compte leur différence, δ.
+
+122
+00:08:25,869 --> 00:08:27,427
+Deux flux la transportent.
+
+123
+00:08:28,457 --> 00:08:32,766
+Le flux convectif, porté par
+le cristal, vaut v fois δ.
+
+124
+00:08:33,780 --> 00:08:36,265
+Le flux diffusif suit le
+gradient thermique G et
+
+125
+00:08:36,266 --> 00:08:39,604
+favorise l'espèce la plus
+mobile, l'interstitiel.
+
+126
+00:08:40,619 --> 00:08:45,133
+Le bilan change de signe pour un
+rapport critique v/G, noté ξₜ.
+
+127
+00:08:46,148 --> 00:08:49,956
+Au-dessus, les lacunes l'emportent
+et s'agglomèrent en cavités,
+
+128
+00:08:49,957 --> 00:08:52,295
+visibles en surface comme défauts COP.
+
+129
+00:08:53,324 --> 00:08:57,736
+Au-dessous, les interstitiels dominent
+et forment des boucles de dislocation.
+
+130
+00:08:58,766 --> 00:09:00,722
+Comme G croît du centre vers le bord,
+
+131
+00:09:01,148 --> 00:09:03,619
+la frontière dessine un
+anneau dans la plaquette.
+
+132
+00:09:04,648 --> 00:09:08,633
+Rester près de ξₜ sur tout le rayon
+limite les deux familles de défauts.
+
+133
+00:09:11,409 --> 00:09:12,982
+Passons à la ségrégation.
+
+134
+00:09:14,021 --> 00:09:17,505
+Le solide n'incorpore qu'une
+fraction du soluté du liquide :
+
+135
+00:09:17,506 --> 00:09:21,418
+c'est le coefficient de partage
+k, rapport de Cₛ sur Cₗ.
+
+136
+00:09:22,447 --> 00:09:25,784
+Dérivons la loi de Scheil,
+avec quatre hypothèses :
+
+137
+00:09:25,785 --> 00:09:27,711
+pas de diffusion dans le solide,
+
+138
+00:09:27,712 --> 00:09:31,668
+mélange complet du liquide,
+k constant, densités égales.
+
+139
+00:09:32,682 --> 00:09:34,726
+Soit g la fraction solidifiée.
+
+140
+00:09:35,741 --> 00:09:39,344
+Le liquide contient la quantité
+de soluté Cₗ fois un moins g.
+
+141
+00:09:40,374 --> 00:09:44,638
+Quand une fraction dg se
+solidifie, elle emporte k Cₗ dg.
+
+142
+00:09:45,653 --> 00:09:48,064
+En développant ce bilan, il vient :
+
+143
+00:09:48,065 --> 00:09:51,624
+un moins g fois d Cₗ égale
+un moins k, fois Cₗ dg.
+
+144
+00:09:52,638 --> 00:09:55,535
+On sépare les variables
+et on intègre depuis C₀.
+
+145
+00:09:56,550 --> 00:10:01,815
+D'où la loi de Scheil : Cₛ égale k C₀,
+fois un moins g, puissance k moins un.
+
+146
+00:10:02,844 --> 00:10:06,550
+Traçons-la pour k égal 0,1 et 0,5.
+
+147
+00:10:07,579 --> 00:10:09,918
+La tête du lingot démarre à k C₀.
+
+148
+00:10:10,932 --> 00:10:15,358
+Si k est inférieur à un, le soluté
+rejeté s'accumule dans le liquide :
+
+149
+00:10:15,359 --> 00:10:17,579
+le bas du lingot est
+plus dopé que la tête.
+
+150
+00:10:18,609 --> 00:10:21,549
+À 90 % de solidification,
+
+151
+00:10:21,550 --> 00:10:29,918
+Cₛ sur C₀ atteint 0,79 pour k
+égal 0,1, et 1,58 pour k égal 0,5.
+
+152
+00:10:30,947 --> 00:10:35,329
+Seule une partie du lingot respecte donc
+une tolérance de résistivité donnée.
+
+153
+00:10:38,075 --> 00:10:40,575
+Scheil suppose un liquide
+parfaitement brassé.
+
+154
+00:10:41,614 --> 00:10:45,995
+Or, près de l'interface, la convection
+s'éteint dans une couche limite
+
+155
+00:10:45,996 --> 00:10:49,908
+d'épaisseur δ, où le soluté ne
+se déplace que par diffusion.
+
+156
+00:10:50,937 --> 00:10:54,539
+Dans le repère de l'interface,
+en régime stationnaire,
+
+157
+00:10:54,540 --> 00:10:58,261
+la concentration obéit à cette
+équation de diffusion et d'advection.
+
+158
+00:10:59,290 --> 00:11:02,260
+Au bord de la couche, elle
+rejoint celle du bain ;
+
+159
+00:11:02,261 --> 00:11:06,084
+à l'interface, le soluté rejeté
+doit partir par diffusion.
+
+160
+00:11:07,114 --> 00:11:10,819
+La solution est une exponentielle,
+et l'excès à l'interface vaut
+
+161
+00:11:10,820 --> 00:11:14,525
+l'excès dans le bain multiplié
+par exponentielle de vδ/D.
+
+162
+00:11:15,555 --> 00:11:18,539
+En posant k effectif égal Cₛ sur Cₗ,
+
+163
+00:11:18,540 --> 00:11:21,878
+on obtient la formule de
+Burton, Prim et Slichter.
+
+164
+00:11:22,908 --> 00:11:28,334
+Si vδ/D tend vers zéro, k effectif
+tend vers k₀ : le mélange est parfait.
+
+165
+00:11:29,349 --> 00:11:32,319
+S'il devient grand, k
+effectif tend vers un :
+
+166
+00:11:32,320 --> 00:11:34,467
+le soluté n'a plus le temps de s'échapper.
+
+167
+00:11:35,496 --> 00:11:39,451
+Pour un cristal en rotation, δ varie
+comme l'inverse de la racine de
+
+168
+00:11:39,452 --> 00:11:43,864
+la vitesse de rotation : tourner
+plus vite rapproche k effectif de k₀.
+
+169
+00:11:44,878 --> 00:11:48,173
+On remplace alors k par k
+effectif dans la loi de Scheil.
+
+170
+00:11:50,909 --> 00:11:53,938
+La couche limite enrichie
+a une autre conséquence.
+
+171
+00:11:54,976 --> 00:11:57,947
+En régime stationnaire,
+avec k inférieur à un,
+
+172
+00:11:58,359 --> 00:12:02,550
+la concentration décroît exponentiellement
+devant l'interface jusqu'à C₀.
+
+173
+00:12:03,579 --> 00:12:07,828
+Le liquidus suit la concentration,
+avec une pente m négative :
+
+174
+00:12:07,829 --> 00:12:09,918
+il est plus bas à
+l'interface que loin d'elle.
+
+175
+00:12:10,932 --> 00:12:14,785
+La température réelle croît
+linéairement, avec le gradient G.
+
+176
+00:12:15,815 --> 00:12:19,431
+Si G est plus faible que la
+pente du liquidus à l'interface,
+
+177
+00:12:19,432 --> 00:12:21,946
+une couche de liquide
+passe sous son liquidus :
+
+178
+00:12:21,947 --> 00:12:23,903
+elle est surfondue par sa composition.
+
+179
+00:12:24,932 --> 00:12:30,049
+En dérivant le liquidus en z égale zéro,
+on obtient la condition de stabilité :
+
+180
+00:12:30,050 --> 00:12:35,006
+G/v doit rester supérieur à moins
+m C₀, fois un moins k, sur k D.
+
+181
+00:12:36,021 --> 00:12:38,961
+Sinon, l'interface devient cellulaire,
+
+182
+00:12:38,962 --> 00:12:42,874
+piège le soluté en stries, et
+peut perdre la monocristallinité.
+
+183
+00:12:43,888 --> 00:12:46,725
+Le risque croît avec la
+vitesse et le dopage :
+
+184
+00:12:46,726 --> 00:12:49,624
+c'est une limite de plus pour
+les lingots fortement dopés.
+
+185
+00:12:52,375 --> 00:12:55,228
+L'oxygène est l'impureté principale du Cz.
+
+186
+00:12:56,267 --> 00:12:58,987
+Le creuset de quartz se
+dissout lentement dans le bain.
+
+187
+00:13:00,002 --> 00:13:03,370
+Une partie de l'oxygène s'évapore
+en monoxyde de silicium,
+
+188
+00:13:03,781 --> 00:13:08,384
+évacué par l'argon ; le reste est porté
+par la convection jusqu'à l'interface.
+
+189
+00:13:09,414 --> 00:13:12,442
+La teneur typique va de six fois 10¹⁷ à
+
+190
+00:13:12,443 --> 00:13:16,223
+1,1 fois 10¹⁸ atomes par centimètre cube.
+
+191
+00:13:17,237 --> 00:13:20,266
+L'oxygène précipite et
+favorise des défauts,
+
+192
+00:13:20,267 --> 00:13:22,752
+mais il renforce mécaniquement le cristal.
+
+193
+00:13:23,767 --> 00:13:27,237
+Pour le réduire, le Cz magnétique, ou MCZ,
+
+194
+00:13:27,649 --> 00:13:30,870
+applique un champ B au bain,
+qui est un bon conducteur.
+
+195
+00:13:31,899 --> 00:13:34,648
+Un écoulement de vitesse
+u y induit un courant,
+
+196
+00:13:34,649 --> 00:13:39,061
+donc une force de Laplace d'ordre
+σuB², qui s'oppose au mouvement.
+
+197
+00:13:40,075 --> 00:13:44,089
+Rapportée à la force
+visqueuse, d'ordre μu/L²,
+
+198
+00:13:44,090 --> 00:13:46,487
+elle définit le carré
+du nombre de Hartmann.
+
+199
+00:13:47,502 --> 00:13:51,236
+Quand celui-ci est grand devant
+un, la convection est freinée,
+
+200
+00:13:51,237 --> 00:13:55,355
+l'oxygène quitte moins vite la paroi,
+et la teneur incorporée diminue.
+
+201
+00:13:58,109 --> 00:14:00,359
+La fusion de zone supprime le creuset.
+
+202
+00:14:01,397 --> 00:14:03,587
+Une bobine à induction
+fond une zone étroite
+
+203
+00:14:03,588 --> 00:14:05,765
+d'un barreau polycristallin vertical.
+
+204
+00:14:06,779 --> 00:14:08,778
+La zone monte le long du barreau,
+
+205
+00:14:08,779 --> 00:14:12,324
+et le monocristal se forme
+sous elle, à partir d'un germe.
+
+206
+00:14:13,353 --> 00:14:15,749
+La zone fondue ne touche que le gaz,
+
+207
+00:14:15,750 --> 00:14:18,912
+vide ou gaz inerte : il n'y
+a plus de source d'oxygène.
+
+208
+00:14:19,926 --> 00:14:24,691
+Les impuretés sont entraînées par la
+zone liquide, ce qui purifie le cristal.
+
+209
+00:14:25,721 --> 00:14:31,485
+Le procédé est développé en 1962, et son
+diamètre est limité à 200 millimètres.
+
+210
+00:14:32,515 --> 00:14:35,425
+Un silicium FZ de référence
+contient moins de dix
+
+211
+00:14:35,426 --> 00:14:38,662
+puissance seize atomes
+d'oxygène par centimètre cube.
+
+212
+00:14:41,409 --> 00:14:42,056
+Comparons.
+
+213
+00:14:43,094 --> 00:14:47,844
+Le Cz utilise un creuset de quartz au
+contact du bain ; la FZ n'en a aucun.
+
+214
+00:14:48,874 --> 00:14:54,417
+L'oxygène atteint 10¹⁷ à 10¹⁸
+par centimètre cube en Cz,
+
+215
+00:14:54,418 --> 00:14:58,653
+moins de 10¹⁶ en FZ, dont la
+résistivité est plus élevée.
+
+216
+00:14:59,668 --> 00:15:03,976
+Le Cz atteint 300 millimètres
+en masse ; la FZ, 200.
+
+217
+00:15:05,006 --> 00:15:08,328
+Le Cz sert aux circuits intégrés
+et aux cellules solaires ;
+
+218
+00:15:08,329 --> 00:15:11,741
+la FZ, à l'électronique de
+puissance et aux détecteurs.
+
+219
+00:15:12,771 --> 00:15:15,696
+Le Cz domine en volume
+grâce aux grands diamètres ;
+
+220
+00:15:15,697 --> 00:15:17,815
+la FZ gagne là où la pureté prime.
+
+221
+00:15:20,575 --> 00:15:23,002
+Le lingot doit encore devenir plaquette.
+
+222
+00:15:24,040 --> 00:15:27,496
+On le rectifie au diamètre et on
+y marque un repère d'orientation.
+
+223
+00:15:28,525 --> 00:15:30,864
+On le découpe en tranches à la scie à fil.
+
+224
+00:15:31,878 --> 00:15:35,275
+Le rodage et la gravure éliminent
+la zone écrouie par la découpe.
+
+225
+00:15:36,305 --> 00:15:40,731
+Le polissage donne enfin une surface
+miroir, prête pour la lithographie.
+
+226
+00:15:41,761 --> 00:15:45,525
+Voici une plaquette de 300
+millimètres, soit douze pouces.
+
+227
+00:15:48,242 --> 00:15:51,388
+Trois étapes transforment le
+sable en cristal parfait :
+
+228
+00:15:51,389 --> 00:15:55,213
+réduction, purification
+chimique, cristallogenèse.
+
+229
+00:15:56,251 --> 00:15:59,779
+Le Czochralski fournit
+l'essentiel du silicium mondial ;
+
+230
+00:15:59,780 --> 00:16:02,133
+la fusion de zone, le plus pur.
+
+231
+00:16:03,148 --> 00:16:05,442
+Tout se joue à l'interface solide-liquide.
+
+232
+00:16:06,457 --> 00:16:09,354
+Le bilan thermique y
+fixe la vitesse maximale.
+
+233
+00:16:10,369 --> 00:16:13,707
+Le rapport v/G y choisit le
+défaut ponctuel dominant.
+
+234
+00:16:14,736 --> 00:16:18,427
+La couche limite y règle la
+ségrégation et la stabilité du front.
+
+235
+00:16:21,209 --> 00:16:24,503
+Les références et les crédits des
+images sont affichés à l'écran.
+
+236
+00:16:25,541 --> 00:16:27,026
+Merci de votre attention.

@@ -1,0 +1,392 @@
+{
+ "scene": "04",
+ "text": "La chaîne de fabrication compte six maillons. Le quartz est réduit en silicium métallurgique, pur à 98 % environ. Celui-ci est converti en trichlorosilane, que l'on distille, puis en polysilicium de pureté neuf N à onze N. La cristallogenèse transforme ce polysilicium en monocristal, par tirage Czochralski ou par fusion de zone. L'usinage livre enfin les plaquettes. C'est l'étape de cristallogenèse qui nous occupera surtout : elle change un solide pur mais désordonné en un réseau unique et orienté.",
+ "spoken": "La chaîne de fabrication compte six maillons. Le quartz est réduit en silicium métallurgique, pur à 98 % environ. Celui-ci est converti en trichlorosilane, que l'on distille, puis en polysilicium de pureté neuf N à onze N. La cristallogenèse transforme ce polysilicium en monocristal, par tirage Czochralski ou par fusion de zone. L'usinage livre enfin les plaquettes. C'est l'étape de cristallogenèse qui nous occupera surtout : elle change un solide pur mais désordonné en un réseau unique et orienté.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.25,
+   "w": "La"
+  },
+  {
+   "t": 0.373541,
+   "d": 0.279416,
+   "w": "chaîne"
+  },
+  {
+   "t": 0.667666,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 0.829416,
+   "d": 0.75,
+   "w": "fabrication"
+  },
+  {
+   "t": 1.594125,
+   "d": 0.25,
+   "w": "compte"
+  },
+  {
+   "t": 1.858833,
+   "d": 0.147041,
+   "w": "six"
+  },
+  {
+   "t": 2.020583,
+   "d": 0.397041,
+   "w": "maillons"
+  },
+  {
+   "t": 3.455875,
+   "d": 0.235291,
+   "w": "Le"
+  },
+  {
+   "t": 3.705875,
+   "d": 0.41175,
+   "w": "quartz"
+  },
+  {
+   "t": 4.132333,
+   "d": 0.073541,
+   "w": "est"
+  },
+  {
+   "t": 4.220583,
+   "d": 0.33825,
+   "w": "réduit"
+  },
+  {
+   "t": 4.573541,
+   "d": 0.08825,
+   "w": "en"
+  },
+  {
+   "t": 4.676458,
+   "d": 0.558833,
+   "w": "silicium"
+  },
+  {
+   "t": 5.25,
+   "d": 0.882333,
+   "w": "métallurgique"
+  },
+  {
+   "t": 6.455875,
+   "d": 0.205875,
+   "w": "pur"
+  },
+  {
+   "t": 6.676458,
+   "d": 0.058833,
+   "w": "à"
+  },
+  {
+   "t": 6.75,
+   "d": 1.2647079,
+   "w": "98 %"
+  },
+  {
+   "t": 8.029416,
+   "d": 0.485291,
+   "w": "environ"
+  },
+  {
+   "t": 9.544125,
+   "d": 0.66175,
+   "w": "Celui-ci"
+  },
+  {
+   "t": 10.220583,
+   "d": 0.058833,
+   "w": "est"
+  },
+  {
+   "t": 10.294125,
+   "d": 0.573541,
+   "w": "converti"
+  },
+  {
+   "t": 10.882333,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 10.970583,
+   "d": 1.058833,
+   "w": "trichlorosilane"
+  },
+  {
+   "t": 12.382333,
+   "d": 0.132333,
+   "w": "que"
+  },
+  {
+   "t": 12.529416,
+   "d": 0.132333,
+   "w": "l'on"
+  },
+  {
+   "t": 12.676458,
+   "d": 0.602958,
+   "w": "distille"
+  },
+  {
+   "t": 13.647041,
+   "d": 0.191166,
+   "w": "puis"
+  },
+  {
+   "t": 13.852958,
+   "d": 0.176458,
+   "w": "en"
+  },
+  {
+   "t": 14.044125,
+   "d": 0.852958,
+   "w": "polysilicium"
+  },
+  {
+   "t": 14.91175,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 15.058833,
+   "d": 0.352958,
+   "w": "pureté"
+  },
+  {
+   "t": 15.426458,
+   "d": 0.25,
+   "w": "neuf"
+  },
+  {
+   "t": 15.691166,
+   "d": 0.132333,
+   "w": "N"
+  },
+  {
+   "t": 15.83825,
+   "d": 0.058833,
+   "w": "à"
+  },
+  {
+   "t": 15.91175,
+   "d": 0.235291,
+   "w": "onze"
+  },
+  {
+   "t": 16.16175,
+   "d": 0.382333,
+   "w": "N"
+  },
+  {
+   "t": 17.558833,
+   "d": 0.235291,
+   "w": "La"
+  },
+  {
+   "t": 17.808833,
+   "d": 0.852958,
+   "w": "cristallogenèse"
+  },
+  {
+   "t": 18.676458,
+   "d": 0.558833,
+   "w": "transforme"
+  },
+  {
+   "t": 19.25,
+   "d": 0.16175,
+   "w": "ce"
+  },
+  {
+   "t": 19.426458,
+   "d": 0.808833,
+   "w": "polysilicium"
+  },
+  {
+   "t": 20.25,
+   "d": 0.058833,
+   "w": "en"
+  },
+  {
+   "t": 20.323541,
+   "d": 0.941166,
+   "w": "monocristal"
+  },
+  {
+   "t": 21.632333,
+   "d": 0.176458,
+   "w": "par"
+  },
+  {
+   "t": 21.823541,
+   "d": 0.41175,
+   "w": "tirage"
+  },
+  {
+   "t": 22.25,
+   "d": 0.735291,
+   "w": "Czochralski"
+  },
+  {
+   "t": 23.0,
+   "d": 0.08825,
+   "w": "ou"
+  },
+  {
+   "t": 23.102958,
+   "d": 0.220583,
+   "w": "par"
+  },
+  {
+   "t": 23.33825,
+   "d": 0.352958,
+   "w": "fusion"
+  },
+  {
+   "t": 23.705875,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 23.852958,
+   "d": 0.470583,
+   "w": "zone"
+  },
+  {
+   "t": 25.33825,
+   "d": 0.632333,
+   "w": "L'usinage"
+  },
+  {
+   "t": 25.985291,
+   "d": 0.279416,
+   "w": "livre"
+  },
+  {
+   "t": 26.279416,
+   "d": 0.323541,
+   "w": "enfin"
+  },
+  {
+   "t": 26.617666,
+   "d": 0.102958,
+   "w": "les"
+  },
+  {
+   "t": 26.735291,
+   "d": 0.75,
+   "w": "plaquettes"
+  },
+  {
+   "t": 28.514708,
+   "d": 0.25,
+   "w": "C'est"
+  },
+  {
+   "t": 28.779416,
+   "d": 0.367666,
+   "w": "l'étape"
+  },
+  {
+   "t": 29.16175,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 29.308833,
+   "d": 0.852958,
+   "w": "cristallogenèse"
+  },
+  {
+   "t": 30.176458,
+   "d": 0.147041,
+   "w": "qui"
+  },
+  {
+   "t": 30.33825,
+   "d": 0.132333,
+   "w": "nous"
+  },
+  {
+   "t": 30.485291,
+   "d": 0.529416,
+   "w": "occupera"
+  },
+  {
+   "t": 31.029416,
+   "d": 0.514708,
+   "w": "surtout"
+  },
+  {
+   "t": 31.823541,
+   "d": 0.147041,
+   "w": "elle"
+  },
+  {
+   "t": 31.985291,
+   "d": 0.323541,
+   "w": "change"
+  },
+  {
+   "t": 32.323541,
+   "d": 0.08825,
+   "w": "un"
+  },
+  {
+   "t": 32.426458,
+   "d": 0.367666,
+   "w": "solide"
+  },
+  {
+   "t": 32.808833,
+   "d": 0.191166,
+   "w": "pur"
+  },
+  {
+   "t": 33.014708,
+   "d": 0.132333,
+   "w": "mais"
+  },
+  {
+   "t": 33.16175,
+   "d": 0.676458,
+   "w": "désordonné"
+  },
+  {
+   "t": 33.852958,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 33.941166,
+   "d": 0.132333,
+   "w": "un"
+  },
+  {
+   "t": 34.08825,
+   "d": 0.33825,
+   "w": "réseau"
+  },
+  {
+   "t": 34.441166,
+   "d": 0.323541,
+   "w": "unique"
+  },
+  {
+   "t": 34.779416,
+   "d": 0.08825,
+   "w": "et"
+  },
+  {
+   "t": 34.882333,
+   "d": 0.676458,
+   "w": "orienté"
+  }
+ ]
+}

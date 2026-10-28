@@ -1,0 +1,302 @@
+{
+ "scene": "18",
+ "text": "Le lingot doit encore devenir plaquette. On le rectifie au diamètre et on y marque un repère d'orientation. On le découpe en tranches à la scie à fil. Le rodage et la gravure éliminent la zone écrouie par la découpe. Le polissage donne enfin une surface miroir, prête pour la lithographie. Voici une plaquette de 300 millimètres, soit douze pouces.",
+ "spoken": "Le lingot doit encore devenir plaquette. On le rectifie au diamètre et on y marque un repère d'orientation. On le découpe en tranches à la scie à fil. Le rodage et la gravure éliminent la zone écrouie par la découpe. Le polissage donne enfin une surface miroir, prête pour la lithographie. Voici une plaquette de 300 millimètres, soit douze pouces.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.205875,
+   "w": "Le"
+  },
+  {
+   "t": 0.329416,
+   "d": 0.352958,
+   "w": "lingot"
+  },
+  {
+   "t": 0.697041,
+   "d": 0.220583,
+   "w": "doit"
+  },
+  {
+   "t": 0.932333,
+   "d": 0.367666,
+   "w": "encore"
+  },
+  {
+   "t": 1.314708,
+   "d": 0.426458,
+   "w": "devenir"
+  },
+  {
+   "t": 1.755875,
+   "d": 0.779416,
+   "w": "plaquette"
+  },
+  {
+   "t": 3.573541,
+   "d": 0.176458,
+   "w": "On"
+  },
+  {
+   "t": 3.764708,
+   "d": 0.102958,
+   "w": "le"
+  },
+  {
+   "t": 3.882333,
+   "d": 0.573541,
+   "w": "rectifie"
+  },
+  {
+   "t": 4.470583,
+   "d": 0.073541,
+   "w": "au"
+  },
+  {
+   "t": 4.558833,
+   "d": 0.514708,
+   "w": "diamètre"
+  },
+  {
+   "t": 5.08825,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 5.147041,
+   "d": 0.08825,
+   "w": "on"
+  },
+  {
+   "t": 5.25,
+   "d": 0.132333,
+   "w": "y"
+  },
+  {
+   "t": 5.397041,
+   "d": 0.279416,
+   "w": "marque"
+  },
+  {
+   "t": 5.691166,
+   "d": 0.073541,
+   "w": "un"
+  },
+  {
+   "t": 5.779416,
+   "d": 0.382333,
+   "w": "repère"
+  },
+  {
+   "t": 6.176458,
+   "d": 0.852958,
+   "w": "d'orientation"
+  },
+  {
+   "t": 8.058833,
+   "d": 0.176458,
+   "w": "On"
+  },
+  {
+   "t": 8.25,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 8.382333,
+   "d": 0.426458,
+   "w": "découpe"
+  },
+  {
+   "t": 8.823541,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 8.91175,
+   "d": 0.382333,
+   "w": "tranches"
+  },
+  {
+   "t": 9.308833,
+   "d": 0.044125,
+   "w": "à"
+  },
+  {
+   "t": 9.367666,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 9.514708,
+   "d": 0.235291,
+   "w": "scie"
+  },
+  {
+   "t": 9.764708,
+   "d": 0.073541,
+   "w": "à"
+  },
+  {
+   "t": 9.852958,
+   "d": 0.544125,
+   "w": "fil"
+  },
+  {
+   "t": 11.41175,
+   "d": 0.220583,
+   "w": "Le"
+  },
+  {
+   "t": 11.647041,
+   "d": 0.426458,
+   "w": "rodage"
+  },
+  {
+   "t": 12.08825,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 12.147041,
+   "d": 0.117666,
+   "w": "la"
+  },
+  {
+   "t": 12.279416,
+   "d": 0.441166,
+   "w": "gravure"
+  },
+  {
+   "t": 12.735291,
+   "d": 0.367666,
+   "w": "éliminent"
+  },
+  {
+   "t": 13.117666,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 13.264708,
+   "d": 0.25,
+   "w": "zone"
+  },
+  {
+   "t": 13.529416,
+   "d": 0.382333,
+   "w": "écrouie"
+  },
+  {
+   "t": 13.926458,
+   "d": 0.176458,
+   "w": "par"
+  },
+  {
+   "t": 14.117666,
+   "d": 0.073541,
+   "w": "la"
+  },
+  {
+   "t": 14.205875,
+   "d": 0.602958,
+   "w": "découpe"
+  },
+  {
+   "t": 15.83825,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 16.102958,
+   "d": 0.558833,
+   "w": "polissage"
+  },
+  {
+   "t": 16.676458,
+   "d": 0.220583,
+   "w": "donne"
+  },
+  {
+   "t": 16.91175,
+   "d": 0.323541,
+   "w": "enfin"
+  },
+  {
+   "t": 17.25,
+   "d": 0.117666,
+   "w": "une"
+  },
+  {
+   "t": 17.382333,
+   "d": 0.485291,
+   "w": "surface"
+  },
+  {
+   "t": 17.882333,
+   "d": 0.573541,
+   "w": "miroir"
+  },
+  {
+   "t": 18.794125,
+   "d": 0.323541,
+   "w": "prête"
+  },
+  {
+   "t": 19.132333,
+   "d": 0.191166,
+   "w": "pour"
+  },
+  {
+   "t": 19.33825,
+   "d": 0.058833,
+   "w": "la"
+  },
+  {
+   "t": 19.41175,
+   "d": 0.852958,
+   "w": "lithographie"
+  },
+  {
+   "t": 21.294125,
+   "d": 0.558833,
+   "w": "Voici"
+  },
+  {
+   "t": 21.867666,
+   "d": 0.147041,
+   "w": "une"
+  },
+  {
+   "t": 22.029416,
+   "d": 0.426458,
+   "w": "plaquette"
+  },
+  {
+   "t": 22.470583,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 22.617666,
+   "d": 1.073541,
+   "w": "300 millimètres"
+  },
+  {
+   "t": 24.0,
+   "d": 0.191166,
+   "w": "soit"
+  },
+  {
+   "t": 24.205875,
+   "d": 0.25,
+   "w": "douze"
+  },
+  {
+   "t": 24.470583,
+   "d": 0.58825,
+   "w": "pouces"
+  }
+ ]
+}

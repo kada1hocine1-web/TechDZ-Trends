@@ -1,0 +1,437 @@
+{
+ "scene": "08",
+ "text": "Le procédé tient en cinq étapes. On fond du polysilicium dans un creuset de quartz, sous argon, au-dessus de 1414 degrés. On met en contact un germe monocristallin orienté avec la surface du bain. On tire alors un col, fin et rapide, où les dislocations s'éliminent. On élargit ensuite le cristal en un épaulement jusqu'au diamètre voulu, puis on tire lentement le corps du lingot, pendant que germe et creuset tournent en sens inverse. Enfin, on réduit le diamètre en un cône avant de quitter le bain.",
+ "spoken": "Le procédé tient en cinq étapes. On fond du polysilicium dans un creuset de quartz, sous argon, au-dessus de 1414 degrés. On met en contact un germe monocristallin orienté avec la surface du bain. On tire alors un col, fin et rapide, où les dislocations s'éliminent. On élargit ensuite le cristal en un épaulement jusqu'au diamètre voulu, puis on tire lentement le corps du lingot, pendant que germe et creuset tournent en sens inverse. Enfin, on réduit le diamètre en un cône avant de quitter le bain.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.25,
+   "w": "Le"
+  },
+  {
+   "t": 0.373541,
+   "d": 0.485291,
+   "w": "procédé"
+  },
+  {
+   "t": 0.873541,
+   "d": 0.25,
+   "w": "tient"
+  },
+  {
+   "t": 1.13825,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 1.226458,
+   "d": 0.279416,
+   "w": "cinq"
+  },
+  {
+   "t": 1.520583,
+   "d": 0.5,
+   "w": "étapes"
+  },
+  {
+   "t": 3.058833,
+   "d": 0.191166,
+   "w": "On"
+  },
+  {
+   "t": 3.264708,
+   "d": 0.191166,
+   "w": "fond"
+  },
+  {
+   "t": 3.470583,
+   "d": 0.147041,
+   "w": "du"
+  },
+  {
+   "t": 3.632333,
+   "d": 0.867666,
+   "w": "polysilicium"
+  },
+  {
+   "t": 4.514708,
+   "d": 0.147041,
+   "w": "dans"
+  },
+  {
+   "t": 4.676458,
+   "d": 0.16175,
+   "w": "un"
+  },
+  {
+   "t": 4.852958,
+   "d": 0.397041,
+   "w": "creuset"
+  },
+  {
+   "t": 5.264708,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 5.41175,
+   "d": 0.544125,
+   "w": "quartz"
+  },
+  {
+   "t": 6.25,
+   "d": 0.176458,
+   "w": "sous"
+  },
+  {
+   "t": 6.441166,
+   "d": 0.5,
+   "w": "argon"
+  },
+  {
+   "t": 7.308833,
+   "d": 0.426458,
+   "w": "au-dessus"
+  },
+  {
+   "t": 7.75,
+   "d": 0.117666,
+   "w": "de"
+  },
+  {
+   "t": 7.882333,
+   "d": 1.6470829,
+   "w": "1414 degrés"
+  },
+  {
+   "t": 10.544125,
+   "d": 0.176458,
+   "w": "On"
+  },
+  {
+   "t": 10.735291,
+   "d": 0.147041,
+   "w": "met"
+  },
+  {
+   "t": 10.897041,
+   "d": 0.117666,
+   "w": "en"
+  },
+  {
+   "t": 11.029416,
+   "d": 0.529416,
+   "w": "contact"
+  },
+  {
+   "t": 11.573541,
+   "d": 0.08825,
+   "w": "un"
+  },
+  {
+   "t": 11.676458,
+   "d": 0.279416,
+   "w": "germe"
+  },
+  {
+   "t": 11.970583,
+   "d": 0.808833,
+   "w": "monocristallin"
+  },
+  {
+   "t": 12.794125,
+   "d": 0.485291,
+   "w": "orienté"
+  },
+  {
+   "t": 13.294125,
+   "d": 0.25,
+   "w": "avec"
+  },
+  {
+   "t": 13.558833,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 13.705875,
+   "d": 0.470583,
+   "w": "surface"
+  },
+  {
+   "t": 14.191166,
+   "d": 0.132333,
+   "w": "du"
+  },
+  {
+   "t": 14.33825,
+   "d": 0.294125,
+   "w": "bain"
+  },
+  {
+   "t": 15.647041,
+   "d": 0.176458,
+   "w": "On"
+  },
+  {
+   "t": 15.83825,
+   "d": 0.264708,
+   "w": "tire"
+  },
+  {
+   "t": 16.117666,
+   "d": 0.220583,
+   "w": "alors"
+  },
+  {
+   "t": 16.352958,
+   "d": 0.073541,
+   "w": "un"
+  },
+  {
+   "t": 16.441166,
+   "d": 0.397041,
+   "w": "col"
+  },
+  {
+   "t": 17.176458,
+   "d": 0.220583,
+   "w": "fin"
+  },
+  {
+   "t": 17.41175,
+   "d": 0.073541,
+   "w": "et"
+  },
+  {
+   "t": 17.5,
+   "d": 0.514708,
+   "w": "rapide"
+  },
+  {
+   "t": 18.367666,
+   "d": 0.058833,
+   "w": "où"
+  },
+  {
+   "t": 18.441166,
+   "d": 0.102958,
+   "w": "les"
+  },
+  {
+   "t": 18.558833,
+   "d": 0.764708,
+   "w": "dislocations"
+  },
+  {
+   "t": 19.33825,
+   "d": 0.735291,
+   "w": "s'éliminent"
+  },
+  {
+   "t": 21.08825,
+   "d": 0.16175,
+   "w": "On"
+  },
+  {
+   "t": 21.264708,
+   "d": 0.485291,
+   "w": "élargit"
+  },
+  {
+   "t": 21.764708,
+   "d": 0.397041,
+   "w": "ensuite"
+  },
+  {
+   "t": 22.176458,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 22.308833,
+   "d": 0.485291,
+   "w": "cristal"
+  },
+  {
+   "t": 22.808833,
+   "d": 0.058833,
+   "w": "en"
+  },
+  {
+   "t": 22.882333,
+   "d": 0.102958,
+   "w": "un"
+  },
+  {
+   "t": 23.0,
+   "d": 0.455875,
+   "w": "épaulement"
+  },
+  {
+   "t": 23.470583,
+   "d": 0.382333,
+   "w": "jusqu'au"
+  },
+  {
+   "t": 23.867666,
+   "d": 0.529416,
+   "w": "diamètre"
+  },
+  {
+   "t": 24.41175,
+   "d": 0.382333,
+   "w": "voulu"
+  },
+  {
+   "t": 25.132333,
+   "d": 0.191166,
+   "w": "puis"
+  },
+  {
+   "t": 25.33825,
+   "d": 0.147041,
+   "w": "on"
+  },
+  {
+   "t": 25.5,
+   "d": 0.25,
+   "w": "tire"
+  },
+  {
+   "t": 25.764708,
+   "d": 0.367666,
+   "w": "lentement"
+  },
+  {
+   "t": 26.147041,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 26.279416,
+   "d": 0.220583,
+   "w": "corps"
+  },
+  {
+   "t": 26.514708,
+   "d": 0.117666,
+   "w": "du"
+  },
+  {
+   "t": 26.647041,
+   "d": 0.455875,
+   "w": "lingot"
+  },
+  {
+   "t": 27.441166,
+   "d": 0.308833,
+   "w": "pendant"
+  },
+  {
+   "t": 27.764708,
+   "d": 0.205875,
+   "w": "que"
+  },
+  {
+   "t": 27.985291,
+   "d": 0.279416,
+   "w": "germe"
+  },
+  {
+   "t": 28.279416,
+   "d": 0.058833,
+   "w": "et"
+  },
+  {
+   "t": 28.352958,
+   "d": 0.41175,
+   "w": "creuset"
+  },
+  {
+   "t": 28.779416,
+   "d": 0.294125,
+   "w": "tournent"
+  },
+  {
+   "t": 29.08825,
+   "d": 0.073541,
+   "w": "en"
+  },
+  {
+   "t": 29.176458,
+   "d": 0.352958,
+   "w": "sens"
+  },
+  {
+   "t": 29.544125,
+   "d": 0.66175,
+   "w": "inverse"
+  },
+  {
+   "t": 31.235291,
+   "d": 0.58825,
+   "w": "Enfin"
+  },
+  {
+   "t": 32.191166,
+   "d": 0.073541,
+   "w": "on"
+  },
+  {
+   "t": 32.279416,
+   "d": 0.294125,
+   "w": "réduit"
+  },
+  {
+   "t": 32.58825,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 32.720583,
+   "d": 0.485291,
+   "w": "diamètre"
+  },
+  {
+   "t": 33.220583,
+   "d": 0.044125,
+   "w": "en"
+  },
+  {
+   "t": 33.279416,
+   "d": 0.147041,
+   "w": "un"
+  },
+  {
+   "t": 33.441166,
+   "d": 0.264708,
+   "w": "cône"
+  },
+  {
+   "t": 33.720583,
+   "d": 0.205875,
+   "w": "avant"
+  },
+  {
+   "t": 33.941166,
+   "d": 0.132333,
+   "w": "de"
+  },
+  {
+   "t": 34.08825,
+   "d": 0.323541,
+   "w": "quitter"
+  },
+  {
+   "t": 34.426458,
+   "d": 0.117666,
+   "w": "le"
+  },
+  {
+   "t": 34.558833,
+   "d": 0.294125,
+   "w": "bain"
+  }
+ ]
+}

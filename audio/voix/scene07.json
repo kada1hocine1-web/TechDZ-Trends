@@ -1,0 +1,247 @@
+{
+ "scene": "07",
+ "text": "Le tirage Czochralski porte le nom de Jan Czochralski. En 1916, chez A E G à Berlin, il tire des monocristaux d'étain, de zinc et de plomb depuis un bain fondu. Entre 1948 et 1950, Gordon Teal, aux Bell Labs, applique la méthode au germanium. Elle devient ensuite la base du silicium électronique.",
+ "spoken": "Le tirage Czochralski porte le nom de Jan Czochralski. En 1916, chez A.E.G. à Berlin, il tire des monocristaux d'étain, de zinc et de plomb depuis un bain fondu. Entre 1948 et 1950, Gordon Teal, aux Bell Labs, applique la méthode au germanium. Elle devient ensuite la base du silicium électronique.",
+ "words": [
+  {
+   "t": 0.108833,
+   "d": 0.235291,
+   "w": "Le"
+  },
+  {
+   "t": 0.358833,
+   "d": 0.382333,
+   "w": "tirage"
+  },
+  {
+   "t": 0.755875,
+   "d": 0.66175,
+   "w": "Czochralski"
+  },
+  {
+   "t": 1.432333,
+   "d": 0.308833,
+   "w": "porte"
+  },
+  {
+   "t": 1.755875,
+   "d": 0.08825,
+   "w": "le"
+  },
+  {
+   "t": 1.858833,
+   "d": 0.16175,
+   "w": "nom"
+  },
+  {
+   "t": 2.035291,
+   "d": 0.16175,
+   "w": "de"
+  },
+  {
+   "t": 2.21175,
+   "d": 0.191166,
+   "w": "Jan"
+  },
+  {
+   "t": 2.417666,
+   "d": 0.867666,
+   "w": "Czochralski"
+  },
+  {
+   "t": 4.308833,
+   "d": 0.176458,
+   "w": "En"
+  },
+  {
+   "t": 4.5,
+   "d": 0.955874,
+   "w": "1916"
+  },
+  {
+   "t": 5.852958,
+   "d": 0.235291,
+   "w": "chez"
+  },
+  {
+   "t": 6.102958,
+   "d": 0.352958,
+   "w": "A.E.G."
+  },
+  {
+   "t": 6.470583,
+   "d": 0.058833,
+   "w": "à"
+  },
+  {
+   "t": 6.544125,
+   "d": 0.470583,
+   "w": "Berlin"
+  },
+  {
+   "t": 7.367666,
+   "d": 0.16175,
+   "w": "il"
+  },
+  {
+   "t": 7.544125,
+   "d": 0.191166,
+   "w": "tire"
+  },
+  {
+   "t": 7.75,
+   "d": 0.102958,
+   "w": "des"
+  },
+  {
+   "t": 7.867666,
+   "d": 0.676458,
+   "w": "monocristaux"
+  },
+  {
+   "t": 8.558833,
+   "d": 0.485291,
+   "w": "d'étain"
+  },
+  {
+   "t": 9.367666,
+   "d": 0.176458,
+   "w": "de"
+  },
+  {
+   "t": 9.558833,
+   "d": 0.279416,
+   "w": "zinc"
+  },
+  {
+   "t": 9.852958,
+   "d": 0.044125,
+   "w": "et"
+  },
+  {
+   "t": 9.91175,
+   "d": 0.147041,
+   "w": "de"
+  },
+  {
+   "t": 10.073541,
+   "d": 0.220583,
+   "w": "plomb"
+  },
+  {
+   "t": 10.308833,
+   "d": 0.382333,
+   "w": "depuis"
+  },
+  {
+   "t": 10.705875,
+   "d": 0.08825,
+   "w": "un"
+  },
+  {
+   "t": 10.808833,
+   "d": 0.205875,
+   "w": "bain"
+  },
+  {
+   "t": 11.029416,
+   "d": 0.514708,
+   "w": "fondu"
+  },
+  {
+   "t": 12.573541,
+   "d": 2.691125,
+   "w": "Entre 1948 et 1950"
+  },
+  {
+   "t": 15.602958,
+   "d": 0.397041,
+   "w": "Gordon"
+  },
+  {
+   "t": 16.014708,
+   "d": 0.33825,
+   "w": "Teal"
+  },
+  {
+   "t": 16.676458,
+   "d": 0.073541,
+   "w": "aux"
+  },
+  {
+   "t": 16.764708,
+   "d": 0.220583,
+   "w": "Bell"
+  },
+  {
+   "t": 17.0,
+   "d": 0.279416,
+   "w": "Labs"
+  },
+  {
+   "t": 17.676458,
+   "d": 0.441166,
+   "w": "applique"
+  },
+  {
+   "t": 18.132333,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 18.279416,
+   "d": 0.426458,
+   "w": "méthode"
+  },
+  {
+   "t": 18.720583,
+   "d": 0.058833,
+   "w": "au"
+  },
+  {
+   "t": 18.794125,
+   "d": 0.852958,
+   "w": "germanium"
+  },
+  {
+   "t": 20.676458,
+   "d": 0.235291,
+   "w": "Elle"
+  },
+  {
+   "t": 20.926458,
+   "d": 0.33825,
+   "w": "devient"
+  },
+  {
+   "t": 21.279416,
+   "d": 0.41175,
+   "w": "ensuite"
+  },
+  {
+   "t": 21.705875,
+   "d": 0.132333,
+   "w": "la"
+  },
+  {
+   "t": 21.852958,
+   "d": 0.25,
+   "w": "base"
+  },
+  {
+   "t": 22.117666,
+   "d": 0.16175,
+   "w": "du"
+  },
+  {
+   "t": 22.294125,
+   "d": 0.558833,
+   "w": "silicium"
+  },
+  {
+   "t": 22.867666,
+   "d": 0.897041,
+   "w": "électronique"
+  }
+ ]
+}
