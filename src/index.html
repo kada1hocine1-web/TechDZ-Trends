@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' blob: mediastream:; connect-src 'self' data: blob:">
+  <title>سبورتي</title>
+  <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ============ رأس الصفحة ============ -->
+  <header id="header" class="bar">
+    <div class="brand">
+      <img class="brand-logo" src="assets/icon.png" alt="">
+      <span class="brand-text"><b>سبورتي</b><small>Sbourati</small></span>
+    </div>
+    <input id="lessonTitle" class="title-input" type="text" value="درس جديد" spellcheck="false" title="اسم الدرس">
+    <span id="saveBadge" class="save-badge saved"><i class="dot"></i><span>محفوظ ✓</span></span>
+    <div class="sep"></div>
+    <button class="hbtn" id="btnClear" data-icon="trash" title="مسح الصفحة بالكامل"></button>
+    <button class="hbtn" id="btnUndo" data-icon="undo" title="تراجع (Ctrl+Z)"></button>
+    <button class="hbtn" id="btnRedo" data-icon="redo" title="إعادة (Ctrl+Y)"></button>
+    <button class="hbtn" id="btnSave" data-icon="save" title="حفظ (Ctrl+S)"></button>
+    <div class="sep"></div>
+    <button class="pill-btn" id="btnBg" title="تغيير نمط وخلفية السبورة"><span data-icon="grid"></span><span id="bgLabel">شبكة</span><span data-icon="chevDown" class="chev"></span></button>
+    <button class="hbtn" id="btnView" data-icon="eye" title="العرض — الالتصاق بالشبكة"></button>
+    <button class="hbtn" id="btnTable" data-icon="table" title="إدراج جدول"></button>
+    <div class="sep"></div>
+    <button class="hbtn" id="btnSimPlay" data-icon="play" title="تشغيل المحاكاة" disabled></button>
+    <button class="hbtn" id="btnSimReset" data-icon="reset" title="إعادة المحاكاة" disabled></button>
+    <button class="hbtn speed" dir="ltr" id="btnSimSpeed" title="سرعة المحاكاة" disabled>1×</button>
+    <div class="sep"></div>
+    <button class="hbtn" id="btnProjects" data-icon="folder" title="المشاريع"></button>
+    <button class="hbtn" id="btnPng" data-icon="image" title="تصدير PNG"></button>
+    <button class="hbtn" id="btnPdf" data-icon="pdf" title="تصدير PDF"></button>
+    <div class="sep"></div>
+    <button class="rec-btn" id="btnRecord" title="تصوير الشاشة وتسجيل الدرس فيديو"><span data-icon="record"></span><span id="recLabel">تسجيل</span></button>
+    <button class="hbtn" id="btnPresent" data-icon="present" title="وضع العرض التقديمي"></button>
+    <button class="hbtn" id="btnFullscreen" data-icon="fullscreen" title="ملء الشاشة (F11)"></button>
+    <button class="hbtn round" id="btnSettings" data-icon="settings" title="إعدادات"></button>
+  </header>
+
+  <!-- ============ شريط الأدوات الثاني: التحرير والرسم ============ -->
+  <div id="toolbar" class="bar">
+    <div class="tgroup" id="toolGroup">
+      <button class="tool active" data-tool="select" data-icon="select" title="تحديد (V)"></button>
+      <button class="tool" data-tool="pan" data-icon="hand" title="تحريك اللوحة (H)"></button>
+      <button class="tool" data-tool="selectAll" data-icon="selectAll" title="تحديد الكل لسحبه معاً (Ctrl+A)"></button>
+      <span class="tsep"></span>
+      <button class="tool" data-tool="pen" data-icon="pen" title="قلم عادي (P)"></button>
+      <button class="tool" data-tool="chalk" data-icon="chalk" title="طباشير مدرسي"></button>
+      <button class="tool" data-tool="magic" data-icon="magic" title="الرسم السحري — يحوّل رسمك إلى شكل منتظم"></button>
+      <button class="tool" data-tool="laser" data-icon="laser" title="تتبع المؤشر (ليزر)"></button>
+      <button class="tool" data-tool="highlighter" data-icon="highlighter" title="قلم تمييز"></button>
+      <button class="tool" data-tool="eraser" data-icon="eraser" title="ممحاة كلاسيكية — تحذف ما تمر عليه فقط (E)"></button>
+      <button class="tool" data-tool="eraser2" data-icon="eraser2" title="ممحاة ملتهمة — تحذف العنصر كاملاً"></button>
+      <span class="tsep"></span>
+      <button class="tool" data-tool="sticky" data-icon="sticky" title="ملاحظة لاصقة"></button>
+      <button class="tool" data-tool="text" data-icon="text" title="أداة النص (T)"></button>
+      <button class="tool" data-tool="equation" data-icon="sigma" title="معادلة رياضية"></button>
+      <button class="tool has-menu" data-tool="shapes" id="btnShapes" data-icon="shapes" title="الأشكال"></button>
+      <button class="tool has-menu heart" id="btnFav" data-icon="heart" title="أدوات المعلم المفضلة (المسطرة، الكوس، المنقلة)"></button>
+    </div>
+
+    <div class="colors" id="colors"></div>
+    <div class="sticky-colors hidden" id="stickyColors"></div>
+
+    <div class="tgroup plain">
+      <button class="tool sm" id="btnRotate" data-icon="rotate" title="تدوير 90°" disabled></button>
+      <button class="tool sm" id="btnFlip" data-icon="flip" title="انعكاس" disabled></button>
+    </div>
+    <div class="tgroup plain thick" id="thicknesses"></div>
+    <div class="tgroup plain">
+      <button class="tool" id="btnCurve" data-icon="curve" title="رسم منحنى"></button>
+      <button class="tool" id="btnImage" data-icon="image" title="إضافة صورة"></button>
+      <span class="tsep"></span>
+      <button class="tool" id="btnZoomIn" data-icon="zoomIn" title="تكبير"></button>
+      <button class="tool" id="btnZoomOut" data-icon="zoomOut" title="تصغير"></button>
+    </div>
+    <input type="file" id="imageInput" accept="image/*" hidden>
+  </div>
+
+  <!-- ============ الجسم: الخصائص | السبورة | العناصر ============ -->
+  <div id="body">
+    <aside id="propsPanel" class="panel hidden">
+      <div class="panel-head">
+        <div><h3>لوحة الخصائص</h3><small id="propsType">لم يتم تحديد أي عنصر</small></div>
+        <button class="icon-btn" id="propsClose" data-icon="close" title="إغلاق"></button>
+      </div>
+      <div id="propsBody" class="panel-body"></div>
+    </aside>
+
+    <main id="board">
+      <canvas id="bgCanvas"></canvas>
+      <canvas id="c"></canvas>
+      <div id="selOverlay" class="hidden">
+        <button class="sel-del" id="selDel" data-icon="trash" title="حذف"></button>
+        <button class="sel-lock" id="selLock" data-icon="unlock" title="قفل العنصر"></button>
+        <button class="sel-zoom" id="selZoom" title="تكبير العنصر"><span data-icon="plus"></span><small>تكبير</small></button>
+        <div class="sel-actions">
+          <button class="sel-adv" id="selAdv"><span data-icon="more"></span><span data-icon="sliders"></span>خيارات متقدمة</button>
+          <button class="sel-full" id="selFull"><span data-icon="expand"></span>ملء الشاشة</button>
+        </div>
+      </div>
+      <div id="zoomBadge" class="zoom-badge">100% · 0 عنصر</div>
+
+      <!-- السكة الزرقاء اليسرى -->
+      <div id="leftRail">
+        <button id="railUp" data-icon="chevUp" title="تحريك السبورة نحو الأعلى"></button>
+        <button id="railProps" data-icon="sliders" title="إظهار لوحة الخصائص"></button>
+        <button id="railDown" data-icon="chevDown" title="تحريك السبورة نحو الأسفل"></button>
+      </div>
+      <!-- اللسان الذهبي الأيمن -->
+      <button id="libTab" title="فتح العناصر العلمية">
+        <span class="gem" data-icon="gem"></span>
+        <b>العناصر</b><small>العلمية</small>
+      </button>
+      <div id="presentExit" class="hidden"><button id="btnPresentExit">⤫ خروج</button></div>
+      <div id="recIndicator" class="hidden"><i></i><span id="recTime">00:00</span><button id="btnRecStop" data-icon="stop" title="إيقاف التسجيل"></button></div>
+    </main>
+
+    <aside id="libPanel" class="panel hidden">
+      <div class="panel-head lib-head">
+        <button class="icon-btn" id="libClose" data-icon="close" title="إغلاق لوح العناصر"></button>
+      </div>
+      <div class="lib-top">
+        <div class="lib-subject"><span data-icon="atom"></span><b>الفيزياء والكيمياء</b><small id="libCount"></small></div>
+        <div class="search"><span data-icon="search"></span><input id="libSearch" type="search" placeholder="ابحث عن عنصر.."></div>
+        <div class="levels">
+          <button class="lvl on" data-level="CEM"><i></i>متوسط • CEM</button>
+          <button class="lvl on lyc" data-level="LYC"><i></i>ثانوي • LYC</button>
+        </div>
+      </div>
+      <div class="lib-main">
+        <nav id="libCats"></nav>
+        <div id="libGrid"></div>
+      </div>
+      <div class="lib-foot">اسحب العنصر إلى السبورة أو انقره لإدراجه في الوسط</div>
+    </aside>
+  </div>
+
+  <!-- ============ الشريط السفلي ============ -->
+  <footer id="footer" class="bar">
+    <div class="pages">
+      <button class="primary-btn" id="btnNewPage"><span data-icon="plus"></span>صفحة جديدة</button>
+      <button class="fbtn" id="btnDelPage" data-icon="trash" title="حذف الصفحة الحالية" disabled></button>
+      <div class="pager">
+        <button class="fbtn" id="btnPrevPage" data-icon="chevRight" title="الصفحة السابقة"></button>
+        <span id="pageInfo">1 / 1</span>
+        <button class="fbtn" id="btnNextPage" data-icon="chevLeft" title="الصفحة التالية"></button>
+      </div>
+      <button class="page-name" id="pageName" title="اضغط مرتين لتغيير الاسم">صفحة 1</button>
+    </div>
+    <div class="spacer"></div>
+    <div class="zoomer">
+      <button class="fbtn" id="btnZoomPlus" data-icon="plus" title="تكبير اللوحة"></button>
+      <button id="btnZoomReset" title="إعادة ضبط العرض 100%">100%</button>
+      <button class="fbtn" id="btnZoomMinus" data-icon="minus" title="تصغير اللوحة"></button>
+      <button class="fbtn" id="btnZoomLock" data-icon="unlock" title="قفل نسبة التقريب (منع التكبير/التصغير)"></button>
+    </div>
+    <div class="paper-ctl">
+      <button id="btnPaperSettings" data-icon="chevUp" title="إعدادات الورقة"></button>
+      <button id="btnPaper" title="ورقتي: حدود ورقة حقيقية للطباعة والتصدير PDF"><span data-icon="page"></span>ورقتي</button>
+    </div>
+  </footer>
+</div>
+
+<div id="popovers"></div>
+<div id="modalRoot"></div>
+<div id="toast" class="toast hidden"></div>
+
+<script src="js/vendor/fabric.min.js"></script>
+<script src="js/vendor/jspdf.umd.min.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/backgrounds.js"></script>
+<script src="js/board.js"></script>
+<script src="js/history.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/selection.js"></script>
+<script src="js/props.js"></script>
+<script src="js/sim.js"></script>
+<script src="js/library.js"></script>
+<script src="js/pages.js"></script>
+<script src="js/io.js"></script>
+<script src="js/extras.js"></script>
+<script src="js/record.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

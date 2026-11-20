@@ -1,0 +1,52 @@
+{
+  "name": "sbourati",
+  "productName": "سبورتي",
+  "version": "1.0.0",
+  "description": "سبورتي — سبورة تفاعلية لأساتذة العلوم الفيزيائية تعمل دون إنترنت",
+  "main": "main.js",
+  "author": "Sbourati",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis --x64"
+  },
+  "build": {
+    "appId": "dz.sbourati.app",
+    "productName": "Sbourati",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*",
+      "package.json"
+    ],
+    "fileAssociations": [
+      {
+        "ext": "sboard",
+        "name": "Sbourati Lesson",
+        "description": "درس سبورتي"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "language": "1025",
+      "shortcutName": "سبورتي"
+    }
+  },
+  "devDependencies": {
+    "electron": "^45.4.1",
+    "electron-builder": "^26.18.0"
+  },
+  "dependencies": {
+    "fabric": "^7.4.0",
+    "jspdf": "^4.2.1"
+  }
+}
