@@ -43,9 +43,7 @@
   },
   "devDependencies": {
     "electron": "^45.4.1",
-    "electron-builder": "^26.18.0"
-  },
-  "dependencies": {
+    "electron-builder": "^26.18.0",
     "fabric": "^7.4.0",
     "jspdf": "^4.2.1"
   }
