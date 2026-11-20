@@ -35,10 +35,15 @@
       "icon": "build/icon.ico"
     },
     "nsis": {
+      "script": "build/installer.nsi",
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "language": "1025",
-      "shortcutName": "سبورتي"
+      "shortcutName": "سبورتي",
+      "installerLanguages": [
+        "ar_SA",
+        "en_US"
+      ],
+      "language": "1025"
     }
   },
   "devDependencies": {
